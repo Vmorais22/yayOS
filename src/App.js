@@ -1,5 +1,5 @@
+//REACT AND MATERIAL-UI IMPORT
 import React from 'react';
-import CopyrightBanner from './components/CopyrightBanner';
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -11,9 +11,14 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
+
+//DATA IMPORT
 import {lessonsInfo} from './assets/MainMenuData';
+
+//COMPONENT'S IMPORT
 import Header from "./components/Header";
 import Slider from "./components/Slider";
+import Footer from "./components/Footer"
 
 
 //DEFINITION OF STYLE CONSTANTS
@@ -36,10 +41,7 @@ const useStyles = makeStyles((theme) => ({
     cardContent: {
         flexGrow: 1,
     },
-    footer: {
-        backgroundColor: theme.palette.background.paper,
-        padding: theme.spacing(6),
-    },
+
 }));
 
 //NUMBER OF LESSONS
@@ -102,17 +104,9 @@ export default function ListOfLessons() {
                     </Grid>
                 </Container>
             </main>
-            {/* Footer */}
-            <footer className={classes.footer}>
-                <Typography variant="h4" align="center" gutterBottom>
-                    yayOS
-                </Typography>
-                <Typography variant="subtitle1" align="center" color="black" component="p">
-                    Proyecto estríctamente académico
-                </Typography>
-                <CopyrightBanner />
-            </footer>
-            {/* End footer */}
+
+            <Footer />
+
         </React.Fragment>
     );
 }

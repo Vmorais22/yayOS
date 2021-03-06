@@ -53,3 +53,8 @@ body {
 .sliderButtons {
   margin-top: 32px;
 }
+
+.footer {
+  background-color: azure;
+  padding: 48px;
+}
