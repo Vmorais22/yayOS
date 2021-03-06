@@ -35,7 +35,7 @@ export const lessonsInfo  = [
         banner: 'DIFICULTAD: FÁCIL',
         title: 'Ubicándonos con Google Maps',
         description: 'Una oportunidad de poder viajar a cualquier parte del mundo desde el salón de tu casa',
-        image: photo1,
+        image: photo2,
     },
     {
         id: 6,

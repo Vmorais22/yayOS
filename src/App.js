@@ -28,19 +28,6 @@ const useStyles = makeStyles((theme) => ({
         paddingTop: theme.spacing(8),
         paddingBottom: theme.spacing(8),
     },
-    card: {
-        height: '100%',
-        display: 'flex',
-        flexDirection: 'column',
-    },
-    cardMedia: {
-        width: '100%',
-        height: '120',
-        paddingTop: '56.25%', // 16:9
-    },
-    cardContent: {
-        flexGrow: 1,
-    },
 
 }));
 
@@ -68,19 +55,20 @@ export default function ListOfLessons() {
             <main>
 
                 <Slider />
+
                 <Container className={classes.cardGrid} maxWidth="md">
 
                     <Grid container spacing={4}>
                         {cards.map((card) => (
                             <Grid item key={card} xs={12} sm={6} md={4}>
-                                <Card className={classes.card}>
+                                <Card className="card">
                                     <CardMedia
-                                        //className={classes.cardMedia}
+                                        className="cardMedia"
                                         src = {lessonsInfo[card-1].image}
-                                        component={"img"}// https://source.unsplash.com/random
+                                        component={"img"}
                                         title="Image title"
                                     />
-                                    <CardContent className={classes.cardContent}>
+                                    <CardContent className="cardContent">
                                         <Typography align="center" variant="subtitle1" color={checkBannerColor(card)}>
                                             {lessonsInfo[card-1].banner}
                                         </Typography>
