@@ -34,7 +34,7 @@ export const lessonsInfo  = [
         id: 5,
         banner: 'DIFICULTAD: FÁCIL',
         title: 'Ubicándonos con Google Maps',
-        description: 'Una oportunidad de poder viajar a cualquier parte del mundo desde el salón de tu casa',
+        description: 'Una oportunidad de poder viajar a cualquier parte del mundo desde el salón de tu casa. ¡Aprende a usar los mapas de Google!',
         image: photo2,
     },
     {

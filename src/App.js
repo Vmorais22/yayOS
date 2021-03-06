@@ -18,32 +18,13 @@ import {lessonsInfo} from './assets/MainMenuData';
 //COMPONENT'S IMPORT
 import Header from "./components/Header";
 import Slider from "./components/Slider";
-import Footer from "./components/Footer"
-
-
-//DEFINITION OF STYLE CONSTANTS
-
-const useStyles = makeStyles((theme) => ({
-    cardGrid: {
-        paddingTop: theme.spacing(8),
-        paddingBottom: theme.spacing(8),
-    },
-
-}));
+import Footer from "./components/Footer";
+import Lesson from "./components/Lesson";
 
 //NUMBER OF LESSONS
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-
-function checkBannerColor(card) {
-    if(card < 3) return "prove" ;
-    else if(card > 7) return "error"
-    else if (card == 3 || card == 5 || card == 7) return "secondary";
-    else return "primary";
-};
-
 export default function ListOfLessons() {
-    const classes = useStyles();
 
     return (
         <React.Fragment>
@@ -56,37 +37,13 @@ export default function ListOfLessons() {
 
                 <Slider />
 
-                <Container className={classes.cardGrid} maxWidth="md">
-
+                <Container className="cardGrid" maxWidth="md">
                     <Grid container spacing={4}>
                         {cards.map((card) => (
                             <Grid item key={card} xs={12} sm={6} md={4}>
-                                <Card className="card">
-                                    <CardMedia
-                                        className="cardMedia"
-                                        src = {lessonsInfo[card-1].image}
-                                        component={"img"}
-                                        title="Image title"
-                                    />
-                                    <CardContent className="cardContent">
-                                        <Typography align="center" variant="subtitle1" color={checkBannerColor(card)}>
-                                            {lessonsInfo[card-1].banner}
-                                        </Typography>
-                                       <h2 align="center"> {lessonsInfo[card-1].title}</h2>
-                                        <hr/>
-                                        <Typography align="center">
-                                            {lessonsInfo[card-1].description}
-                                        </Typography>
-                                    </CardContent>
-                                    <CardActions>
-                                        <Button size="large" color="secondary" >
-                                            Aprender
-                                        </Button>
-                                        <Button size="large" color="primary">
-                                            Desafío
-                                        </Button>
-                                    </CardActions>
-                                </Card>
+
+                                <Lesson n={card} lesson={lessonsInfo[card-1]} />
+
                             </Grid>
                         ))}
                     </Grid>
