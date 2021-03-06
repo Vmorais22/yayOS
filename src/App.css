@@ -9,7 +9,7 @@ body {
 }
 .title {
   text-align: center;
-  color: white;
+  color: #a90c0c;
 }
 .new-task {
   display: block;
@@ -41,7 +41,15 @@ body {
 }
 
 .logo {
-  margin-right: 4px;
+  margin-right: 32px;
   height: 42px;
   width: 100px;
+}
+
+.sliderContent {
+  background-color: azure;
+  padding: 64px 0px 48px;
+}
+.sliderButtons {
+  margin-top: 32px;
 }

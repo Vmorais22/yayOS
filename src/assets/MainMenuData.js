@@ -1,5 +1,5 @@
 import photo1 from './images/posible1.png';
-import photo2 from './images/photo2.jpg';
+import photo2 from './images/photo3.png';
 
 export const lessonsInfo  = [
     {
@@ -14,7 +14,7 @@ export const lessonsInfo  = [
         banner: '¿Eres nuevo? ¡Empieza por aquí!',
         title: 'Vamos a crear una cuenta de Google',
         description: 'Para disfrutar de todo lo que Internet puede ofrecerte, necesitarás crearte una cuenta en Google. Esto facilitará mucho las cosas luego, y te servirá para prácticar. ¡Yo te ayudo!',
-        image: photo1,
+        image: photo2,
     },
     {
         id: 3,
