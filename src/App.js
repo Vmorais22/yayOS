@@ -42,6 +42,8 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: 'column',
     },
     cardMedia: {
+        width: '100%',
+        height: '120',
         paddingTop: '56.25%', // 16:9
     },
     cardContent: {
@@ -56,7 +58,13 @@ const useStyles = makeStyles((theme) => ({
 //NUMBER OF LESSONS
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-const cardsPhotos = [photo1,photo1,photo1, photo1,photo1,photo1,photo1,photo1,photo1];
+
+function checkBannerColor(card) {
+    if(card < 3) return "prove" ;
+    else if(card > 7) return "error"
+    else if (card == 3 || card == 5 || card == 7) return "secondary";
+    else return "primary";
+};
 
 export default function ListOfLessons() {
     const classes = useStyles();
@@ -101,12 +109,16 @@ export default function ListOfLessons() {
                                 <Card className={classes.card}>
                                     <CardMedia
                                         //className={classes.cardMedia}
-                                        src = {cardsPhotos[card-1]}
+                                        src = {lessonsInfo[card-1].image}
                                         component={"img"}// https://source.unsplash.com/random
                                         title="Image title"
                                     />
                                     <CardContent className={classes.cardContent}>
-                                       <h1 align="center"> {lessonsInfo[card-1].title}</h1>
+                                        <Typography align="center" variant="subtitle1" color={checkBannerColor(card)}>
+                                            {lessonsInfo[card-1].banner}
+                                        </Typography>
+                                       <h2 align="center"> {lessonsInfo[card-1].title}</h2>
+                                        <hr/>
                                         <Typography align="center">
                                             {lessonsInfo[card-1].description}
                                         </Typography>
