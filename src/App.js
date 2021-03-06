@@ -1,8 +1,9 @@
 import React from 'react';
-import CopyrightBanner from './components/CopyrightBanner'
+import CopyrightBanner from './components/CopyrightBanner';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import ComputerTwoToneIcon from '@material-ui/icons/ComputerTwoTone';
+import logoyayOS from './assets/images/logo.png';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -16,11 +17,19 @@ import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import photo1 from './components/posible1.png';
 
+
+
 //DEFINITION OF STYLE CONSTANTS
 
 const useStyles = makeStyles((theme) => ({
     icon: {
         marginRight: theme.spacing(2),
+    },
+    logo: {
+        marginRight: theme.spacing(4),
+        height: 42,
+        width: 100,
+
     },
     heroContent: {
         backgroundColor: theme.palette.background.paper,
@@ -52,7 +61,17 @@ const useStyles = makeStyles((theme) => ({
 
 //NUMBER OF LESSONS
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const cardsTitle = [ "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+const cardsTitle = [ "Teclado y ratón",
+                     "Vamos a crear una cuenta de Google",
+                     "Ten tu propio correo electrónico",
+                     "Hagámos videollamadas",
+                     "Ubicándonos con Google Maps",
+                     "Buscando por la red",
+                     "Gestionando los ficheros de mi ordenador",
+                     "Comprando por Internet",
+                     "Teniendo mi propia red social"];
+
+const cardsPhotos = [photo1,photo1,photo1, photo1,photo1,photo1,photo1,photo1,photo1];
 
 export default function ListOfLessons() {
     const classes = useStyles();
@@ -65,10 +84,9 @@ export default function ListOfLessons() {
             <CssBaseline />
             <AppBar position="relative">
                 <Toolbar>
-                    <ComputerTwoToneIcon className={classes.icon} />
+                    <img src ={logoyayOS} className={classes.logo} />
                     <Typography variant="h6" color="inherit" noWrap>
-                        yayOS
-                    </Typography>
+                        ¡Aprende a usar un ordenador hoy mismo!                    </Typography>
                 </Toolbar>
             </AppBar>
             <main>
@@ -107,14 +125,12 @@ export default function ListOfLessons() {
                                 <Card className={classes.card}>
                                     <CardMedia
                                         //className={classes.cardMedia}
-                                        src = {photo1}
+                                        src = {cardsPhotos[card-1]}
                                         component={"img"}// https://source.unsplash.com/random
                                         title="Image title"
                                     />
                                     <CardContent className={classes.cardContent}>
-                                        <Typography gutterBottom variant="h5" component="h2">
-                                            Heading
-                                        </Typography>
+                                       <h1> {cardsTitle[card-1]}</h1>
                                         <Typography>
                                             This is a media card. You can use this section to describe the content.
                                         </Typography>
