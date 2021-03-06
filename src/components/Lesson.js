@@ -41,9 +41,11 @@ class Lesson extends Component {
                     <Button size="large" color="secondary" >
                         Aprender
                     </Button>
+                    {n > 2 &&
                     <Button size="large" color="primary">
                         Desafío
                     </Button>
+                    }
                 </CardActions>
             </Card>
         );
