@@ -2,7 +2,6 @@ import React from 'react';
 import CopyrightBanner from './components/CopyrightBanner';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
-import ComputerTwoToneIcon from '@material-ui/icons/ComputerTwoTone';
 import logoyayOS from './assets/images/logo.png';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -15,8 +14,9 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
-import photo1 from './components/posible1.png';
-
+import photo1 from './assets/images/posible1.png';
+import {lessonsInfo} from './assets/MainMenuData';
+import Header from "./components/Header";
 
 
 //DEFINITION OF STYLE CONSTANTS
@@ -24,12 +24,6 @@ import photo1 from './components/posible1.png';
 const useStyles = makeStyles((theme) => ({
     icon: {
         marginRight: theme.spacing(2),
-    },
-    logo: {
-        marginRight: theme.spacing(4),
-        height: 42,
-        width: 100,
-
     },
     heroContent: {
         backgroundColor: theme.palette.background.paper,
@@ -61,15 +55,6 @@ const useStyles = makeStyles((theme) => ({
 
 //NUMBER OF LESSONS
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const cardsTitle = [ "Teclado y ratón",
-                     "Vamos a crear una cuenta de Google",
-                     "Ten tu propio correo electrónico",
-                     "Hagámos videollamadas",
-                     "Ubicándonos con Google Maps",
-                     "Buscando por la red",
-                     "Gestionando los ficheros de mi ordenador",
-                     "Comprando por Internet",
-                     "Teniendo mi propia red social"];
 
 const cardsPhotos = [photo1,photo1,photo1, photo1,photo1,photo1,photo1,photo1,photo1];
 
@@ -77,18 +62,9 @@ export default function ListOfLessons() {
     const classes = useStyles();
 
     return (
-        <div>
-            <CopyrightBanner />
-        </div>,
         <React.Fragment>
             <CssBaseline />
-            <AppBar position="relative">
-                <Toolbar>
-                    <img src ={logoyayOS} className={classes.logo} />
-                    <Typography variant="h6" color="inherit" noWrap>
-                        ¡Aprende a usar un ordenador hoy mismo!                    </Typography>
-                </Toolbar>
-            </AppBar>
+            <Header />
             <main>
                 {/* Hero unit */}
                 <div className={classes.heroContent}>
@@ -130,9 +106,9 @@ export default function ListOfLessons() {
                                         title="Image title"
                                     />
                                     <CardContent className={classes.cardContent}>
-                                       <h1> {cardsTitle[card-1]}</h1>
-                                        <Typography>
-                                            This is a media card. You can use this section to describe the content.
+                                       <h1 align="center"> {lessonsInfo[card-1].title}</h1>
+                                        <Typography align="center">
+                                            {lessonsInfo[card-1].description}
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
@@ -151,10 +127,10 @@ export default function ListOfLessons() {
             </main>
             {/* Footer */}
             <footer className={classes.footer}>
-                <Typography variant="h6" align="center" gutterBottom>
+                <Typography variant="h4" align="center" gutterBottom>
                     yayOS
                 </Typography>
-                <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
+                <Typography variant="subtitle1" align="center" color="black" component="p">
                     Proyecto estríctamente académico
                 </Typography>
                 <CopyrightBanner />
