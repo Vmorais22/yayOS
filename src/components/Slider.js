@@ -12,8 +12,8 @@ class Slider extends Component {
 
         return (
 
-            <div className="sliderContent">
-                <Container maxWidth="md">
+            <div id="slider">
+                <div className="sliderContent">
                     <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
                         ¡Nunca es demasiado tarde!
                     </Typography>
@@ -42,7 +42,7 @@ class Slider extends Component {
                             </Grid>
                         </Grid>
                     </div>
-                </Container>
+                </div>
 
             </div>
         );

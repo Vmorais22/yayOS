@@ -28,7 +28,7 @@ class Lesson extends Component {
                     title="Image title"
                 />
                 <CardContent className="cardContent">
-                    <Typography align="center" variant="subtitle1" color={this.checkBannerColor(n)}>
+                    <Typography  align="center" variant="subtitle1" color={this.checkBannerColor(n)}>
                         {lesson.banner}
                     </Typography>
                     <h2 align="center"> {lesson.title}</h2>
