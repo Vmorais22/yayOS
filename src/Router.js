@@ -4,7 +4,7 @@ import ListOfLessons from './components/ListOfLessons';
 import Error from './components/Error';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Lesson1 from "./components/Lesson1";
+import LessonContent from "./components/LessonContent";
 
 
 
@@ -19,7 +19,10 @@ class Router extends Component {
                 <main>
                     <Switch>
                         <Route exact path="/" component={ListOfLessons}/>
-                        <Route exact path="/leccion1" component={Lesson1}/>
+                        <Route exact path="/leccion1" render={(props) => (
+                            <LessonContent {...props} lesson={1} />
+                        )}
+                        />
                         <Route component={Error}/>
                         {/*<Route path="/segundo" component={Slider} />*/}
                     </Switch>

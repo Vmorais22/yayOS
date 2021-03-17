@@ -127,7 +127,8 @@ body {
     width: 65%;
     height: 425px;
 }
-.hey {
+.lessonButton {
+    display: block;
     float: right;
     width: 32%;
     height: 25px;
