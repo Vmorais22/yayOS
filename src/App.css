@@ -119,17 +119,28 @@ body {
 
 .lessonStructure {
     width:1200px;
-    height: 475px;
-    //border: 2px solid red;
+    height: 500px;
     margin: 0px auto;
+    padding-top: 15px;
 }
 .lessonStructure img {
     width: 65%;
     height: 425px;
+    border: 2px solid orangered;
+    border-radius: 10px;
 }
 .lessonButton {
-    display: block;
-    float: right;
-    width: 32%;
+    width: 100%;
     height: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+#sidebar {
+    width: 32%;
+    height: 475px;
+    float: right;
+    //border: 2px solid red;
+}
+.sidebar-item {
+    margin-bottom: 10px;
 }

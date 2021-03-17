@@ -22,8 +22,16 @@ class LessonStructure extends Component {
         return(
             <div className="lessonStructure" >
                 <img src={this.props.contenido[this.state.imagenMostrada].img} alt="img" />
-                <Button className="lessonButton" variant="contained" color="primary"  onClick={this.cambiarApartado}>{this.props.contenido[0].textoBoton}</Button>
-                    <Button className="lessonButton" variant="contained" color="primary"  onClick={this.cambiarApartado}>{this.props.contenido[1].textoBoton}</Button>
+
+                <aside id="sidebar">
+                    <div className="sidebar-item">
+                        <Button className="lessonButton" size ="large" variant="contained" color="primary"  onClick={this.cambiarApartado}>{this.props.contenido[0].textoBoton}</Button>
+                    </div>
+                    <div className="sidebar-item">
+                        <Button className="lessonButton" size ="large" variant="contained" color="primary"  onClick={this.cambiarApartado}>{this.props.contenido[1].textoBoton}</Button>
+                    </div>
+                    </aside>
+
             </div>
 
 
