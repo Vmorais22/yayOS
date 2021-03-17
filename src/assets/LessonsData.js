@@ -5,7 +5,7 @@ export const lessonsData = [
     {
         id: 1,
         title: 'Teclado y ratón',
-        numeroBotones: 5,
+        numeroBotones: 2,
         contenido: [
             {
                 textoBoton: 'Introducción al ratón',
