@@ -13,7 +13,7 @@ class Header extends Component {
             <div id="header">
                 <AppBar position="relative">
                     <Toolbar>
-                        <img id="logo" src={logo} className="logo"/>
+                        <img id="logo" src={logo} className="logo" alt="yayOS logo"/>
                         <Typography variant="h6" color="inherit" noWrap>
                             ¡Aprende a usar un ordenador hoy mismo!
                         </Typography>

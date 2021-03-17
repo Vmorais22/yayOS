@@ -4,7 +4,7 @@ import ListOfLessons from './components/ListOfLessons';
 import Error from './components/Error';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Formulario from "./components/Formulario";
+import Lesson1 from "./components/Lesson1";
 
 
 
@@ -19,7 +19,7 @@ class Router extends Component {
                 <main>
                     <Switch>
                         <Route exact path="/" component={ListOfLessons}/>
-                        <Route exact path="/g" component={Formulario}/>
+                        <Route exact path="/leccion1" component={Lesson1}/>
                         <Route component={Error}/>
                         {/*<Route path="/segundo" component={Slider} />*/}
                     </Switch>

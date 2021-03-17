@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import CopyrightBanner from './CopyrightBanner';
 import Typography from "@material-ui/core/Typography";
 

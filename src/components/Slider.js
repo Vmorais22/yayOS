@@ -1,9 +1,8 @@
 import React, {Component} from "react";
-import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
-import {NavLink, useHistory} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 
 class Slider extends Component {
@@ -25,7 +24,7 @@ class Slider extends Component {
                     <div className="sliderButtons">
                         <Grid container spacing={2} justify="center">
                             <Grid item>
-                                <NavLink to="/g" style={{textDecoration: 'none'}}>
+                                <NavLink to="/leccion1" style={{textDecoration: 'none'}}>
                                     <Button variant="contained"
                                             color="primary">
                                         ¡Quiero saber más!

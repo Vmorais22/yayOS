@@ -2,7 +2,6 @@ import React from 'react';
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import photoError from "../assets/images/photoError.png"
-import logo from "../assets/images/logo.png";
 
 const Error = () => {
     return (
