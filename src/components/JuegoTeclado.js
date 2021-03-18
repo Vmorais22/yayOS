@@ -19,9 +19,9 @@ class JuegoTeclado extends Component {
 
         return(
             <div>
-                <h1 className="juego-teclado-title"> ¡Practica ahora! Escribe y comprueba</h1>
-                <input onChange={this.handleChange} type="text" className="juego-teclado-input" />
-                <h2 className="test-label">{this.state.newTask}</h2>
+                <h1 className="juego-teclado-title"> <span aria-label="emoji" role="img">✏️</span> ¡Practica ahora! Escribe y comprueba <span aria-label="emoji" role="img">✏️</span></h1>
+                <input onChange={this.handleChange} type="text" className="juego-teclado-input" maxLength={419} />
+                <p className="test-label">{this.state.newTask}</p>
             </div>
         );
     }

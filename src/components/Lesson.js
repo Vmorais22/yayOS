@@ -5,6 +5,8 @@ import Typography from "@material-ui/core/Typography";
 import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
 import Card from "@material-ui/core/Card";
+import {NavLink} from "react-router-dom";
+import Grid from "@material-ui/core/Grid";
 
 
 class Lesson extends Component {
@@ -38,14 +40,11 @@ class Lesson extends Component {
                     </Typography>
                 </CardContent>
                 <CardActions>
+                    <NavLink to="/leccion1" style={{textDecoration: 'none'}}>
                     <Button size="large" color="secondary" >
                         Aprender
                     </Button>
-                    {n > 2 &&
-                    <Button size="large" color="primary">
-                        Desafío
-                    </Button>
-                    }
+                    </NavLink>
                 </CardActions>
             </Card>
         );

@@ -24,12 +24,10 @@ class Slider extends Component {
                     <div className="sliderButtons">
                         <Grid container spacing={2} justify="center">
                             <Grid item>
-                                <NavLink to="/leccion1" style={{textDecoration: 'none'}}>
                                     <Button variant="contained"
                                             color="primary">
                                         ¡Quiero saber más!
                                     </Button>
-                                </NavLink>
                             </Grid>
                             <Grid item>
                                 <NavLink to="/g" style={{textDecoration: 'none'}}>
