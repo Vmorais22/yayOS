@@ -20,8 +20,49 @@ class Router extends Component {
                     <main>
                         <Switch>
                             <Route exact path="/" component={ListOfLessons}/>
+
                             <Route exact path="/leccion1" render={(props) => (
                                 <LessonContent {...props} lesson={1}/>
+                            )}
+                            />
+
+                            <Route exact path="/leccion2" render={(props) => (
+                                <LessonContent {...props} lesson={2}/>
+                            )}
+                            />
+
+                            <Route exact path="/leccion3" render={(props) => (
+                                <LessonContent {...props} lesson={3}/>
+                            )}
+                            />
+
+                            <Route exact path="/leccion4" render={(props) => (
+                                <LessonContent {...props} lesson={4}/>
+                            )}
+                            />
+
+                            <Route exact path="/leccion5" render={(props) => (
+                                <LessonContent {...props} lesson={5}/>
+                            )}
+                            />
+
+                            <Route exact path="/leccion6" render={(props) => (
+                                <LessonContent {...props} lesson={6}/>
+                            )}
+                            />
+
+                            <Route exact path="/leccion7" render={(props) => (
+                                <LessonContent {...props} lesson={7}/>
+                            )}
+                            />
+
+                            <Route exact path="/leccion8" render={(props) => (
+                                <LessonContent {...props} lesson={8}/>
+                            )}
+                            />
+
+                            <Route exact path="/leccion9" render={(props) => (
+                                <LessonContent {...props} lesson={9}/>
                             )}
                             />
                             <Route component={Error}/>
