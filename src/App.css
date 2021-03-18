@@ -144,3 +144,33 @@ body {
 .sidebar-item {
     margin-bottom: 10px;
 }
+
+#juego-teclado {
+    float: left;
+    width: 65%;
+    height: 425px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+.juego-teclado-title {
+    text-align: center;
+    font-size: 30px;
+    text-align:center;
+    color: #f55617;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+}
+
+.juego-teclado-input {
+    display: block;
+    align-content: center;
+    width: 90%;
+    background-color: azure;
+    border-radius: 10px;
+    height: 40px;
+    border-color: #f55617;
+    border-width: 4px;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 30px;
+}
