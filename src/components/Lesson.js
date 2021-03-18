@@ -9,8 +9,8 @@ import {NavLink} from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 
 
-class Lesson extends Component {
 
+class Lesson extends Component {
     checkBannerColor(n) {
         if(n < 3) return "prove" ;
         else if(n > 7) return "error"

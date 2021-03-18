@@ -5,7 +5,7 @@ import Error from './components/Error';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import LessonContent from "./components/LessonContent";
-
+import ScrollToTop from "./components/ScrollToTop";
 
 
 class Router extends Component {
@@ -14,22 +14,25 @@ class Router extends Component {
 
         return (
             <BrowserRouter>
-                <Header/>
+                <ScrollToTop>
+                    <Header/>
 
-                <main>
-                    <Switch>
-                        <Route exact path="/" component={ListOfLessons}/>
-                        <Route exact path="/leccion1" render={(props) => (
-                            <LessonContent {...props} lesson={1} />
-                        )}
-                        />
-                        <Route component={Error}/>
-                        {/*<Route path="/segundo" component={Slider} />*/}
-                    </Switch>
-                </main>
+                    <main>
+                        <Switch>
+                            <Route exact path="/" component={ListOfLessons}/>
+                            <Route exact path="/leccion1" render={(props) => (
+                                <LessonContent {...props} lesson={1}/>
+                            )}
+                            />
+                            <Route component={Error}/>
+                            {/*<Route path="/segundo" component={Slider} />*/}
+                        </Switch>
+                    </main>
 
-                <Footer/>
+                    <Footer/>
+                </ScrollToTop>
             </BrowserRouter>
+
         );
     }
 }
