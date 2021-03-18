@@ -184,3 +184,21 @@ body {
     letter-spacing: 0;
     text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
 }
+#panel-navegacion {
+    margin-top: -45px;
+    width: 150px;
+    height: 55px;
+    margin-left: 330px;
+}
+#panel-navegacion img {
+
+    border: none;
+    height: 40px;
+    width: 40px;
+    margin-right: 30px;
+}
+
+.clearfix{
+    clear:both;
+    float:none;
+}

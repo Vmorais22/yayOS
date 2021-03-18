@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import img from "../assets/images/1.2.png"
 import Button from "@material-ui/core/Button";
 import JuegoTeclado from "./JuegoTeclado";
+import left from "../assets/images/left.png"
+import right from "../assets/images/right.png"
 
 
 
@@ -40,6 +42,11 @@ class LessonStructure extends Component {
                     ))}
 
                 </aside>
+                <div className="clearfix" />
+                <div id="panel-navegacion">
+                    {(this.state.imagenMostrada > 0) && <img src={left} alt="left" title="Anterior" onClick={(event) => this.cambiarApartado(this.state.imagenMostrada - 1)}/>}
+                    {(this.state.imagenMostrada < (this.props.n - 1)) && <img src={right} alt="right" title="Siguiente" onClick={(event) => this.cambiarApartado(this.state.imagenMostrada + 1)}/>}
+                </div>
 
             </div>
         );

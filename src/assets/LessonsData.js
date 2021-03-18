@@ -67,5 +67,11 @@ export const lessonsData = [
         ],
 
     },
+    {
+        id: 2,
+        title: 'Teclado y ratón',
+        numeroBotones: 12,
+        contenido: [ ],
+    },
 
 ];
