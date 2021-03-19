@@ -1,0 +1,17 @@
+{
+  "header" : {
+    "title": "Learn how to use a computer today!"
+  },
+  "footer": {
+    "banner": "Strictly academic project"
+  },
+  "slider": {
+    "title": "Never is too late!",
+    "sub": "yayOS is an interactive web platform that allows the user to learn how to do simple things with a computer. Here begins the path to technological self-sufficiency!",
+    "btn1": "I want to know more!",
+    "btn2": "I would like to give my opinion!"
+  },
+  "lesson": {
+    "btn": "Learn"
+  }
+}

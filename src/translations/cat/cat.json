@@ -1,0 +1,17 @@
+{
+  "header" : {
+    "title": "Aprèn a usar un ordinador avui mateix!"
+  },
+  "footer": {
+    "banner": "Projecte estríctamente acadèmic"
+  },
+  "slider": {
+    "title": "Mai és massa tard!",
+    "sub": "yayOS és una plataforma web interactiva que permet a l'usuari aprendre a fer coses senzilles amb un ordinador. Aquí comença el camí a l'autosuficiència tecnològica!",
+    "btn1": "¡Vull saber més!",
+    "btn2": "¡M'agradaria donar la meva opinió'!"
+  },
+  "lesson": {
+    "btn": "Aprendre"
+  }
+}

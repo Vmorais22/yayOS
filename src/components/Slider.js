@@ -1,49 +1,44 @@
-import React, {Component} from "react";
+import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import {NavLink} from "react-router-dom";
+import {useTranslation} from "react-i18next";
 
+const Slider = () => {
+    const [t] = useTranslation("global");
+    return (
 
-class Slider extends Component {
-
-    render() {
-
-        return (
-
-            <div id="slider">
-                <div className="sliderContent">
-                    <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-                        ¡Nunca es demasiado tarde!
-                    </Typography>
-                    <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                        yayOS es una plataforma web interactiva que permite al usuario aprender a hacer cosas sencillas
-                        con un ordenador.
-                        ¡Aqui empieza el camino a la autosuficiencia tecnológica!
-                    </Typography>
-                    <div className="sliderButtons">
-                        <Grid container spacing={2} justify="center">
-                            <Grid item>
-                                    <Button variant="contained"
-                                            color="primary">
-                                        ¡Quiero saber más!
-                                    </Button>
-                            </Grid>
-                            <Grid item>
-                                <NavLink to="/g" style={{textDecoration: 'none'}}>
-                                    <Button variant="outlined"
-                                            color="primary">
-                                        ¡Me gustaría dar mi opinón!
-                                    </Button>
-                                </NavLink>
-                            </Grid>
+        <div id="slider">
+            <div className="sliderContent">
+                <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+                    {t("slider.title")}
+                </Typography>
+                <Typography variant="h5" align="center" color="textSecondary" paragraph>
+                    {t("slider.sub")}
+                </Typography>
+                <div className="sliderButtons">
+                    <Grid container spacing={2} justify="center">
+                        <Grid item>
+                            <Button variant="contained"
+                                    color="primary">
+                                {t("slider.btn1")}
+                            </Button>
                         </Grid>
-                    </div>
+                        <Grid item>
+                            <NavLink to="/g" style={{textDecoration: 'none'}}>
+                                <Button variant="outlined"
+                                        color="primary">
+                                    {t("slider.btn2")}
+                                </Button>
+                            </NavLink>
+                        </Grid>
+                    </Grid>
                 </div>
-
             </div>
-        );
-    }
+
+        </div>
+    );
 
 
 }

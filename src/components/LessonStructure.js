@@ -18,7 +18,6 @@ class LessonStructure extends Component {
     }
 
     cambiarApartado(n) {
-        const currentState = this.state.details;
         this.setState({imagenMostrada: n});
     }
 
