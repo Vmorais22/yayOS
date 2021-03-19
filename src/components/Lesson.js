@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component, Suspense} from "react";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
@@ -6,6 +6,7 @@ import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
 import Card from "@material-ui/core/Card";
 import {NavLink} from "react-router-dom";
+import { withTranslation } from 'react-i18next';
 
 
 
@@ -18,6 +19,7 @@ class Lesson extends Component {
     }
 
     render() {
+        const { t } = this.props;
         const n = this.props.n;
         const lesson = this.props.lesson;
         return(
@@ -41,7 +43,7 @@ class Lesson extends Component {
                 <CardActions>
                     <NavLink to={'/leccion'+n} style={{textDecoration: 'none'}}>
                     <Button size="large" color="secondary" >
-                        Aprender
+                        {t('lesson.btn')}
                     </Button>
                     </NavLink>
                 </CardActions>
@@ -50,4 +52,4 @@ class Lesson extends Component {
     }
 }
 
-export default Lesson;
+export default withTranslation('global')(Lesson);

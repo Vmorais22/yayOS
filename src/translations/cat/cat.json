@@ -13,5 +13,8 @@
   },
   "lesson": {
     "btn": "Aprendre"
+  },
+  "lessonMP": {
+    "hey": "hola"
   }
 }
