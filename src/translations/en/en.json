@@ -14,7 +14,20 @@
   "lesson": {
     "btn": "Learn"
   },
-  "lessonMP": {
-    "hey": "hola"
+  "lessonContent": {
+    "lesson1": {
+      "btn1": "Mouse introduction",
+      "btn2": "Cursor types - Part 1",
+      "btn3": "Cursor types - Part 2",
+      "btn4": "Mouse buttons: press them",
+      "btn5": "Mouse buttons: hold them",
+      "btn6": "Correct hand position",
+      "btn7": "Keyboard introduction",
+      "btn8": "Single keys",
+      "btn9": "Putting accent marks",
+      "btn10": "Combining keys",
+      "btn11": "Keys summary",
+      "btn12": "Try it now!"
+    }
   }
 }

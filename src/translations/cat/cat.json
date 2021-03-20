@@ -14,7 +14,20 @@
   "lesson": {
     "btn": "Aprendre"
   },
-  "lessonMP": {
-    "hey": "hola"
+  "lessonContent": {
+    "lesson1": {
+      "btn1": "Introducció al ratolí",
+      "btn2": "Tipus de cursor - Part 1",
+      "btn3": "Tipus de cursor - Part 2",
+      "btn4": "Els botons del ratolí: apretar",
+      "btn5": "Els botons del ratolí: mantenir",
+      "btn6": "Posició correcta de la mà",
+      "btn7": "Introducció al teclat",
+      "btn8": "Tecles senzilles",
+      "btn9": "Posant accents",
+      "btn10": "Combinant tecles",
+      "btn11": "Resum de las tecles",
+      "btn12": "¡Prova tu ara!"
+    }
   }
 }

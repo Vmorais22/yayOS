@@ -26,51 +26,51 @@ export const lessonsData = [
         numeroBotones: 12,
         contenido: [
             {
-                textoBoton: 'Introducción al ratón',
+                textoBoton: 'lessonContent.lesson1.btn1',
                 img: img11,
             },
             {
-                textoBoton: 'Tipos de cursor - Parte 1',
+                textoBoton: 'lessonContent.lesson1.btn2',
                 img: img12,
             },
             {
-                textoBoton: 'Tipos de cursor - Parte 2',
+                textoBoton: 'lessonContent.lesson1.btn3',
                 img: img13,
             },
             {
-                textoBoton: 'Los botones del ratón: apretar',
+                textoBoton: 'lessonContent.lesson1.btn4',
                 img: img14,
             },
             {
-                textoBoton: 'Los botones del ratón: mantener',
+                textoBoton: 'lessonContent.lesson1.btn5',
                 img: img15,
             },
             {
-                textoBoton: 'Posición correcta de la mano',
+                textoBoton: 'lessonContent.lesson1.btn6',
                 img: img16,
             },
             {
-                textoBoton: 'Introducción al teclado',
+                textoBoton: 'lessonContent.lesson1.btn7',
                 img: img17,
             },
             {
-                textoBoton: 'Teclas sencillitas',
+                textoBoton: 'lessonContent.lesson1.btn8',
                 img: img18,
             },
             {
-                textoBoton: 'Poniendo tildes',
+                textoBoton: 'lessonContent.lesson1.btn9',
                 img: img19,
             },
             {
-                textoBoton: 'Combinando teclas',
+                textoBoton: 'lessonContent.lesson1.btn10',
                 img: img110,
             },
             {
-                textoBoton: 'Resumen de las teclas',
+                textoBoton: 'lessonContent.lesson1.btn11',
                 img: img111,
             },
             {
-                textoBoton: '¡Prueba tú ahora!',
+                textoBoton: 'lessonContent.lesson1.btn12',
                 img: img111,
             },
         ],
@@ -78,7 +78,7 @@ export const lessonsData = [
     },
     {
         id: 2,
-        title: 'Teclado y ratón',
+        title: 'Creación de una cuenta de Google',
         numeroBotones: 9,
         contenido: [
             {

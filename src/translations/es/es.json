@@ -14,7 +14,20 @@
   "lesson": {
     "btn": "Aprender"
   },
-  "lessonMP": {
-    "hey": "hola"
+  "lessonContent": {
+    "lesson1": {
+      "btn1": "Introducción al ratón",
+      "btn2": "Tipos de cursor - Parte 1",
+      "btn3": "Tipos de cursor - Parte 2",
+      "btn4": "Los botones del ratón: apretar",
+      "btn5": "Los botones del ratón: mantener",
+      "btn6": "Posición correcta de la mano",
+      "btn7": "Introducción al teclado",
+      "btn8": "Teclas sencillitas",
+      "btn9": "Poniendo tildes",
+      "btn10": "Combinando teclas",
+      "btn11": "Resumen de las teclas",
+      "btn12": "¡Prueba tú ahora!"
+    }
   }
 }
