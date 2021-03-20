@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Grid from "@material-ui/core/Grid";
-import Lesson from "./Lesson";
+import {Lesson} from "./Lesson";
 import {lessonsInfo} from "../assets/MainMenuData";
 import Container from "@material-ui/core/Container";
 import Slider from "./Slider";

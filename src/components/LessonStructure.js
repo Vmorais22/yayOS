@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect, useState} from "react";
+import React, {useCallback, useState} from "react";
 import img from "../assets/images/1.2.png"
 import Button from "@material-ui/core/Button";
 import JuegoTeclado from "./JuegoTeclado";
@@ -12,7 +12,7 @@ export function LessonStructure({numOfButtons, contenido}) {
     const [index, setIndex] = useState(0)
     const changeIndex = useCallback((v) => setIndex(v), [])
 
-    //console.log(i18n.language) -> para saber el lenguaje en el que estoy y poder asi cambiar las imagenes
+    const actualLanguage = i18n.language;
     return (
         <div className="lessonStructure">
             {(index < 11) ?

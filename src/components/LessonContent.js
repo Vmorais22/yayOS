@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import {LessonSlider} from "./LessonSlider";
 import {lessonsData} from "../assets/LessonsData";
 import {LessonStructure} from "./LessonStructure";

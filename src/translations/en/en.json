@@ -15,6 +15,53 @@
     "btn": "Learn"
   },
   "juegoteclado": "Try it now! Write and check",
+  "MPlessons": {
+    "1": {
+      "banner": "Are you new? Start here!",
+      "title": "First contact with the keyboard and the mouse",
+      "description": "You will learn how to use your computer's keyboard and mouse. You will find out how to write any word in an interactive game and how to move around the screen."
+    },
+    "2": {
+      "banner": "Are you new? Start here!",
+      "title": "Let's create a Google account",
+      "description": "To enjoy everything the Internet has to offer, you will need to create a Google account. This will make things much easier later, and will help you practice. I will help you!"
+    },
+    "3": {
+      "banner": "DIFFICULTY: EASY",
+      "title": "Have your own email",
+      "description": "You must have heard of him. Step by step, you will create your own email and discover how to send and receive messages instantly. And not just text!"
+    },
+    "4": {
+      "banner": "DIFFICULTY: MEDIAN",
+      "title": "Lets do a videocall",
+      "description": "Do you wish you could talk face to face with your loved ones? However far away they are? Don't worry, everything is possible here."
+    },
+    "5": {
+      "banner": "DIFFICULTY: EASY",
+      "title": "Using Google Maps",
+      "description": "An opportunity to travel anywhere in the world from your living room. Learn to use Google Maps!"
+    },
+    "6": {
+      "banner": "DIFFICULTY: MEDIAN",
+      "title": "Find what you are looking for on the web",
+      "description": "It is estimated that more than 6,000,0000,000 Internet searches are made per day. Do we add a few more to the count?"
+    },
+    "7": {
+      "banner": "DIFICULTAD: FÁCIL",
+      "title": "Managing the files on my computer",
+      "description": "A computer is, after all, a machine capable of storing information. How about we look at how to store things in it?"
+    },
+    "8": {
+      "banner": "DIFFICULTY: HARD",
+      "title": "Buying online safely",
+      "description": "Sometimes the best offers or simply what we are looking for is not close to where we live. What if we try to buy it online?"
+    },
+    "9": {
+      "banner": "DIFFICULTY: HARD",
+      "title": "Having my own social network",
+      "description": "A social network is the best tool to keep in touch with those with whom we have lost it. Do we recover friends from the past?"
+    }
+  },
   "lessonContent": {
     "lesson1": {
       "title": "Keyboard and mouse",

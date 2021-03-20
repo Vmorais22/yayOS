@@ -15,6 +15,54 @@
     "btn": "Aprendre"
   },
   "juegoteclado": "Practica ara! Escriu y comprova",
+
+  "MPlessons": {
+    "1": {
+      "banner": "Ets nou? Comença per aquí!",
+      "title": "Primer contacte amb el teclat i el ratolí",
+      "description": "Aprendràs com usar el teclat i el ratolí del teu ordinador. Esbrinaràs com escriure qualsevol paraula en un joc interactiu i a com desplaçar-te per la pantalla."
+    },
+    "2": {
+      "banner": "Ets nou? Comença per aquí!",
+      "title": "Crearem un compte de Google",
+      "description": "Per a gaudir de tot el que Internet pot oferir-te, necessitaràs crear-te un compte en Google. Això facilitarà molt les coses després, i et servirà per a practicar. Jo t'ajudo!"
+    },
+    "3": {
+      "banner": "DIFICULTAT: FÀCIL",
+      "title": "Tingues el teu propi correu electrònic",
+      "description": "Segur que has sentit parlar d'ell. Pas a pas, crearàs el teu propi correu electrònic i descobriràs com manar i rebre missatges de manera instantània. I no sols text!"
+    },
+    "4": {
+      "banner": "DIFICULTAT: MITJANA",
+      "title": "Fem una videotrucada",
+      "description": "Desitges poder parlar cara a cara amb els teus sers estimats? Per molt lluny que estiguin? No et preocupis, aquí tot és possible."
+    },
+    "5": {
+      "banner": "DIFICULTAT: FÀCIL",
+      "title": "Situant-nos amb Google Maps",
+      "description": "Una oportunitat de poder viatjar a qualsevol part del món des del saló de la teva casa. Aprèn a usar els mapes de Google!"
+    },
+    "6": {
+      "banner": "DIFICULTAT: MITJANA",
+      "title": "Trova a la xarxa el que busques",
+      "description": "Es calcula que es fan més de 6.000.0000.000 de cerques per Internet al dia. Afegim unes quantes més al recompte?"
+    },
+    "7": {
+      "banner": "DIFICULTAT: FÀCIL",
+      "title": "Gestionant els fitxers del meu ordinador",
+      "description": "Un ordinador és, al cap i a l'últim, una màquina capaç d'emmagatzemar informació. Què et sembla si mirem com guardar coses en ell?"
+    },
+    "8": {
+      "banner": "DIFICULTAT: DIFÍCIL",
+      "title": "Comprant per Internet de manera segura",
+      "description": "A vegades les millors ofertes o simplement allò que busquem no està prop d'on vivim. I si tractem de comprar-ho en línia?"
+    },
+    "9": {
+      "banner": "DIFICULTAT: DIFÍCIL",
+      "title": "Tenint la meva pròpia xarxa social",
+      "description": "Una xarxa social és la millor eina per a mantenir el contacte amb els quals l'hem perdut. Recuperem amistats del passat?"
+    }
+  },
   "lessonContent": {
     "lesson1": {
       "title": "Teclat y ratolí",
