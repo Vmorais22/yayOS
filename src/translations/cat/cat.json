@@ -8,14 +8,16 @@
   "slider": {
     "title": "Mai és massa tard!",
     "sub": "yayOS és una plataforma web interactiva que permet a l'usuari aprendre a fer coses senzilles amb un ordinador. Aquí comença el camí a l'autosuficiència tecnològica!",
-    "btn1": "¡Vull saber més!",
-    "btn2": "¡M'agradaria donar la meva opinió'!"
+    "btn1": "Vull saber més!",
+    "btn2": "M'agradaria donar la meva opinió'!"
   },
   "lesson": {
     "btn": "Aprendre"
   },
+  "juegoteclado": "Practica ara! Escriu y comprova",
   "lessonContent": {
     "lesson1": {
+      "title": "Teclat y ratolí",
       "btn1": "Introducció al ratolí",
       "btn2": "Tipus de cursor - Part 1",
       "btn3": "Tipus de cursor - Part 2",
@@ -27,7 +29,19 @@
       "btn9": "Posant accents",
       "btn10": "Combinant tecles",
       "btn11": "Resum de las tecles",
-      "btn12": "¡Prova tu ara!"
+      "btn12": "Prova tu ara!"
+    },
+    "lesson2": {
+      "title": "Creació d'un compte de Google",
+      "btn1": "Què és un compte de Google",
+      "btn2": "Què són les pestanyes",
+      "btn3": "Com canviar de pestanya",
+      "btn4": "Buscar el registre de Google",
+      "btn5": "Accedir al registre de Google",
+      "btn6": "Registre en Google - Part 1",
+      "btn7": "Registre en Google - Part 2",
+      "btn8": "Registre en Google - Part 3",
+      "btn9": "Tot llest!"
     }
   }
 }

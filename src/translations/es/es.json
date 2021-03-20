@@ -14,8 +14,11 @@
   "lesson": {
     "btn": "Aprender"
   },
+  "juegoteclado": "¡Practica ahora! Escribe y comprueba",
+
   "lessonContent": {
     "lesson1": {
+      "title": "Teclado y ratón",
       "btn1": "Introducción al ratón",
       "btn2": "Tipos de cursor - Parte 1",
       "btn3": "Tipos de cursor - Parte 2",
@@ -28,6 +31,18 @@
       "btn10": "Combinando teclas",
       "btn11": "Resumen de las teclas",
       "btn12": "¡Prueba tú ahora!"
+    },
+    "lesson2": {
+      "title": "Creación de una cuenta de Google",
+      "btn1": "Qué es una cuenta de Google",
+      "btn2": "Qué son las pestañas",
+      "btn3": "Cómo cambiar de pestaña",
+      "btn4": "Buscar el registro de Google",
+      "btn5": "Acceder al registro de Google",
+      "btn6": "Registro en Google - Parte 1",
+      "btn7": "Registro en Google - Parte 2",
+      "btn8": "Registro en Google - Parte 3",
+      "btn9": "¡Todo listo!"
     }
   }
 }

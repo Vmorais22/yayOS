@@ -14,8 +14,10 @@
   "lesson": {
     "btn": "Learn"
   },
+  "juegoteclado": "Try it now! Write and check",
   "lessonContent": {
     "lesson1": {
+      "title": "Keyboard and mouse",
       "btn1": "Mouse introduction",
       "btn2": "Cursor types - Part 1",
       "btn3": "Cursor types - Part 2",
@@ -28,6 +30,18 @@
       "btn10": "Combining keys",
       "btn11": "Keys summary",
       "btn12": "Try it now!"
+    },
+    "lesson2": {
+      "title": "Google account creation",
+      "btn1": "What a Google account is?",
+      "btn2": "What tabs are?",
+      "btn3": "How to change tabs?",
+      "btn4": "Searching the Google singing up",
+      "btn5": "Acessing the Google singing up",
+      "btn6": "Joining to Google - Part 1",
+      "btn7": "Joining to Google - Part 2",
+      "btn8": "Joining to Google - Part 3",
+      "btn9": "All ready!"
     }
   }
 }

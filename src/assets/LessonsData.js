@@ -22,7 +22,7 @@ import img29 from "./images/2.9.png"
 export const lessonsData = [
     {
         id: 1,
-        title: 'Teclado y ratón',
+        title: 'lessonContent.lesson1.title',
         numeroBotones: 12,
         contenido: [
             {
@@ -78,43 +78,43 @@ export const lessonsData = [
     },
     {
         id: 2,
-        title: 'Creación de una cuenta de Google',
+        title: 'lessonContent.lesson2.title',
         numeroBotones: 9,
         contenido: [
             {
-                textoBoton: 'Qué es una cuenta de Google',
+                textoBoton: 'lessonContent.lesson2.btn1',
                 img: img21,
             },
             {
-                textoBoton: 'Qué son las pestañas',
+                textoBoton: 'lessonContent.lesson2.btn2',
                 img: img22,
             },
             {
-                textoBoton: 'Cómo cambiar de pestaña',
+                textoBoton: 'lessonContent.lesson2.btn3',
                 img: img23,
             },
             {
-                textoBoton: 'Buscar al registro de Google',
+                textoBoton: 'lessonContent.lesson2.btn4',
                 img: img24,
             },
             {
-                textoBoton: 'Acceder al registro de Google',
+                textoBoton: 'lessonContent.lesson2.btn5',
                 img: img25,
             },
             {
-                textoBoton: 'Registro en Google - Parte 1',
+                textoBoton: 'lessonContent.lesson2.btn6',
                 img: img26,
             },
             {
-                textoBoton: 'Registro en Google - Parte 2',
+                textoBoton: 'lessonContent.lesson2.btn7',
                 img: img27,
             },
             {
-                textoBoton: 'Registro en Google - Parte 3',
+                textoBoton: 'lessonContent.lesson2.btn8',
                 img: img28,
             },
             {
-                textoBoton: '¡Todo listo!',
+                textoBoton: 'lessonContent.lesson2.btn9',
                 img: img29,
             },
         ],

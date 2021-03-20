@@ -4,7 +4,7 @@ import ListOfLessons from './components/ListOfLessons';
 import Error from './components/Error';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import LessonContent from "./components/LessonContent";
+import {LessonContent} from "./components/LessonContent";
 import ScrollToTop from "./components/ScrollToTop";
 
 

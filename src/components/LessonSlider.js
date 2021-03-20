@@ -1,19 +1,14 @@
 import React, {Component} from "react";
+import {useTranslation} from "react-i18next";
 
-class LessonSlider extends Component {
+export function LessonSlider({title}) {
+    const [t] = useTranslation("global")
 
-    render() {
-
-        return(
-            <div className="lessonSlider">
-                <h1>
-                    {this.props.title}
-                </h1>
-            </div>
-
-
-        );
-    }
+    return (
+        <div className="lessonSlider">
+            <h1>
+                {t(title)}
+            </h1>
+        </div>
+    );
 }
-
-export default LessonSlider;

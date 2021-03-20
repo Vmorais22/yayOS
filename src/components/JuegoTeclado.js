@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {withTranslation} from 'react-i18next';
 
 class JuegoTeclado extends Component {
 
@@ -16,10 +17,10 @@ class JuegoTeclado extends Component {
     }
 
     render() {
-
+        const {t} = this.props;
         return(
             <div>
-                <h1 className="juego-teclado-title"> <span aria-label="emoji" role="img">✏️</span> ¡Practica ahora! Escribe y comprueba <span aria-label="emoji" role="img">✏️</span></h1>
+                <h1 className="juego-teclado-title"> <span aria-label="emoji" role="img">✏️</span> {t('juegoteclado')} <span aria-label="emoji" role="img">✏️</span></h1>
                 <input onChange={this.handleChange} type="text" className="juego-teclado-input" maxLength={419} />
                 <p className="test-label">{this.state.newTask}</p>
             </div>
@@ -27,4 +28,4 @@ class JuegoTeclado extends Component {
     }
 }
 
-export default JuegoTeclado;
+export default withTranslation('global')(JuegoTeclado);

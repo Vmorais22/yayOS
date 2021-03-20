@@ -6,7 +6,6 @@ import left from "../assets/images/left.png"
 import right from "../assets/images/right.png"
 import {useTranslation} from "react-i18next";
 
-
 export function LessonStructure({numOfButtons, contenido}) {
 
     const [t, i18n] = useTranslation("global")
