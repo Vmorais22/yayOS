@@ -15,7 +15,7 @@ export function LessonStructure({numOfButtons, contenido, lesson}) {
     const actualLanguage = i18n.language
     const imgESP = <img src={contenido[index].imges} alt="img"/>
     const imgCAT = <img src={contenido[index].imgcat} alt="img"/>
-    const imgENG= <img src={contenido[index].imges} alt="img"/>
+    const imgENG= <img src={contenido[index].imgen} alt="img"/>
     const imgTEC = <div id="juego-teclado"><JuegoTeclado/></div>
 
     return (
