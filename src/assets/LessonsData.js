@@ -1,24 +1,45 @@
-import img11 from "./images/1.1.png"
-import img12 from "./images/1.2.png"
-import img13 from "./images/1.3.png"
-import img14 from "./images/1.4.png"
-import img15 from "./images/1.5.png"
-import img16 from "./images/1.6.png"
-import img17 from "./images/1.7.png"
-import img18 from "./images/1.8.png"
-import img19 from "./images/1.9.png"
-import img110 from "./images/1.10.png"
-import img111 from "./images/1.11.png"
-import img21 from "./images/2.1.png"
-import img22 from "./images/2.2.png"
-import img23 from "./images/2.3.png"
-import img24 from "./images/2.4.png"
-import img25 from "./images/2.5.png"
-import img26 from "./images/2.6.png"
-import img27 from "./images/2.7.png"
-import img28 from "./images/2.8.png"
-import img29 from "./images/2.9.png"
-import img210 from"./images/2.10.png"
+import img11es from "./images/1.1es.png"
+import img12es from "./images/1.2es.png"
+import img13es from "./images/1.3es.png"
+import img14es from "./images/1.4es.png"
+import img15es from "./images/1.5es.png"
+import img16es from "./images/1.6es.png"
+import img17es from "./images/1.7es.png"
+import img18es from "./images/1.8es.png"
+import img19es from "./images/1.9es.png"
+import img110es from "./images/1.10es.png"
+import img111es from "./images/1.11es.png"
+import img11cat from "./images/1.1cat.png"
+import img12cat  from "./images/1.2cat.png"
+import img13cat  from "./images/1.3cat.png"
+import img14cat  from "./images/1.4cat.png"
+import img15cat  from "./images/1.5cat.png"
+import img16cat  from "./images/1.6cat.png"
+import img17cat  from "./images/1.7cat.png"
+import img18cat  from "./images/1.8cat.png"
+import img19cat  from "./images/1.9cat.png"
+import img110cat  from "./images/1.10cat.png"
+import img111cat  from "./images/1.11cat.png"
+import img21es from "./images/2.1es.png"
+import img22es from "./images/2.2es.png"
+import img23es from "./images/2.3es.png"
+import img24es from "./images/2.4es.png"
+import img25es from "./images/2.5es.png"
+import img26es from "./images/2.6es.png"
+import img27es from "./images/2.7es.png"
+import img28es from "./images/2.8es.png"
+import img29es from "./images/2.9es.png"
+import img210es from"./images/2.10es.png"
+import img21cat from "./images/2.1cat.png"
+import img22cat from "./images/2.2cat.png"
+import img23cat from "./images/2.3cat.png"
+import img24cat from "./images/2.4cat.png"
+import img25cat from "./images/2.5cat.png"
+import img26cat from "./images/2.6cat.png"
+import img27cat from "./images/2.7cat.png"
+import img28cat from "./images/2.8cat.png"
+import img29cat from "./images/2.9cat.png"
+import img210cat from"./images/2.10cat.png"
 
 export const lessonsData = [
     {
@@ -28,51 +49,63 @@ export const lessonsData = [
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson1.btn1',
-                img: img11,
+                imges: img11es,
+                imgcat: img11cat,
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn2',
-                img: img12,
+                imges: img12es,
+                imgcat: img12cat,
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn3',
-                img: img13,
+                imges: img13es,
+                imgcat: img13cat,
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn4',
-                img: img14,
+                imges: img14es,
+                imgcat: img14cat,
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn5',
-                img: img15,
+                imges: img15es,
+                imgcat: img15cat,
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn6',
-                img: img16,
+                imges: img16es,
+                imgcat: img16cat,
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn7',
-                img: img17,
+                imges: img17es,
+                imgcat: img17cat,
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn8',
-                img: img18,
+                imges: img18es,
+                imgcat: img18cat,
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn9',
-                img: img19,
+                imges: img19es,
+                imgcat: img19cat,
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn10',
-                img: img110,
+                imges: img110es,
+                imgcat: img110cat,
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn11',
-                img: img111,
+                imges: img111es,
+                imgcat: img111cat,
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn12',
-                img: img111,
+                imges: img111es,
+                imgcat: img111cat,
             },
         ],
 
@@ -84,43 +117,53 @@ export const lessonsData = [
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson2.btn1',
-                img: img21,
+                imges: img21es,
+                imgcat: img21cat,
             },
             {
                 textoBoton: 'lessonContent.lesson2.btn2',
-                img: img22,
+                imges: img22es,
+                imgcat: img22cat,
             },
             {
                 textoBoton: 'lessonContent.lesson2.btn3',
-                img: img23,
+                imges: img23es,
+                imgcat: img23cat,
             },
             {
                 textoBoton: 'lessonContent.lesson2.btn4',
-                img: img24,
+                imges: img24es,
+                imgcat: img24cat,
             },
             {
                 textoBoton: 'lessonContent.lesson2.btn5',
-                img: img25,
+                imges: img25es,
+                imgcat: img25cat,
             },
             {
                 textoBoton: 'lessonContent.lesson2.btn6',
-                img: img26,
+                imges: img26es,
+                imgcat: img26cat,
             },
             {
                 textoBoton: 'lessonContent.lesson2.btn7',
-                img: img27,
+                imges: img27es,
+                imgcat: img27cat,
             },
             {
                 textoBoton: 'lessonContent.lesson2.btn8',
-                img: img28,
+                imges: img28es,
+                imgcat: img28cat,
             },
             {
                 textoBoton: 'lessonContent.lesson2.btn9',
-                img: img29,
+                imges: img29es,
+                imgcat: img29cat,
             },
             {
                 textoBoton: 'lessonContent.lesson2.btn10',
-                img: img210,
+                imges: img210es,
+                imgcat: img210cat,
             },
         ],
     },

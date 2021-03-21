@@ -1,25 +1,26 @@
 import React, {useCallback, useState} from "react";
-import img from "../assets/images/1.2.png"
 import Button from "@material-ui/core/Button";
 import JuegoTeclado from "./JuegoTeclado";
 import left from "../assets/images/left.png"
 import right from "../assets/images/right.png"
 import {useTranslation} from "react-i18next";
 
-export function LessonStructure({numOfButtons, contenido}) {
+
+export function LessonStructure({numOfButtons, contenido, lesson}) {
 
     const [t, i18n] = useTranslation("global")
     const [index, setIndex] = useState(0)
     const changeIndex = useCallback((v) => setIndex(v), [])
 
-    const actualLanguage = i18n.language;
+    const actualLanguage = i18n.language
+    const imgESP = <img src={contenido[index].imges} alt="img"/>
+    const imgCAT = <img src={contenido[index].imgcat} alt="img"/>
+    const imgENG= <img src={contenido[index].imges} alt="img"/>
+    const imgTEC = <div id="juego-teclado"><JuegoTeclado/></div>
+
     return (
         <div className="lessonStructure">
-            {(index < 11) ?
-                (<img src={contenido[index].img} alt="img"/>) :
-                (<div id="juego-teclado">
-                    <JuegoTeclado/>
-                </div>)}
+            {(index === 11 && lesson === 1) ? (imgTEC) : ((actualLanguage === "es") ? (imgESP) : (actualLanguage === "en") ? (imgENG) : (imgCAT))}
             <aside id="sidebar">
                 {contenido.map((c, i) => (
                     <div className="sidebar-item">
