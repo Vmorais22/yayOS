@@ -20,8 +20,9 @@ class JuegoTeclado extends Component {
         const {t} = this.props;
         return(
             <div>
-                <h1 className="juego-teclado-title"> <span aria-label="emoji" role="img">✏️</span> {t('juegoteclado')} <span aria-label="emoji" role="img">✏️</span></h1>
-                <input onChange={this.handleChange} type="text" className="juego-teclado-input" maxLength={419} />
+                <h1 className="juego-teclado-title"> <span aria-label="emoji" role="img">✏️</span> {t('juegoteclado.title')} <span aria-label="emoji" role="img">✏️</span></h1>
+                <h3 className="juego-teclado-subtitle"> {t('juegoteclado.sub')}</h3>
+                <input onChange={this.handleChange} type="text" className="juego-teclado-input" maxLength={300} />
                 <p className="test-label">{this.state.newTask}</p>
             </div>
         );

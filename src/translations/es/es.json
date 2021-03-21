@@ -14,7 +14,10 @@
   "lesson": {
     "btn": "Aprender"
   },
-  "juegoteclado": "¡Practica ahora! Escribe y comprueba",
+  "juegoteclado": {
+    "title": "¡Practica ahora! Escribe y comprueba",
+    "sub": "Haz clic izquierdo sobre la barra blanca y escribe frases con minúsculas, mayúsculas, tildes, signos de puntuación, números..."
+  },
   "MPlessons": {
     "1": {
       "banner": "¿Eres nuevo? ¡Empieza por aquí!",
@@ -88,7 +91,8 @@
       "btn6": "Registro en Google - Parte 1",
       "btn7": "Registro en Google - Parte 2",
       "btn8": "Registro en Google - Parte 3",
-      "btn9": "¡Todo listo!"
+      "btn9": "Registro en Google - Parte 4",
+      "btn10": "¡Todo listo!"
     }
   }
 }

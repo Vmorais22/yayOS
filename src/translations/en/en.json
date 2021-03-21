@@ -14,7 +14,10 @@
   "lesson": {
     "btn": "Learn"
   },
-  "juegoteclado": "Try it now! Write and check",
+  "juegoteclado": {
+    "title": "Try it now! Write and check",
+    "sub": "Left click on the white bar and write sentences with lowercase, uppercase, accents, punctuation marks, numbers ..."
+  },
   "MPlessons": {
     "1": {
       "banner": "Are you new? Start here!",
@@ -88,7 +91,8 @@
       "btn6": "Joining to Google - Part 1",
       "btn7": "Joining to Google - Part 2",
       "btn8": "Joining to Google - Part 3",
-      "btn9": "All ready!"
+      "btn9": "Joining to Google - Part 4",
+      "btn10": "All ready!"
     }
   }
 }

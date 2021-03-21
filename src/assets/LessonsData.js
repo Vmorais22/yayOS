@@ -18,6 +18,7 @@ import img26 from "./images/2.6.png"
 import img27 from "./images/2.7.png"
 import img28 from "./images/2.8.png"
 import img29 from "./images/2.9.png"
+import img210 from"./images/2.10.png"
 
 export const lessonsData = [
     {
@@ -79,7 +80,7 @@ export const lessonsData = [
     {
         id: 2,
         title: 'lessonContent.lesson2.title',
-        numeroBotones: 9,
+        numeroBotones: 10,
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson2.btn1',
@@ -116,6 +117,10 @@ export const lessonsData = [
             {
                 textoBoton: 'lessonContent.lesson2.btn9',
                 img: img29,
+            },
+            {
+                textoBoton: 'lessonContent.lesson2.btn10',
+                img: img210,
             },
         ],
     },

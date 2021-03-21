@@ -159,6 +159,13 @@ body {
     letter-spacing: 0;
     text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
 }
+.juego-teclado-subtitle {
+    font-size: 20px;
+    text-align:center;
+    color: #f55617;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+}
 
 .juego-teclado-input {
     display: block;

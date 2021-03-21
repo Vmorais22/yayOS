@@ -9,12 +9,15 @@
     "title": "Mai és massa tard!",
     "sub": "yayOS és una plataforma web interactiva que permet a l'usuari aprendre a fer coses senzilles amb un ordinador. Aquí comença el camí a l'autosuficiència tecnològica!",
     "btn1": "Vull saber més!",
-    "btn2": "M'agradaria donar la meva opinió'!"
+    "btn2": "M'agradaria donar la meva opinió!"
   },
   "lesson": {
     "btn": "Aprendre"
   },
-  "juegoteclado": "Practica ara! Escriu y comprova",
+  "juegoteclado": {
+    "title": "Practica ara! Escriu y comprova",
+    "sub": "Fes clic esquerra sobre la barra blanca i escriur frases amb minúscules, majúscules, accents, signes de puntuació, nombres..."
+  },
 
   "MPlessons": {
     "1": {
@@ -89,7 +92,8 @@
       "btn6": "Registre en Google - Part 1",
       "btn7": "Registre en Google - Part 2",
       "btn8": "Registre en Google - Part 3",
-      "btn9": "Tot llest!"
+      "btn9": "Registre en Google - Part 4",
+      "btn10": "Tot llest!"
     }
   }
 }
