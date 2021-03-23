@@ -94,6 +94,22 @@
       "btn8": "Registre en Google - Part 3",
       "btn9": "Registre en Google - Part 4",
       "btn10": "Tot llest!"
+    },
+    "lesson3": {
+      "title": "El meu propi correu electrònic",
+      "btn1": "El correu electrònic",
+      "btn2": "Com entrar",
+      "btn3": "He iniciat sesisó?",
+      "btn4": "Abans del primer ús",
+      "btn5": "Un primer cop d'ull",
+      "btn6": "Funcions del Gmail - Part 1",
+      "btn7": "Funcions del Gmail - Part 2",
+      "btn8": "Correus rebuts",
+      "btn9": "Llegint els meus correus",
+      "btn10": "Enviant correus",
+      "btn11": "Com escriure un correu",
+      "btn12": "Els artxius adjunts",
+      "btn13": "Dubtes freqüents"
     }
   }
 }

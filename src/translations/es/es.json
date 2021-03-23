@@ -93,6 +93,22 @@
       "btn8": "Registro en Google - Parte 3",
       "btn9": "Registro en Google - Parte 4",
       "btn10": "¡Todo listo!"
+    },
+    "lesson3": {
+      "title": "Mi propio correo electrónico",
+      "btn1": "El correo electrónico",
+      "btn2": "Cómo entrar",
+      "btn3": "¿He iniciado sesión?",
+      "btn4": "Antes del primer uso",
+      "btn5": "Un primer vistazo",
+      "btn6": "Funciones del Gmail - Parte 1",
+      "btn7": "Funciones del Gmail - Parte 2",
+      "btn8": "Correos recibidos",
+      "btn9": "Leyendo mis correos",
+      "btn10": "Enviando correos",
+      "btn11": "Cómo escribir un correo",
+      "btn12": "Los archivos adjuntos",
+      "btn13": "Dudas frecuentes"
     }
   }
 }

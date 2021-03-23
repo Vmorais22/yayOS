@@ -93,6 +93,22 @@
       "btn8": "Joining to Google - Part 3",
       "btn9": "Joining to Google - Part 4",
       "btn10": "All ready!"
+    },
+    "lesson3": {
+      "title": "My own email",
+      "btn1": "Email",
+      "btn2": "How to enter",
+      "btn3": "Am I logged in?",
+      "btn4": "Before he first use",
+      "btn5": "A first look",
+      "btn6": "Gmail functions - Part 1",
+      "btn7": "Gmail functions - Part 2",
+      "btn8": "Received emails",
+      "btn9": "Reading my emails",
+      "btn10": "Sending emails",
+      "btn11": "How to write an email",
+      "btn12": "The attached files",
+      "btn13": "Frequent doubts"
     }
   }
 }
