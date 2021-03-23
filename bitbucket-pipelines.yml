@@ -1,34 +1,31 @@
-# This is an example Starter pipeline configuration
-# Use a skeleton to build, test and deploy using manual and parallel steps
-# -----
-# You can specify a custom docker image from Docker Hub as your build environment.
-image: atlassian/default-image:2
-
+image: node:10.15.3
 pipelines:
-  default:
-    - parallel:
+  branches:
+    master:
       - step:
-          name: 'Build and Test'
+          name: Test App
+          caches:
+            - node
           script:
-            - echo "Your build and test goes here..."
-      - step:
-          name: 'Lint'
-          script:
-            - echo "Your linting goes here..."
-      - step:
-          name: 'Security scan'
-          script:
-            - echo "Your security scan goes here..."
-
-    # The following deployment steps will be executed for each pipeline run. To configure your steps and conditionally deploy see https://support.atlassian.com/bitbucket-cloud/docs/configure-bitbucket-pipelinesyml/
-    - step:
-        name: 'Deployment to Staging'
-        deployment: staging
-        script:
-          - echo "Your deployment to staging script goes here..."
-    - step:
-        name: 'Deployment to Production'
-        deployment: production
-        trigger: 'manual'
-        script:
-          - echo "Your deployment to production script goes here..."
+            - rm -rf package-lock.json
+            - rm -rf node_modules
+            - npm install
+            - npm run test
+       - step:
+           name: Create artifact
+           script: 
+             - git archive --format=tar.gz master -o                   application.tar.gz 
+         artifacts: 
+           - application.tar.gz
+       - step:
+           name: Deploy to heroku
+           deployment: production
+           caches:
+             - node
+           script:
+             - pipe: atlassian/heroku-deploy:1.1.4
+               variables:
+                 HEROKU_API_KEY: $HEROKU_API_KEY
+                 HEROKU_APP_NAME: $HEROKU_APP_NAME
+                 ZIP_FILE: "application.tar.gz"
+                 WAIT: 'true'
