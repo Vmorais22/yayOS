@@ -20,10 +20,12 @@ const Slider = () => {
                 <div className="sliderButtons">
                     <Grid container spacing={2} justify="center">
                         <Grid item>
+                            <NavLink to="/g" style={{textDecoration: 'none'}}>
                             <Button variant="contained"
                                     color="primary">
                                 {t("slider.btn1")}
                             </Button>
+                            </NavLink>
                         </Grid>
                         <Grid item>
                             <NavLink to="/g" style={{textDecoration: 'none'}}>

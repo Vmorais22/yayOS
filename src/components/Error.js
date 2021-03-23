@@ -5,7 +5,7 @@ import photoError from "../assets/images/photoError.png"
 
 const Error = () => {
     return (
-        <div className="sliderContent">
+        <div id="slider">
             <Container maxWidth="md">
                 <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>Error 404: Página no encontrada</Typography>
                 <Typography variant="h5" align="center" color="textSecondary" paragraph>¡Anda! Parece que acabas de buscar una página que no existe. Si este es tu primer error 404 no te preocupes.</Typography>
