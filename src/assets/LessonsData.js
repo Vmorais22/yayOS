@@ -309,5 +309,164 @@ export const lessonsData = [
         ],
 
     },
+    {
+        id: 4,
+        title: 'lessonContent.lesson4.title',
+        numeroBotones: 12,
+        contenido: [
+            {
+                textoBoton: 'lessonContent.lesson4.btn1',
+                imges: img31es,
+                imgcat: img31es,
+                imgen: img31es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson4.btn2',
+                imges: img32es,
+                imgcat: img32es,
+                imgen: img32es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson4.btn3',
+                imges: img33es,
+                imgcat: img33es,
+                imgen: img33es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson4.btn4',
+                imges: img34es,
+                imgcat: img34es,
+                imgen: img34es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson4.btn5',
+                imges: img35es,
+                imgcat: img35es,
+                imgen: img35es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson4.btn6',
+                imges: img36es,
+                imgcat: img36es,
+                imgen: img36es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson4.btn7',
+                imges: img37es,
+                imgcat: img37es,
+                imgen: img37es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson4.btn8',
+                imges: img38es,
+                imgcat: img38es,
+                imgen: img38es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson4.btn9',
+                imges: img39es,
+                imgcat: img39es,
+                imgen: img39es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson4.btn10',
+                imges: img310es,
+                imgcat: img310es,
+                imgen: img310es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson4.btn11',
+                imges: img311es,
+                imgcat: img311es,
+                imgen: img311es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson4.btn12',
+                imges: img311es,
+                imgcat: img311es,
+                imgen: img311es,
+            },
+        ],
 
+    },
+    {
+        id: 5,
+        title: 'lessonContent.lesson5.title',
+        numeroBotones: 12,
+        contenido: [
+            {
+                textoBoton: 'lessonContent.lesson5.btn1',
+                imges: img31es,
+                imgcat: img31es,
+                imgen: img31es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn2',
+                imges: img32es,
+                imgcat: img32es,
+                imgen: img32es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn3',
+                imges: img33es,
+                imgcat: img33es,
+                imgen: img33es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn4',
+                imges: img34es,
+                imgcat: img34es,
+                imgen: img34es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn5',
+                imges: img35es,
+                imgcat: img35es,
+                imgen: img35es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn6',
+                imges: img36es,
+                imgcat: img36es,
+                imgen: img36es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn7',
+                imges: img37es,
+                imgcat: img37es,
+                imgen: img37es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn8',
+                imges: img38es,
+                imgcat: img38es,
+                imgen: img38es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn9',
+                imges: img39es,
+                imgcat: img39es,
+                imgen: img39es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn10',
+                imges: img310es,
+                imgcat: img310es,
+                imgen: img310es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn11',
+                imges: img311es,
+                imgcat: img311es,
+                imgen: img311es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn12',
+                imges: img311es,
+                imgcat: img311es,
+                imgen: img311es,
+            },
+        ],
+
+    },
 ];

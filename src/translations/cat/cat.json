@@ -37,23 +37,23 @@
     },
     "4": {
       "banner": "DIFICULTAT: MITJANA",
-      "title": "Fem una videotrucada",
-      "description": "Desitges poder parlar cara a cara amb els teus sers estimats? Per molt lluny que estiguin? No et preocupis, aquí tot és possible."
-    },
-    "5": {
-      "banner": "DIFICULTAT: FÀCIL",
-      "title": "Situant-nos amb Google Maps",
-      "description": "Una oportunitat de poder viatjar a qualsevol part del món des del saló de la teva casa. Aprèn a usar els mapes de Google!"
-    },
-    "6": {
-      "banner": "DIFICULTAT: MITJANA",
       "title": "Trova a la xarxa el que busques",
       "description": "Es calcula que es fan més de 6.000.0000.000 de cerques per Internet al dia. Afegim unes quantes més al recompte?"
     },
-    "7": {
+    "5": {
       "banner": "DIFICULTAT: FÀCIL",
       "title": "Gestionant els fitxers del meu ordinador",
       "description": "Un ordinador és, al cap i a l'últim, una màquina capaç d'emmagatzemar informació. Què et sembla si mirem com guardar coses en ell?"
+    },
+    "6": {
+      "banner": "DIFICULTAT: MITJANA",
+      "title": "Fem una videotrucada",
+      "description": "Desitges poder parlar cara a cara amb els teus sers estimats? Per molt lluny que estiguin? No et preocupis, aquí tot és possible."
+    },
+    "7": {
+      "banner": "DIFICULTAT: FÀCIL",
+      "title": "Situant-nos amb Google Maps",
+      "description": "Una oportunitat de poder viatjar a qualsevol part del món des del saló de la teva casa. Aprèn a usar els mapes de Google!"
     },
     "8": {
       "banner": "DIFICULTAT: DIFÍCIL",
