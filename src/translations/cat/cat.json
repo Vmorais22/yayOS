@@ -110,6 +110,36 @@
       "btn11": "Com escriure un correu",
       "btn12": "Els artxius adjunts",
       "btn13": "Dubtes freqüents"
+    },
+    "lesson4": {
+      "title": "Com cercar per Internet",
+      "btn1": "Els Navegadors Web",
+      "btn2": "El cercador",
+      "btn3": "Com buscar en Google",
+      "btn4": "Quants resultats!",
+      "btn5": "Trobar el que cerques",
+      "btn6": "Concretar sempre ajuda",
+      "btn7": "Diferents tipus de resultats",
+      "btn8": "Els enllaços - Part 1",
+      "btn9": "Els enllaços - Part 2",
+      "btn10": "Cercant imatges",
+      "btn11": "Com descarregar imatges",
+      "btn12": "Alguns consells..."
+    },
+    "lesson5": {
+      "title": "Organitzar i controlar els arxius i carpetes de l'ordinador'",
+      "btn1": "L'Explorador d'Arxius",
+      "btn2": "¿Com és?",
+      "btn3": "Accedint indirectament",
+      "btn4": "Les rutes dels fitxers",
+      "btn5": "El Panell de Navegació",
+      "btn6": "Llocs d'emmagatzematge bàsics",
+      "btn7": "La llista de contingut",
+      "btn8": "Clic o doble clic?",
+      "btn9": "Selecció de fitxers",
+      "btn10": "Copiar, retallar i pegar",
+      "btn11": "Per fi té sentit!",
+      "btn12": "Prova la teva ara!"
     }
   }
 }

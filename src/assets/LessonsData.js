@@ -74,6 +74,31 @@ import img310es from "./images/3.10es.png"
 import img311es from "./images/3.11es.png"
 import img312es from "./images/3.12es.png"
 import img313es from "./images/3.13es.png"
+import img41es from "./images/4.1es.png"
+import img42es from "./images/4.2es.png"
+import img43es from "./images/4.3es.png"
+import img44es from "./images/4.4es.png"
+import img45es from "./images/4.5es.png"
+import img46es from "./images/4.6es.png"
+import img47es from "./images/4.7es.png"
+import img48es from "./images/4.8es.png"
+import img49es from "./images/4.9es.png"
+import img410es from "./images/4.10es.png"
+import img411es from "./images/4.11es.png"
+import img412es from "./images/4.12es.png"
+import img51es from "./images/5.1es.png"
+import img52es from "./images/5.2es.png"
+import img53es from "./images/5.3es.png"
+import img54es from "./images/5.4es.png"
+import img55es from "./images/5.5es.png"
+import img56es from "./images/5.6es.png"
+import img57es from "./images/5.7es.png"
+import img58es from "./images/5.8es.png"
+import img59es from "./images/5.9es.png"
+import img510es from "./images/5.10es.png"
+import img511es from "./images/5.11es.png"
+import img512es from "./images/5.12es.png"
+
 
 export const lessonsData = [
     {
@@ -316,75 +341,75 @@ export const lessonsData = [
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson4.btn1',
-                imges: img31es,
-                imgcat: img31es,
-                imgen: img31es,
+                imges: img41es,
+                imgcat: img41es,
+                imgen: img41es,
             },
             {
                 textoBoton: 'lessonContent.lesson4.btn2',
-                imges: img32es,
-                imgcat: img32es,
-                imgen: img32es,
+                imges: img42es,
+                imgcat: img42es,
+                imgen: img42es,
             },
             {
                 textoBoton: 'lessonContent.lesson4.btn3',
-                imges: img33es,
-                imgcat: img33es,
-                imgen: img33es,
+                imges: img43es,
+                imgcat: img43es,
+                imgen: img43es,
             },
             {
                 textoBoton: 'lessonContent.lesson4.btn4',
-                imges: img34es,
-                imgcat: img34es,
-                imgen: img34es,
+                imges: img44es,
+                imgcat: img44es,
+                imgen: img44es,
             },
             {
                 textoBoton: 'lessonContent.lesson4.btn5',
-                imges: img35es,
-                imgcat: img35es,
-                imgen: img35es,
+                imges: img45es,
+                imgcat: img45es,
+                imgen: img45es,
             },
             {
                 textoBoton: 'lessonContent.lesson4.btn6',
-                imges: img36es,
-                imgcat: img36es,
-                imgen: img36es,
+                imges: img46es,
+                imgcat: img46es,
+                imgen: img46es,
             },
             {
                 textoBoton: 'lessonContent.lesson4.btn7',
-                imges: img37es,
-                imgcat: img37es,
-                imgen: img37es,
+                imges: img47es,
+                imgcat: img47es,
+                imgen: img47es,
             },
             {
                 textoBoton: 'lessonContent.lesson4.btn8',
-                imges: img38es,
-                imgcat: img38es,
-                imgen: img38es,
+                imges: img48es,
+                imgcat: img48es,
+                imgen: img48es,
             },
             {
                 textoBoton: 'lessonContent.lesson4.btn9',
-                imges: img39es,
-                imgcat: img39es,
-                imgen: img39es,
+                imges: img49es,
+                imgcat: img49es,
+                imgen: img49es,
             },
             {
                 textoBoton: 'lessonContent.lesson4.btn10',
-                imges: img310es,
-                imgcat: img310es,
-                imgen: img310es,
+                imges: img410es,
+                imgcat: img410es,
+                imgen: img410es,
             },
             {
                 textoBoton: 'lessonContent.lesson4.btn11',
-                imges: img311es,
-                imgcat: img311es,
-                imgen: img311es,
+                imges: img411es,
+                imgcat: img411es,
+                imgen: img411es,
             },
             {
                 textoBoton: 'lessonContent.lesson4.btn12',
-                imges: img311es,
-                imgcat: img311es,
-                imgen: img311es,
+                imges: img412es,
+                imgcat: img412es,
+                imgen: img412es,
             },
         ],
 
@@ -396,75 +421,75 @@ export const lessonsData = [
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson5.btn1',
-                imges: img31es,
-                imgcat: img31es,
-                imgen: img31es,
+                imges: img51es,
+                imgcat: img51es,
+                imgen: img51es,
             },
             {
                 textoBoton: 'lessonContent.lesson5.btn2',
-                imges: img32es,
-                imgcat: img32es,
-                imgen: img32es,
+                imges: img52es,
+                imgcat: img52es,
+                imgen: img52es,
             },
             {
                 textoBoton: 'lessonContent.lesson5.btn3',
-                imges: img33es,
-                imgcat: img33es,
-                imgen: img33es,
+                imges: img53es,
+                imgcat: img53es,
+                imgen: img53es,
             },
             {
                 textoBoton: 'lessonContent.lesson5.btn4',
-                imges: img34es,
-                imgcat: img34es,
-                imgen: img34es,
+                imges: img54es,
+                imgcat: img54es,
+                imgen: img54es,
             },
             {
                 textoBoton: 'lessonContent.lesson5.btn5',
-                imges: img35es,
-                imgcat: img35es,
-                imgen: img35es,
+                imges: img55es,
+                imgcat: img55es,
+                imgen: img55es,
             },
             {
                 textoBoton: 'lessonContent.lesson5.btn6',
-                imges: img36es,
-                imgcat: img36es,
-                imgen: img36es,
+                imges: img56es,
+                imgcat: img56es,
+                imgen: img56es,
             },
             {
                 textoBoton: 'lessonContent.lesson5.btn7',
-                imges: img37es,
-                imgcat: img37es,
-                imgen: img37es,
+                imges: img57es,
+                imgcat: img57es,
+                imgen: img57es,
             },
             {
                 textoBoton: 'lessonContent.lesson5.btn8',
-                imges: img38es,
-                imgcat: img38es,
-                imgen: img38es,
+                imges: img58es,
+                imgcat: img58es,
+                imgen: img58es,
             },
             {
                 textoBoton: 'lessonContent.lesson5.btn9',
-                imges: img39es,
-                imgcat: img39es,
-                imgen: img39es,
+                imges: img59es,
+                imgcat: img59es,
+                imgen: img59es,
             },
             {
                 textoBoton: 'lessonContent.lesson5.btn10',
-                imges: img310es,
-                imgcat: img310es,
-                imgen: img310es,
+                imges: img510es,
+                imgcat: img510es,
+                imgen: img510es,
             },
             {
                 textoBoton: 'lessonContent.lesson5.btn11',
-                imges: img311es,
-                imgcat: img311es,
-                imgen: img311es,
+                imges: img511es,
+                imgcat: img511es,
+                imgen: img511es,
             },
             {
                 textoBoton: 'lessonContent.lesson5.btn12',
-                imges: img311es,
-                imgcat: img311es,
-                imgen: img311es,
+                imges: img512es,
+                imgcat: img512es,
+                imgen: img512es,
             },
         ],
 

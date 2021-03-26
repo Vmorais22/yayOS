@@ -109,6 +109,36 @@
       "btn11": "How to write an email",
       "btn12": "The attached files",
       "btn13": "Frequent doubts"
+    },
+    "lesson4": {
+      "title": "Inside Internet",
+      "btn1": "Web browsers",
+      "btn2": "The searcher",
+      "btn3": "How to browse in Google",
+      "btn4": "How many results!",
+      "btn5": "Find what you are looking for",
+      "btn6": "Specifying always helps",
+      "btn7": "Different types of result",
+      "btn8": "URLs - Part 1",
+      "btn9": "URLs - Part 2",
+      "btn10": "Searching for images",
+      "btn11": "How to download images",
+      "btn12": "Some advices..."
+    },
+    "lesson5": {
+      "title": "Organize and control files and folders on your computer",
+      "btn1": "The File Explorer",
+      "btn2": "How is?",
+      "btn3": "Accessing indirectly",
+      "btn4": "The file paths",
+      "btn5": "The Navigation Panel",
+      "btn6": "Basic storage locations",
+      "btn7": "The content list",
+      "btn8": "Click or double click?",
+      "btn9": "File selection",
+      "btn10": "Copy, cut and paste",
+      "btn11": "It finally makes sense!",
+      "btn12": "Try it now!"
     }
   }
 }
