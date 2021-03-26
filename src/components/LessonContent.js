@@ -11,7 +11,8 @@ export function LessonContent({lesson}) {
             <LessonSlider title={lessonsData[lesson - 1].title}/>
             <LessonStructure numOfButtons={lessonsData[lesson - 1].numeroBotones}
                              contenido={lessonsData[lesson - 1].contenido}
-                             lesson={lesson}/>
+                             lesson={lesson}
+                             prueba = {lessonsData[lesson - 1].prueba}/>
         </React.Fragment>
     );
 }

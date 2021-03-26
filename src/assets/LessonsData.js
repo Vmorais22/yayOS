@@ -105,6 +105,7 @@ export const lessonsData = [
         id: 1,
         title: 'lessonContent.lesson1.title',
         numeroBotones: 12,
+        prueba: true,
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson1.btn1',
@@ -185,6 +186,7 @@ export const lessonsData = [
         id: 2,
         title: 'lessonContent.lesson2.title',
         numeroBotones: 10,
+        prueba: false,
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson2.btn1',
@@ -252,6 +254,7 @@ export const lessonsData = [
         id: 3,
         title: 'lessonContent.lesson3.title',
         numeroBotones: 13,
+        prueba: false,
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson3.btn1',
@@ -338,6 +341,7 @@ export const lessonsData = [
         id: 4,
         title: 'lessonContent.lesson4.title',
         numeroBotones: 12,
+        prueba: false,
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson4.btn1',
@@ -418,6 +422,7 @@ export const lessonsData = [
         id: 5,
         title: 'lessonContent.lesson5.title',
         numeroBotones: 12,
+        prueba: false,
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson5.btn1',

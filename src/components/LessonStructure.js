@@ -6,7 +6,7 @@ import right from "../assets/images/right.png"
 import {useTranslation} from "react-i18next";
 
 
-export function LessonStructure({numOfButtons, contenido, lesson}) {
+export function LessonStructure({numOfButtons, contenido, lesson, prueba}) {
 
     const [t, i18n] = useTranslation("global")
     const [index, setIndex] = useState(0)
@@ -15,17 +15,20 @@ export function LessonStructure({numOfButtons, contenido, lesson}) {
     const actualLanguage = i18n.language
     const imgESP = <img src={contenido[index].imges} alt="img"/>
     const imgCAT = <img src={contenido[index].imgcat} alt="img"/>
-    const imgENG= <img src={contenido[index].imgen} alt="img"/>
+    const imgENG = <img src={contenido[index].imgen} alt="img"/>
     const imgTEC = <div id="juego-teclado"><JuegoTeclado/></div>
 
     return (
         <div className="lessonStructure">
-            {(index === 11 && lesson === 1) ? (imgTEC) : ((actualLanguage === "es") ? (imgESP) : (actualLanguage === "en") ? (imgENG) : (imgCAT))}
+            {(index === 11 && prueba) ? (imgTEC) : ((actualLanguage === "es") ? (imgESP) : (actualLanguage === "en") ? (imgENG) : (imgCAT))}
             <aside id="sidebar">
                 {contenido.map((c, i) => (
                     <div className="sidebar-item">
-                        <Button className="lessonButton" size="large" variant="contained" color="primary"
-                                onClick={(event) => changeIndex(i)}>{t(c.textoBoton)}</Button>
+                        {(i === 11 && lesson === 1) ?
+                            <Button className="lessonButton" size="large" variant="contained" color="secondary"
+                                    onClick={(event) => changeIndex(i)}>{t(c.textoBoton)}</Button> :
+                            <Button className="lessonButton" size="large" variant="contained" color="primary"
+                                    onClick={(event) => changeIndex(i)}>{t(c.textoBoton)}</Button>}
                     </div>
                 ))}
 
