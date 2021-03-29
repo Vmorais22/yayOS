@@ -98,6 +98,7 @@ import img59es from "./images/5.9es.png"
 import img510es from "./images/5.10es.png"
 import img511es from "./images/5.11es.png"
 import img512es from "./images/5.12es.png"
+import img513es from "./images/5.13es.png"
 import img611es from "./images/61.1es.png"
 import img612es from "./images/61.2es.png"
 import img613es from "./images/61.3es.png"
@@ -437,9 +438,9 @@ export const lessonsData = [
     {
         id: 5,
         title: 'lessonContent.lesson5.title',
-        numeroBotones: 12,
+        numeroBotones: 13,
         prueba: true,
-        nprueba: 12,
+        nprueba: 13,
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson5.btn1',
@@ -512,6 +513,12 @@ export const lessonsData = [
                 imges: img512es,
                 imgcat: img512es,
                 imgen: img512es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn13',
+                imges: img513es,
+                imgcat: img513es,
+                imgen: img513es,
             },
         ],
 

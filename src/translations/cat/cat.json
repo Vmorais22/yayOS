@@ -72,8 +72,8 @@
       "btn1": "Introducció al ratolí",
       "btn2": "Tipus de cursor - Part 1",
       "btn3": "Tipus de cursor - Part 2",
-      "btn4": "Els botons del ratolí: apretar",
-      "btn5": "Els botons del ratolí: mantenir",
+      "btn4": "Botons del ratolí: apretar",
+      "btn5": "Botons del ratolí: mantenir",
       "btn6": "Posició correcta de la mà",
       "btn7": "Introducció al teclat",
       "btn8": "Tecles senzilles",
@@ -138,8 +138,9 @@
       "btn8": "Clic o doble clic?",
       "btn9": "Selecció de fitxers",
       "btn10": "Copiar, retallar i pegar",
-      "btn11": "Per fi té sentit!",
-      "btn12": "Prova la teva ara!"
+      "btn11": "On es guarden les meves dades?",
+      "btn12": "Per fi té sentit!",
+      "btn13": "Prova la teva ara!"
     },
     "lesson61": {
       "title": "Fent videotrucades amb Skype",

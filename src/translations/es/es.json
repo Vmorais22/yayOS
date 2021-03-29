@@ -71,8 +71,8 @@
       "btn1": "Introducción al ratón",
       "btn2": "Tipos de cursor - Parte 1",
       "btn3": "Tipos de cursor - Parte 2",
-      "btn4": "Los botones del ratón: apretar",
-      "btn5": "Los botones del ratón: mantener",
+      "btn4": "Botones del ratón: apretar",
+      "btn5": "Botones del ratón: mantener",
       "btn6": "Posición correcta de la mano",
       "btn7": "Introducción al teclado",
       "btn8": "Teclas sencillitas",
@@ -137,8 +137,9 @@
       "btn8": "¿Clic o doble clic?",
       "btn9": "Selección de ficheros",
       "btn10": "Copiar, cortar y pegar",
-      "btn11": "¡Por fin tiene sentido!",
-      "btn12": "¡Prueba tu ahora!"
+      "btn11": "¿Dónde se guardan mis datos?",
+      "btn12": "¡Por fin tiene sentido!",
+      "btn13": "¡Prueba tu ahora!"
     },
     "lesson61": {
       "title": "Haciendo videollamadas con Skype",

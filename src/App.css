@@ -179,18 +179,14 @@ body {
 .lessonButton:hover {
     box-shadow: 0 1px 10px 0 azure;
 }
-.lessonButton:focus {
+.ButtonFocus {
     box-shadow: 0 1px 10px 0 azure;
     margin-left: 25px;
 }
 .tryButton:hover {
     box-shadow: 0 1px 10px 0 azure;
-    margin-left: 25px;
 }
-.tryButton:focus {
-    box-shadow: 0 1px 10px 0 azure;
-    margin-left: 25px;
-}
+
 
 
 .lessonButton:active {
