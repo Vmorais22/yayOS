@@ -7,12 +7,6 @@ import {useTranslation} from "react-i18next";
 
 let lastIndex = 0
 
-function checkOS(platform) {
-    if (platform === "Win16" || platform ==="Win32" || platform ==="WinCE") return "Windows";
-    else if (platform === "Linux i686" || platform ==="Linux armv7l") return "Linux";
-    else return "Mac";
-}
-
 export function LessonStructure({numOfButtons, contenido, lesson, prueba, nprueba}) {
 
     const [t, i18n] = useTranslation("global")
@@ -25,7 +19,6 @@ export function LessonStructure({numOfButtons, contenido, lesson, prueba, nprueb
     const imgENG = <img src={contenido[index].imgen} alt="img"/>
     const imgTEC = <div id="juego-teclado"><JuegoTeclado/></div>
     let elem, lastElem;
-    //const OS = checkOS(window.navigator.platform)
 
     function update(i) {
         lastElem = document.getElementById("button"+lastIndex);
