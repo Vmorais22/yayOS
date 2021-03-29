@@ -140,6 +140,23 @@
       "btn10": "Copiar, retallar i pegar",
       "btn11": "Per fi té sentit!",
       "btn12": "Prova la teva ara!"
+    },
+    "lesson61": {
+      "title": "Fent videotrucades amb Skype",
+      "intro1": "INSTAL·LACIÓ I CREACIÓ D'UN COMPTE",
+      "intro2": "FUNCIONAMENT",
+      "btn1": "Què és Skype?",
+      "btn2": "Tinc Skype instal·lat?",
+      "btn3": "Què necessito per a usar Skype?",
+      "btn4": "Descarregant Skype",
+      "btn5": "Revisa el teu Sistema Operatiu",
+      "btn6": "Comença la instal·lació",
+      "btn7": "Crear-se un compte de Skype",
+      "btn8": "Comprovació del correu",
+      "btn9": "No sóc un robot!",
+      "btn10": "Últimes configuracions",
+      "btn11": "Instal·lació completa!",
+      "btn12": "Veurem com funciona!"
     }
   }
 }

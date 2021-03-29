@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import {LessonContent} from "./components/LessonContent";
 import ScrollToTop from "./components/ScrollToTop";
+import SkypeLesson from "./components/SkypeLesson";
 
 
 class Router extends Component {
@@ -47,7 +48,13 @@ class Router extends Component {
                             />
 
                             <Route exact path="/leccion6" render={(props) => (
-                                <LessonContent {...props} lesson={6}/>
+                                //<LessonContent {...props} lesson={6}/>
+                                <SkypeLesson />
+                            )}
+                            />
+
+                            <Route exact path="/leccion6/inst" render={(props) => (
+                                <LessonContent {...props} lesson={61}/>
                             )}
                             />
 

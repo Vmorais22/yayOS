@@ -139,6 +139,23 @@
       "btn10": "Copiar, cortar y pegar",
       "btn11": "¡Por fin tiene sentido!",
       "btn12": "¡Prueba tu ahora!"
+    },
+    "lesson61": {
+      "title": "Haciendo videollamadas con Skype",
+      "intro1": "INSTALACIÓN Y CREACIÓN DE UNA CUENTA ",
+      "intro2": "FUNCIONAMIENTO",
+      "btn1": "¿Qué es Skype?",
+      "btn2": "¿Tengo Skype instalado?",
+      "btn3": "¿Qué necesito para usar Skype?",
+      "btn4": "Descargando Skype",
+      "btn5": "Revisa tu Sistema Operativo",
+      "btn6": "Empieza la instalación",
+      "btn7": "Crearse una cuenta de Skype",
+      "btn8": "Comprobación del correo",
+      "btn9": "¡No soy un robot!",
+      "btn10": "Últimas configuraciones",
+      "btn11": "¡Instalación completa!",
+      "btn12": "¡Vamos a ver cómo funciona!"
     }
   }
 }

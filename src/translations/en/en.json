@@ -139,6 +139,23 @@
       "btn10": "Copy, cut and paste",
       "btn11": "It finally makes sense!",
       "btn12": "Try it now!"
+    },
+    "lesson61": {
+      "title": "Doing videocalls with Skype",
+      "intro1": "INSTALLATION AND SIGNING UP",
+      "intro2": "USING",
+      "btn1": "What is Skype?",
+      "btn2": "Do I have Skype installed?",
+      "btn3": "What do I need to use Skype?",
+      "btn4": "Downloading Skype",
+      "btn5": "Check your Operating System",
+      "btn6": "Installation begins",
+      "btn7": "Create a Skype account",
+      "btn8": "Mail check",
+      "btn9": "I'm not a robot!",
+      "btn10": "Latest configurations",
+      "btn11": "Complete installation!",
+      "btn12": "We'll see how it works!"
     }
   }
 }

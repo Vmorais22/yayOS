@@ -6,7 +6,13 @@ import right from "../assets/images/right.png"
 import {useTranslation} from "react-i18next";
 
 
-export function LessonStructure({numOfButtons, contenido, lesson, prueba}) {
+function checkOS(platform) {
+    if (platform === "Win16" || platform ==="Win32" || platform ==="WinCE") return "Windows";
+    else if (platform === "Linux i686" || platform ==="Linux armv7l") return "Linux";
+    else return "Mac";
+}
+
+export function LessonStructure({numOfButtons, contenido, lesson, prueba, nprueba}) {
 
     const [t, i18n] = useTranslation("global")
     const [index, setIndex] = useState(0)
@@ -17,18 +23,18 @@ export function LessonStructure({numOfButtons, contenido, lesson, prueba}) {
     const imgCAT = <img src={contenido[index].imgcat} alt="img"/>
     const imgENG = <img src={contenido[index].imgen} alt="img"/>
     const imgTEC = <div id="juego-teclado"><JuegoTeclado/></div>
+    //const OS = checkOS(window.navigator.platform)
 
     return (
         <div className="lessonStructure">
-            {(index === 11 && prueba) ? (imgTEC) : ((actualLanguage === "es") ? (imgESP) : (actualLanguage === "en") ? (imgENG) : (imgCAT))}
+            {(index === 11 && lesson === 1) ? (imgTEC) : ((actualLanguage === "es") ? (imgESP) : (actualLanguage === "en") ? (imgENG) : (imgCAT))}
             <aside id="sidebar">
                 {contenido.map((c, i) => (
                     <div className="sidebar-item">
-                        {(i === 11 && lesson === 1) ?
-                            <Button className="lessonButton" size="large" variant="contained" color="secondary"
-                                    onClick={(event) => changeIndex(i)}>{t(c.textoBoton)}</Button> :
-                            <Button className="lessonButton" size="large" variant="contained" color="primary"
-                                    onClick={(event) => changeIndex(i)}>{t(c.textoBoton)}</Button>}
+                        {(prueba && i === nprueba - 1) ?
+                            <button className="tryButton" onClick={(event) => changeIndex(i)}>{t(c.textoBoton)}</button> :
+                            <button className="lessonButton" onClick={(event) => changeIndex(i)}>{t(c.textoBoton)}</button>
+                            }
                     </div>
                 ))}
 
