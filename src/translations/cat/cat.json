@@ -159,6 +159,19 @@
       "btn10": "Últimes configuracions",
       "btn11": "Instal·lació completa!",
       "btn12": "Veurem com funciona!"
+    },
+    "lesson62": {
+      "title": "Fent videotrucades amb Skype",
+      "btn1": "Afegint contactes",
+      "btn2": "Com trucar a algú?",
+      "btn3": "A la trucada",
+      "btn4": "Barra inferior",
+      "btn5": "Trucades grupals?",
+      "btn6": "Com trucar en grup?",
+      "btn7": "Problemes tècnics?",
+      "btn8": "Comprovant el video",
+      "btn9": "Comprovant el so",
+      "btn10": "Configura-ho al teu gust!"
     }
   }
 }

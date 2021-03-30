@@ -48,13 +48,16 @@ class Router extends Component {
                             />
 
                             <Route exact path="/leccion6" render={(props) => (
-                                //<LessonContent {...props} lesson={6}/>
                                 <SkypeLesson />
                             )}
                             />
 
                             <Route exact path="/leccion6/inst" render={(props) => (
                                 <LessonContent {...props} lesson={61}/>
+                            )}
+                            />
+                            <Route exact path="/leccion6/func" render={(props) => (
+                                <LessonContent {...props} lesson={62}/>
                             )}
                             />
 

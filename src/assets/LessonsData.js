@@ -111,6 +111,16 @@ import img619es from "./images/61.9es.png"
 import img6110es from "./images/61.10es.png"
 import img6111es from "./images/61.11es.png"
 import img6112es from "./images/61.12es.png"
+import img621es from "./images/62.1es.png"
+import img622es from "./images/62.2es.png"
+import img623es from "./images/62.3es.png"
+import img624es from "./images/62.4es.png"
+import img625es from "./images/62.5es.png"
+import img626es from "./images/62.6es.png"
+import img627es from "./images/62.7es.png"
+import img628es from "./images/62.8es.png"
+import img629es from "./images/62.9es.png"
+import img6210es from "./images/62.10es.png"
 
 
 export const lessonsData = [
@@ -601,6 +611,76 @@ export const lessonsData = [
                 imges: img6112es,
                 imgcat: img6112es,
                 imgen: img6112es,
+            },
+        ],
+
+    },
+    {
+        id: 62,
+        title: 'lessonContent.lesson62.title',
+        numeroBotones: 10,
+        prueba: false,
+        nprueba: null,
+        contenido: [
+            {
+                textoBoton: 'lessonContent.lesson62.btn1',
+                imges: img621es,
+                imgcat: img621es,
+                imgen: img621es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson62.btn2',
+                imges: img622es,
+                imgcat: img622es,
+                imgen: img622es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson62.btn3',
+                imges: img623es,
+                imgcat: img623es,
+                imgen: img623es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson62.btn4',
+                imges: img624es,
+                imgcat: img624es,
+                imgen: img624es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson62.btn5',
+                imges: img625es,
+                imgcat: img625es,
+                imgen: img625es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson62.btn6',
+                imges: img626es,
+                imgcat: img626es,
+                imgen: img626es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson62.btn7',
+                imges: img627es,
+                imgcat: img627es,
+                imgen: img627es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson62.btn8',
+                imges: img628es,
+                imgcat: img628es,
+                imgen: img628es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson62.btn9',
+                imges: img629es,
+                imgcat: img629es,
+                imgen: img629es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson62.btn10',
+                imges: img6210es,
+                imgcat: img6210es,
+                imgen: img6210es,
             },
         ],
 

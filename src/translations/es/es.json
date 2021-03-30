@@ -158,6 +158,19 @@
       "btn10": "Últimas configuraciones",
       "btn11": "¡Instalación completa!",
       "btn12": "¡Vamos a ver cómo funciona!"
+    },
+    "lesson62": {
+      "title": "Haciendo videollamadas con Skype",
+      "btn1": "Agregando contactos",
+      "btn2": "¿Cómo llamar a alguien?",
+      "btn3": "En la llamada",
+      "btn4": "Barra inferior",
+      "btn5": "¿Llamadas grupales?",
+      "btn6": "¿Cómo llamar en grupo?",
+      "btn7": "¿Problemas técnicos?",
+      "btn8": "Comprobando el video",
+      "btn9": "Comprobando el sonido",
+      "btn10": "¡Configúralo a tu gusto!"
     }
   }
 }

@@ -158,6 +158,19 @@
       "btn10": "Latest configurations",
       "btn11": "Complete installation!",
       "btn12": "We'll see how it works!"
+    },
+    "lesson62": {
+      "title": "Making video calls with Skype",
+      "btn1": "Adding contacts",
+      "btn2": "How to call someone?",
+      "btn3": "In the call",
+      "btn4": "Bottom bar",
+      "btn5": "Group calls?",
+      "btn6": "How to call in group?",
+      "btn7": "Technical problems?",
+      "btn8": "Checking the video",
+      "btn9": "Checking the sound",
+      "btn10": "Configure it as you want!"
     }
   }
 }
