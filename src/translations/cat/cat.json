@@ -172,6 +172,24 @@
       "btn8": "Comprovant el video",
       "btn9": "Comprovant el so",
       "btn10": "Configura-ho al teu gust!"
+    },
+    "lesson7": {
+      "title": "Usant Google Maps",
+      "btn1": "Un mapa infinit",
+      "btn2": "Primer cop d'ull...",
+      "btn3": "Informació COVID-19",
+      "btn4": "Com moure's",
+      "btn5": "Acostar i allunyar",
+      "btn6": "Mapa o Satèl·lit?",
+      "btn7": "Cerca un lloc en concret",
+      "btn8": "Informació afegida",
+      "btn9": "Com arribar?",
+      "btn10": "Mostra'm al camí!",
+      "btn11": "Trajectòries detallades",
+      "btn12": "Com em desplaço?",
+      "btn13": "Manera primera persona!",
+      "btn14": "Com activar-ho",
+      "btn15": "Com usar-ho"
     }
   }
 }

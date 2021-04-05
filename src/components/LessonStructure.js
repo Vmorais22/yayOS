@@ -1,6 +1,7 @@
 import React, {useCallback, useState} from "react";
 import Button from "@material-ui/core/Button";
 import JuegoTeclado from "./JuegoTeclado";
+import JuegoMapa from "./Maps"
 import left from "../assets/images/left.png"
 import right from "../assets/images/right.png"
 import {useTranslation} from "react-i18next";

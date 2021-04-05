@@ -121,6 +121,21 @@ import img627es from "./images/62.7es.png"
 import img628es from "./images/62.8es.png"
 import img629es from "./images/62.9es.png"
 import img6210es from "./images/62.10es.png"
+import img71es from "./images/7.1es.png"
+import img72es from "./images/7.2es.png"
+import img73es from "./images/7.3es.png"
+import img74es from "./images/7.4es.png"
+import img75es from "./images/7.5es.png"
+import img76es from "./images/7.6es.png"
+import img77es from "./images/7.7es.png"
+import img78es from "./images/7.8es.png"
+import img79es from "./images/7.9es.png"
+import img710es from "./images/7.10es.png"
+import img711es from "./images/7.11es.png"
+import img712es from "./images/7.12es.png"
+import img713es from "./images/7.13es.png"
+import img714es from "./images/7.14es.png"
+import img715es from "./images/7.15es.png"
 
 
 export const lessonsData = [
@@ -681,6 +696,106 @@ export const lessonsData = [
                 imges: img6210es,
                 imgcat: img6210es,
                 imgen: img6210es,
+            },
+        ],
+
+    },
+    {
+        id: 7,
+        title: 'lessonContent.lesson7.title',
+        numeroBotones: 15,
+        prueba: false,
+        nprueba: null,
+        contenido: [
+            {
+                textoBoton: 'lessonContent.lesson7.btn1',
+                imges: img71es,
+                imgcat: img71es,
+                imgen: img71es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn2',
+                imges: img72es,
+                imgcat: img72es,
+                imgen: img72es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn3',
+                imges: img73es,
+                imgcat: img73es,
+                imgen: img73es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn4',
+                imges: img74es,
+                imgcat: img74es,
+                imgen: img74es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn5',
+                imges: img75es,
+                imgcat: img75es,
+                imgen: img75es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn6',
+                imges: img76es,
+                imgcat: img76es,
+                imgen: img76es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn7',
+                imges: img77es,
+                imgcat: img77es,
+                imgen: img77es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn8',
+                imges: img78es,
+                imgcat: img78es,
+                imgen: img78es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn9',
+                imges: img79es,
+                imgcat: img79es,
+                imgen: img79es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn10',
+                imges: img710es,
+                imgcat: img710es,
+                imgen: img710es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn11',
+                imges: img711es,
+                imgcat: img711es,
+                imgen: img711es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn12',
+                imges: img712es,
+                imgcat: img712es,
+                imgen: img712es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn13',
+                imges: img713es,
+                imgcat: img713es,
+                imgen: img713es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn14',
+                imges: img714es,
+                imgcat: img714es,
+                imgen: img714es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson7.btn15',
+                imges: img715es,
+                imgcat: img715es,
+                imgen: img715es,
             },
         ],
 

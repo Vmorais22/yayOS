@@ -171,6 +171,24 @@
       "btn8": "Checking the video",
       "btn9": "Checking the sound",
       "btn10": "Configure it as you want!"
+    },
+    "lesson7": {
+      "title": "Using Google Maps",
+      "btn1": "An Infinite Map",
+      "btn2": "A first look...",
+      "btn3": "COVID-19 Information",
+      "btn4": "How to move",
+      "btn5": "Zoom in and out",
+      "btn6": "Map or Satellite?",
+      "btn7": "Search for a specific place",
+      "btn8": "Information added",
+      "btn9": "How to get there?",
+      "btn10": "Show me the way!",
+      "btn11": "Detailed trajectories",
+      "btn12": "How do I get around?",
+      "btn13": "Street View mode!",
+      "btn14": "How to activate",
+      "btn15": "How to use it"
     }
   }
 }
