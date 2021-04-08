@@ -7,11 +7,16 @@ let opinion = React.createRef();
 let h = React.createRef();
 let m = React.createRef();
 let o = React.createRef();
-
+let user = null;
 
 const sumbitForm = (e) => {
     e.preventDefault();
-    alert(name.current.value + ", tu opinión: \"" + opinion.current.value + "\" ha sido almacenada. ¡Gracias por tu ayuda!" );
+    alert(name.current.value + ", tu opinión: \"" + opinion.current.value + "\" ha sido almacenada. ¡Gracias por tu ayuda! \nPulsa el botón azul que dice Aceptar para continuar" );
+    user = {
+        nombre: name.current.value,
+        opinion: opinion.current.value,
+        genero: (h.current.checked) ? "hombre" : ((m.current.checked) ? "mujer" : "otro")
+    }
 }
 
 const Formulario = () => {
