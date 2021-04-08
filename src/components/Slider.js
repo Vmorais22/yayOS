@@ -28,7 +28,7 @@ const Slider = () => {
                             </NavLink>
                         </Grid>
                         <Grid item>
-                            <NavLink to="/g" style={{textDecoration: 'none'}}>
+                            <NavLink to="/form" style={{textDecoration: 'none'}}>
                                 <Button variant="outlined"
                                         color="primary">
                                     {t("slider.btn2")}

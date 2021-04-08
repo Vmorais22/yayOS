@@ -11,8 +11,22 @@
     "btn1": "¡Quiero saber más!",
     "btn2": "¡Me gustaría dar mi opinón!"
   },
+  "form": {
+    "title": "¡Dile a yayOS tu opinión para que pueda mejorar!",
+    "name-label": "Nombre",
+    "name-placeholder": "Haz clic izquierdo con el ratón y escribe tu nombre...",
+    "opinion-label": "Opinión",
+    "opinion-placeholder": "Haz clic izquierdo con el ratón y escribe tu opinión...",
+    "rb1": "Hombre",
+    "rb2": "Mujer",
+    "rb3": "Otro",
+    "submit": "Enviar opinión"
+  },
   "lesson": {
     "btn": "Aprender"
+  },
+  "valoracion": {
+    "btn": "Valoración"
   },
   "juegoteclado": {
     "title": "¡Practica ahora! Escribe y comprueba",

@@ -12,6 +12,7 @@ export const lessonsInfo  = [
     {
         id: 1,
         banner: 'MPlessons.1.banner',
+        dif: 0,
         title: 'MPlessons.1.title',
         description: 'MPlessons.1.description',
         image: photo1,
@@ -19,6 +20,7 @@ export const lessonsInfo  = [
     {
         id: 2,
         banner: 'MPlessons.2.banner',
+        dif: 0,
         title: 'MPlessons.2.title',
         description: 'MPlessons.2.description',
         image: photo2,
@@ -26,6 +28,7 @@ export const lessonsInfo  = [
     {
         id: 3,
         banner: 'MPlessons.3.banner',
+        dif: 1,
         title: 'MPlessons.3.title',
         description: 'MPlessons.3.description',
         image: photo3,
@@ -33,6 +36,7 @@ export const lessonsInfo  = [
     {
         id: 4,
         banner: 'MPlessons.4.banner',
+        dif: 2,
         title: 'MPlessons.4.title',
         description: 'MPlessons.4.description',
         image: photo4,
@@ -40,6 +44,7 @@ export const lessonsInfo  = [
     {
         id: 5,
         banner: 'MPlessons.5.banner',
+        dif: 1,
         title: 'MPlessons.5.title',
         description: 'MPlessons.5.description',
         image: photo5,
@@ -47,6 +52,7 @@ export const lessonsInfo  = [
     {
         id: 6,
         banner: 'MPlessons.6.banner',
+        dif: 2,
         title: 'MPlessons.6.title',
         description: 'MPlessons.6.description',
         image: photo6,
@@ -54,6 +60,7 @@ export const lessonsInfo  = [
     {
         id: 7,
         banner: 'MPlessons.7.banner',
+        dif: 1,
         title: 'MPlessons.7.title',
         description: 'MPlessons.7.description',
         image: photo7,
@@ -61,6 +68,7 @@ export const lessonsInfo  = [
     {
         id: 8,
         banner: 'MPlessons.8.banner',
+        dif: 3,
         title: 'MPlessons.8.title',
         description: 'MPlessons.8.description',
         image: photo8,
@@ -68,6 +76,7 @@ export const lessonsInfo  = [
     {
         id: 9,
         banner: 'MPlessons.9.banner',
+        dif: 3,
         title: 'MPlessons.9.title',
         description: 'MPlessons.9.description',
         image: photo9,

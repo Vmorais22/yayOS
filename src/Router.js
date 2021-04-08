@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import {LessonContent} from "./components/LessonContent";
 import ScrollToTop from "./components/ScrollToTop";
 import SkypeLesson from "./components/SkypeLesson";
+import Formulario from "./components/Formulario";
 
 
 class Router extends Component {
@@ -75,6 +76,10 @@ class Router extends Component {
                                 <LessonContent {...props} lesson={9}/>
                             )}
                             />
+                            <Route exact path="/form" component={Formulario}/>
+                            )}
+                            />
+
                             <Route component={Error}/>
                             {/*<Route path="/segundo" component={Slider} />*/}
                         </Switch>

@@ -11,8 +11,22 @@
     "btn1": "Vull saber més!",
     "btn2": "M'agradaria donar la meva opinió!"
   },
+  "form": {
+    "title": "Digues-li a yayOS la teva opinió perquè pugui millorar!",
+    "name-label": "Nom",
+    "name-placeholder": "Fes clic esquerre amb el ratolí i escriu el teu nom...",
+    "opinion-label": "Opinió",
+    "opinion-placeholder": "Fes clic esquerre amb el ratolí i escriu la teva opinió...",
+    "rb1": "Home",
+    "rb2": "Dona",
+    "rb3": "Altre",
+    "submit": "Enviar opinió"
+  },
   "lesson": {
     "btn": "Aprendre"
+  },
+  "valoracion": {
+    "btn": "Valoració"
   },
   "juegoteclado": {
     "title": "Practica ara! Escriu y comprova",

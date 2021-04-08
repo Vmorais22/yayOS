@@ -8,6 +8,7 @@ import Card from "@material-ui/core/Card";
 import {NavLink} from "react-router-dom";
 import {useTranslation} from 'react-i18next';
 
+
 function checkBannerColor(n) {
     if (n < 3) return "prove";
     else if (n > 7) return "error"
@@ -40,6 +41,11 @@ export function Lesson({n, lesson}) {
                 <NavLink to={'/leccion' + n} style={{textDecoration: 'none'}}>
                     <Button size="large" color="secondary">
                         {t('lesson.btn')}
+                    </Button>
+                </NavLink>
+                <NavLink to={'/valoracion' + n} style={{textDecoration: 'none'}}>
+                    <Button size="large" color="primary">
+                        {t('valoracion.btn')}
                     </Button>
                 </NavLink>
             </CardActions>
