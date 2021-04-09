@@ -8,6 +8,7 @@ import {LessonContent} from "./components/LessonContent";
 import ScrollToTop from "./components/ScrollToTop";
 import SkypeLesson from "./components/SkypeLesson";
 import Formulario from "./components/Formulario";
+import ListOfComments from "./components/ListOfComments";
 
 
 class Router extends Component {
@@ -27,7 +28,7 @@ class Router extends Component {
                                 <LessonContent {...props} lesson={1}/>
                             )}
                             />
-
+                            <Route exact path="/valoracion1" component={ListOfComments}/>
                             <Route exact path="/leccion2" render={(props) => (
                                 <LessonContent {...props} lesson={2}/>
                             )}
