@@ -1,6 +1,9 @@
 import react, {Component} from "react";
 import axios from 'axios';
+import Moment from 'react-moment';
+import 'moment/locale/es';
 import Global from "../Global";
+
 class Comentarios extends Component {
     url = Global.url;
     state = {
@@ -28,7 +31,7 @@ class Comentarios extends Component {
                     <div id="comentarios">
                         <h1>{c.name}</h1>
                         <h3>{c.content}</h3>
-                        <span className="date"> {"Escrito el "+c.date}</span>
+                        <span className="date"> <Moment locale="es" fromNow>{c.date}</Moment></span>
 
                     </div>
                 );

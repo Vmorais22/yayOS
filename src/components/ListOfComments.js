@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {LessonSlider} from "./LessonSlider";
+import {RatingSlider} from "./RatingSlider";
 import Comentarios from "./Comentarios";
 
 class ListOfComments extends Component {
@@ -9,7 +9,7 @@ class ListOfComments extends Component {
 
         return (
             <React.Fragment>
-                <LessonSlider title="Estrellitas"/>
+                <RatingSlider />
                 <div className="center">
                     <div id="content">
                         <Comentarios />
