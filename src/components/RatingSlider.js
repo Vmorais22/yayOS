@@ -23,7 +23,10 @@ export const RatingSlider = ({showAllCallback}) => {
                 </div>
 
                 <Typography component="h2" align="center" color="textPrimary" gutterBottom>
-                    {t("Permíteme que te muestre los últimos comentarios registrados")}
+                    {t("ratings.line1")}
+                </Typography>
+                <Typography component="h2" align="center" color="textPrimary" gutterBottom>
+                    {t("ratings.line2")}
                 </Typography>
                 <div className="sliderButtons">
                     <Grid container spacing={2} justify="center">
@@ -31,7 +34,7 @@ export const RatingSlider = ({showAllCallback}) => {
                             <NavLink to="/g" style={{textDecoration: 'none'}}>
                                 <Button variant="contained"
                                         color="primary">
-                                    {t("Añadir comentario")}
+                                    {t("ratings.btn1")}
                                 </Button>
                             </NavLink>
                         </Grid>
@@ -39,7 +42,7 @@ export const RatingSlider = ({showAllCallback}) => {
                             <Button variant="outlined"
                                     color="primary"
                                     onClick={() => showAllCallback(true)}>
-                                {t("Ver todos los comentarios")}
+                                {t("ratings.btn2")}
                             </Button>
                         </Grid>
                     </Grid>

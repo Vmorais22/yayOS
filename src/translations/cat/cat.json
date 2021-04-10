@@ -205,5 +205,11 @@
       "btn14": "Com activar-ho",
       "btn15": "Com usar-ho"
     }
+  },
+  "ratings": {
+    "line1": "Permet-me que et mostri els últims comentaris registrats",
+    "line2": "Fes clic a VEURE TOTS ELS COMENTARIS per a veure la resta",
+    "btn1": "Afegir comentari",
+    "btn2": "Veure tots els comentaris"
   }
 }

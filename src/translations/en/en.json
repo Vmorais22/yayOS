@@ -204,5 +204,11 @@
       "btn14": "How to activate",
       "btn15": "How to use it"
     }
+  },
+  "ratings": {
+    "line1": "Let me show you the latest comments posted",
+    "line2": "Click SEE ALL COMMENTS to see the rest",
+    "btn1": "Add comment",
+    "btn2": "See all comments"
   }
 }

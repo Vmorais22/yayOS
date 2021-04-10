@@ -204,5 +204,11 @@
       "btn14": "Cómo activarlo",
       "btn15": "Cómo usarlo"
     }
+  },
+  "ratings": {
+    "line1": "Permíteme que te muestre los últimos comentarios registrados",
+    "line2": "Haz clic en VER TODOS LOS COMENTARIOS para ver el resto",
+    "btn1": "Añadir comentario",
+    "btn2": "Ver todos los comentarios"
   }
 }
