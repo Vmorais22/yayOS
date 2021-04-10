@@ -65,7 +65,7 @@ const controller = {
         var last = req.params.last;
 
         if (last || last !== undefined) {
-            query.limit(20);
+            query.limit(1);
         }
         query.sort('id').exec((err, comments) => {
             if (err) {

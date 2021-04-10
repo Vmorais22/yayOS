@@ -7,7 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import StarRatings from 'react-star-ratings';
 
 
-export function RatingSlider() {
+export const RatingSlider = ({showAllCallback}) => {
     const [t] = useTranslation("global")
 
     return (
@@ -36,12 +36,11 @@ export function RatingSlider() {
                             </NavLink>
                         </Grid>
                         <Grid item>
-                            <NavLink to="/form" style={{textDecoration: 'none'}}>
-                                <Button variant="outlined"
-                                        color="primary">
-                                    {t("Ver todos los comentarios")}
-                                </Button>
-                            </NavLink>
+                            <Button variant="outlined"
+                                    color="primary"
+                                    onClick={() => showAllCallback(true)}>
+                                {t("Ver todos los comentarios")}
+                            </Button>
                         </Grid>
                     </Grid>
                 </div>
