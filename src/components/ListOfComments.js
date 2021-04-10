@@ -1,11 +1,10 @@
-import React, {Component} from 'react';
+import React, {useCallback, useState} from 'react';
 import {RatingSlider} from "./RatingSlider";
 import Comentarios from "./Comentarios";
 
-class ListOfComments extends Component {
+const ListOfComments = () => {
 
-
-    render() {
+    const [showAll, setShowAll] = useState(false)
 
     return (
         <React.Fragment>
