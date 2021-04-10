@@ -11,7 +11,8 @@ const CommentSchema = Schema({
     date: {
         type: Date,
         default: Date.now
-    }
+    },
+    rate: Number
 });
 
 module.exports = mongoose.model('Comment', CommentSchema);

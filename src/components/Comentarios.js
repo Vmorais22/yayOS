@@ -1,8 +1,9 @@
-import {Component} from "react";
+import React, {Component} from "react";
 import axios from 'axios';
 import Moment from 'react-moment';
 import 'moment/locale/es';
 import Global from "../Global";
+import StarRatings from "react-star-ratings";
 
 class Comentarios extends Component {
     url = Global.url;
@@ -23,7 +24,7 @@ class Comentarios extends Component {
 
     getComments = (all) => {
         if (all) {
-            console.log("if"+this.props.ncomments)
+            console.log("if" + this.props.ncomments)
             axios.get(this.url + "/comments").then(res => {
                 this.setState({
                     comments: res.data.comments,
@@ -31,7 +32,7 @@ class Comentarios extends Component {
                 });
             });
         } else {
-            console.log("else"+this.props.ncomments)
+            console.log("else" + this.props.ncomments)
             axios.get(this.url + "/comments/last").then(res => {
                 this.setState({
                     comments: res.data.comments,
@@ -40,6 +41,7 @@ class Comentarios extends Component {
             });
         }
     }
+
     render() {
 
         if (this.state.comments.length >= 1) {
@@ -48,6 +50,15 @@ class Comentarios extends Component {
                 return (
                     <div id="comentarios">
                         <h1>{c.name}</h1>
+                        <div className="commentStar">
+                            <StarRatings
+                                rating={c.rate}
+                                starRatedColor="#FCCF00"
+                                numberOfStars={5}
+                                starDimension="30px"
+                            />
+                        </div>
+                        <div className="clearfix" />
                         <h3>{c.content}</h3>
                         <span className="date"> <Moment locale="es" fromNow>{c.date}</Moment></span>
                     </div>

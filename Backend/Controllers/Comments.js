@@ -21,19 +21,21 @@ const controller = {
         try {
             var validate_name = !validator.isEmpty(params.name);
             var validate_content = !validator.isEmpty(params.content);
+            var validate_rate = !validator.isEmpty(params.rate);
         } catch (err) {
             return res.status(200).send({
                 status: 'error',
                 message: 'Faltan datos'
             });
         }
-        if (validate_name && validate_content) {
+        if (validate_name && validate_content && validate_rate) {
             //Crear el objeto a guardar
             var comment = new Comment();
 
             //Asignar valores
             comment.name = params.name;
             comment.content = params.content;
+            comment.rate = params.rate;
 
             //Guardar el articulo
             comment.save((err, commentStored) => {
@@ -130,6 +132,7 @@ const controller = {
         try {
             var validate_name = !validator.isEmpty(params.name);
             var validate_content = !validator.isEmpty(params.content);
+            var validate_rate = !validator.isEmpty(params.rate);
 
         } catch (err) {
             return res.status(500).send({
@@ -137,7 +140,7 @@ const controller = {
                 message: 'Faltan datos por enviar'
             });
         }
-        if (validate_name && validate_content) {
+        if (validate_name && validate_content && validate_rate) {
             //Find an update
             Comment.findOneAndUpdate({_id: commentId}, params, {new: true}, (err, commentUpdated) => {
                 if (err || !commentUpdated) {
