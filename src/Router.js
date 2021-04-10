@@ -31,9 +31,6 @@ class Router extends Component {
                             <Route exact path="/valoracion1" render={(props) => (
                                 <ListOfComments {...props} all={false}/> )}
                             />
-                            <Route exact path="/valoracion1All" render={(props) => (
-                                <ListOfComments {...props} all={true}/> )}
-                            />
 
                             <Route exact path="/leccion2" render={(props) => (
                                 <LessonContent {...props} lesson={2}/>

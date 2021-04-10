@@ -12,14 +12,7 @@ class Comentarios extends Component {
     }
 
     componentWillMount() {
-        console.log("enter");
         this.getComments(this.props.ncomments);
-    }
-
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        if (prevProps && prevProps.ncomments !== this.props.ncomments)
-            this.getComments(this.props.ncomments);
-
     }
 
     getComments = (all) => {
@@ -42,8 +35,6 @@ class Comentarios extends Component {
         }
     }
     render() {
-
-        //this.getComments();
 
         if (this.state.comments.length >= 1) {
 
