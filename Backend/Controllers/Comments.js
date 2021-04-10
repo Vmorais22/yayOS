@@ -21,14 +21,13 @@ const controller = {
         try {
             var validate_name = !validator.isEmpty(params.name);
             var validate_content = !validator.isEmpty(params.content);
-            var validate_rate = !validator.isEmpty(params.rate);
         } catch (err) {
-            return res.status(200).send({
+            return res.status(500).send({
                 status: 'error',
                 message: 'Faltan datos'
             });
         }
-        if (validate_name && validate_content && validate_rate) {
+        if (validate_name && validate_content) {
             //Crear el objeto a guardar
             var comment = new Comment();
 
