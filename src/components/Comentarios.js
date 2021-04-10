@@ -15,6 +15,12 @@ class Comentarios extends Component {
         this.getComments(this.props.ncomments);
     }
 
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if (prevProps && prevProps.ncomments !== this.props.ncomments)
+            this.getComments(this.props.ncomments);
+
+    }
+
     getComments = (all) => {
         if (all) {
             console.log("if"+this.props.ncomments)
