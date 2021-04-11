@@ -5,6 +5,8 @@ import Global from "../Global";
 import ReactStars from "react-rating-stars-component";
 import {useTranslation} from "react-i18next";
 import {LessonSlider} from "./LessonSlider";
+import SimpleReactValidator from "simple-react-validator";
+import sweetalert from "sweetalert";
 
 //Validación formularios y alertas
 var rateValue = 0;
@@ -19,6 +21,15 @@ class CreateComment extends Component {
         status: null
     };
 
+    componentWillMount() {
+        this.validator = new SimpleReactValidator({
+            messages: {
+                required: 'Este campo es obligatorio.',
+                default:'Alguno de los carácteres que has escrito no están permitidos.'
+            }
+        });
+    }
+
     changeState = () => {
         this.setState({
             comment: {
@@ -27,6 +38,8 @@ class CreateComment extends Component {
                 rate: rateValue
             }
         })
+        this.validator.showMessages();
+        this.forceUpdate();
     }
 
     ratingChanged = (newRating) => {
@@ -37,22 +50,36 @@ class CreateComment extends Component {
     sendComment = (e) => {
         e.preventDefault();
         this.changeState();
-        axios.post(Global.url + '/save', this.state.comment)
+        if(this.validator.allValid()){axios.post(Global.url + '/save', this.state.comment)
             .then(res => {
-                console.log(res.status);
                 if(res.status === 200) {this.setState({
                     comment: res.data.comment,
                     status: 'success'
-                });}
+                });
+                    sweetalert({
+                        title: "¡Felicidades!",
+                        text: "Tu comentario ha sido añadido. ¡Gracias por tu ayuda!",
+                        icon: "success",
+                    });
+                }
                 else {
                     this.setState({
                         comment: res.data.comment,
                         status: 'failed'
                     });
-                    alert("Se ha producido un error. Asegurate de haber rellenado todos los campos")
+
                 }
 
+            });}
+        else{
+            this.setState({
+                status: 'failed'
             });
+            this.validator.showMessages();
+            this.forceUpdate();
+
+        }
+
     }
 
     render() {
@@ -70,6 +97,7 @@ class CreateComment extends Component {
                                placeholder="Escribe tu nombre o uno inventado..."
                                ref={this.nameRef}
                                onChange={this.changeState}/>
+                        {this.validator.message('nombre', this.state.comment.name, 'required|alpha_space')}
                     </div>
                     <div className="form-group">
                         <label htmlFor="opinion"> Opinión</label>
@@ -77,6 +105,7 @@ class CreateComment extends Component {
                                   placeholder={"Escribe tu opinión sobre la lección: ¿Está bien redactada? ¿Hay algo que no quede claro? ¿Crees que falta información?"}
                                   ref={this.opinionRef}
                                   onChange={this.changeState}/>
+                        {this.validator.message('opinion', this.state.comment.content, 'required|alpha_num_space')}
                     </div>
                     <div className="form-group">
                         <label htmlFor="rate"> "Haz clic izquierdo en las estrellas y califica la lección"</label> <br/><br/><br/>
