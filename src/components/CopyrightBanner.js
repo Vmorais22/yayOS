@@ -3,7 +3,7 @@ import React from "react";
 
 function CopyrightBanner() {
     return (
-        <Typography variant="body2" color="black" align="center">
+        <Typography variant="body2" color="inherit" align="center">
             {'Copyright © yayOS '+new Date().getFullYear()+'.'}
         </Typography>
     );

@@ -55,16 +55,3 @@ export function LessonStructure({numOfButtons, contenido, lesson, prueba, nprueb
 
     )
 }
-/*
-<div id="info">Some important information!</div>
-
- <script>
- // Selecting element
- var elem = document.getElementById("info");
-
- elem.className = "note";  // Add or replace all classes with note class
- elem.className += " highlight";  // Add a new class highlight
- elem.className += " bordered padded";  // Add two new classes bordered and padded
- elem.className = ""; // Remove all classes
- </script>
- */

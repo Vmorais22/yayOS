@@ -39,6 +39,7 @@ class CreateComment extends Component {
         this.changeState();
         axios.post(Global.url + '/save', this.state.comment)
             .then(res => {
+                console.log(res.status);
                 if(res.status === 200) {this.setState({
                     comment: res.data.comment,
                     status: 'success'

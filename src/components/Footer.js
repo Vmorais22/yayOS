@@ -11,7 +11,7 @@ const Footer = () => {
             <Typography variant="h4" align="center" gutterBottom>
                 yayOS
             </Typography>
-            <Typography variant="subtitle1" align="center" color="black" component="p">
+            <Typography variant="subtitle1" align="center" color="inherit" component="p">
                 {t("footer.banner")}
             </Typography>
             <CopyrightBanner />

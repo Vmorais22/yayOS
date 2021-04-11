@@ -12,7 +12,7 @@ class Comentarios extends Component {
         status: null
     }
 
-    componentWillMount() {
+    UNSAFE_componentWillMount() {
         this.getComments(this.props.ncomments);
     }
 
@@ -24,7 +24,6 @@ class Comentarios extends Component {
 
     getComments = (all) => {
         if (all) {
-            console.log("if" + this.props.ncomments)
             axios.get(this.url + "/comments").then(res => {
                 this.setState({
                     comments: res.data.comments,
@@ -32,7 +31,6 @@ class Comentarios extends Component {
                 });
             });
         } else {
-            console.log("else" + this.props.ncomments)
             axios.get(this.url + "/comments/last").then(res => {
                 this.setState({
                     comments: res.data.comments,
@@ -48,7 +46,7 @@ class Comentarios extends Component {
 
             var listComments = this.state.comments.map((c) => {
                 return (
-                    <div id="comentarios">
+                    <div key={c._id} id="comentarios">
                         <h1>{c.name}</h1>
                         <div className="commentStar">
                             <StarRatings
