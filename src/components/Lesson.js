@@ -10,7 +10,7 @@ import {useTranslation} from 'react-i18next';
 
 
 function checkBannerColor(n) {
-    if (n < 3) return "prove";
+    if (n < 3) return "background";
     else if (n > 7) return "error"
     else if (n === 3 || n === 5 || n === 7) return "secondary";
     else return "primary";

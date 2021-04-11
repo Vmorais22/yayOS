@@ -5,13 +5,14 @@ import Comentarios from "./Comentarios";
 const ListOfComments = () => {
 
     const [showAll, setShowAll] = useState(false)
+    const [showRate, setRate] = useState(false)
 
     return (
         <React.Fragment>
-            <RatingSlider showAllCallback={(response) => setShowAll(response)}/>
+            <RatingSlider showAllCallback={(response) => setShowAll(response)} rate={showRate}/>
             <div className="center">
                 <div id="content">
-                    <Comentarios ncomments={showAll}/>
+                    <Comentarios showAllCallback={(response) => setRate(response)} ncomments={showAll}/>
                 </div>
             </div>
         </React.Fragment>

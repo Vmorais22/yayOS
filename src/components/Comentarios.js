@@ -5,10 +5,13 @@ import 'moment/locale/es';
 import Global from "../Global";
 import StarRatings from "react-star-ratings";
 
+var averageRate = [];
+
 class Comentarios extends Component {
     url = Global.url;
     state = {
         comments: [],
+        rate: 0,
         status: null
     }
 
@@ -45,6 +48,9 @@ class Comentarios extends Component {
         if (this.state.comments.length >= 1) {
 
             var listComments = this.state.comments.map((c) => {
+                {
+                    averageRate.push(c.rate)
+                }
                 return (
                     <div key={c._id} id="comentarios">
                         <h1>{c.name}</h1>
@@ -56,12 +62,13 @@ class Comentarios extends Component {
                                 starDimension="30px"
                             />
                         </div>
-                        <div className="clearfix" />
+                        <div className="clearfix"/>
                         <h3>{c.content}</h3>
                         <span className="date"> <Moment locale="es" fromNow>{c.date}</Moment></span>
                     </div>
                 );
             });
+            console.log("exacto: " + averageRate.reduce((a, b) => a + b, 0) / averageRate.length);
 
             return (
                 <div>

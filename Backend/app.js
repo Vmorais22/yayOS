@@ -10,6 +10,7 @@ const app = express();
 
 /*CARGADO DE RUTAS*/
 const comment_routes = require('./Routes/Comments');
+const suggest_routes = require('./Routes/Suggests');
 
 /*MIDDLEWARES*/
 app.use(bodyParser.urlencoded({extended:false}));
@@ -27,6 +28,7 @@ app.use((req, res, next) => {
 
 /*ADICIÓN DE PREFIJOS*/
 app.use('/', comment_routes);
+app.use('/form', suggest_routes)
 
 /*EXPORTACIÓN DEL MODULO*/
 module.exports = app;

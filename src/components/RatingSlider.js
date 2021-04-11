@@ -9,13 +9,12 @@ import StarRatings from 'react-star-ratings';
 
 export const RatingSlider = ({showAllCallback}) => {
     const [t] = useTranslation("global")
-
     return (
         <div id="slider">
             <div className="sliderContent">
                 <div className="rating">
                     <StarRatings
-                        rating={4}
+                        rating={3.1}
                         starRatedColor="#FCCF00"
                         numberOfStars={5}
                         starDimension="100px"
