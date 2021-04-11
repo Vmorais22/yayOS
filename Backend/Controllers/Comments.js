@@ -119,49 +119,6 @@ const controller = {
 
     },
 
-    update: (req, res) => {
-
-        //Recoger el id del articulo
-        var commentId = req.params.id;
-
-        //Recoger los datos del put
-        var params = req.body;
-
-        //Validar los datos
-        try {
-            var validate_name = !validator.isEmpty(params.name);
-            var validate_content = !validator.isEmpty(params.content);
-            var validate_rate = !validator.isEmpty(params.rate);
-
-        } catch (err) {
-            return res.status(500).send({
-                status: 'error',
-                message: 'Faltan datos por enviar'
-            });
-        }
-        if (validate_name && validate_content && validate_rate) {
-            //Find an update
-            Comment.findOneAndUpdate({_id: commentId}, params, {new: true}, (err, commentUpdated) => {
-                if (err || !commentUpdated) {
-                    return res.status(500).send({
-                        status: 'error',
-                        message: 'Actualización incorrecta'
-                    });
-                }
-                return res.status(200).send({
-                    status: 'sucess',
-                    comment: commentUpdated
-                });
-
-            });
-        } else {
-            return res.status(500).send({
-                status: 'error',
-                message: 'Validación incorrecta'
-            });
-        }
-    },
-
     delete: (req, res) => {
         //recoger el id del comentario
         var commentId = req.params.id;
@@ -181,54 +138,6 @@ const controller = {
             });
         });
 
-    },
-
-    upload: (req, res) => {
-
-        //Recoger el fichero de la petición
-
-        var file_name = 'Imagen no subida...';
-
-        if (!req.files) {
-            return res.status(404).send({
-                status: 'error',
-                message: file_name
-            });
-        }
-
-        //Conseguir el nombre y la extensión
-        var file_path = req.files.file0.path;
-        var file_split = file_path.split('\\');
-
-        /*LINUX O MAC*/
-        //var file_sprit = file_path.split('/');
-
-        //Comprobar la extensión y borrar el fichero si no es valido
-        var file_name = file_split[2];
-        var extension_split = file_name.split('\.');
-        var file_ext = extension_split[1];
-
-        //Si es valido, buscar comentario asignar imagen y update
-        if (file_ext !== 'png' && file_ext !== 'jpg' && file_ext !== 'jpeg' && file_ext !== 'gif') {
-            fs.unlink(file_path, (err) => {
-                return res.status(500).send({
-                    message: 'La extensión de la imagen no es válida'
-                });
-            });
-        } else {
-            Comment.findOneAndUpdate({_id: req.params.id}, {image: file_name}, {new: true}, (err, commentUpdated) => {
-                if (err || !commentUpdated) {
-                    return res.status(500).send({
-                        status: 'error',
-                        message: 'No se ha podido actualizar con la foto subida'
-                    });
-                }
-                return res.status(200).send({
-                    status: 'sucess',
-                    comment: commentUpdated
-                });
-            })
-        }
     },
 
     search: (req, res) => {

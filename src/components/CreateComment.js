@@ -105,7 +105,7 @@ class CreateComment extends Component {
                                   placeholder={"Escribe tu opinión sobre la lección: ¿Está bien redactada? ¿Hay algo que no quede claro? ¿Crees que falta información?"}
                                   ref={this.opinionRef}
                                   onChange={this.changeState}/>
-                        {this.validator.message('opinion', this.state.comment.content, 'required|alpha_num_space')}
+                        {this.validator.message('opinion', this.state.comment.content, 'required')}
                     </div>
                     <div className="form-group">
                         <label htmlFor="rate"> "Haz clic izquierdo en las estrellas y califica la lección"</label> <br/><br/><br/>
