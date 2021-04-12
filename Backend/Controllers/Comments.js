@@ -167,7 +167,31 @@ const controller = {
                 });
             })
 
-    }
+    },
+    getRates: (req, res) => {
+
+        var query = Comment.find({}, 'rate');
+
+        query.exec((err, rates) => {
+            if (err) {
+                return res.status(500).send({
+                    status: 'error',
+                    message: 'Error al mostrar las rates de los comentarios'
+                });
+            }
+            if (!rates) {
+                return res.status(404).send({
+                    status: 'error',
+                    message: 'No hay comentarios'
+                });
+            }
+            return res.status(200).send({
+                status: 'sucess',
+                rates
+            });
+        });
+
+    },
 
 };
 

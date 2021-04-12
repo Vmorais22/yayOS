@@ -1,20 +1,40 @@
-import React from "react";
+import React, {useState} from "react";
 import {useTranslation} from "react-i18next";
 import Grid from "@material-ui/core/Grid";
 import {NavLink} from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import StarRatings from 'react-star-ratings';
+import axios from "axios";
+import Global from "../Global";
 
 
 export const RatingSlider = ({showAllCallback}) => {
+    let averageRate = [];
     const [t] = useTranslation("global")
+    const [allRates, setAllRates] = useState(0);
+
+    function checkRating() {
+        axios.get(Global.url + "/rates").then(res => {
+            setAllRates(res.data.rates)
+        })
+        for (let i = 0; i < allRates.length; ++i) {
+            averageRate.push(allRates[i].rate)
+        }
+        if(averageRate.length > 1){
+            let sum = averageRate.reduce((a, b) => a + b, 0);
+            let avg = sum / averageRate.length;
+            return avg }
+
+            else {return 0}
+    }
     return (
+
         <div id="slider">
             <div className="sliderContent">
                 <div className="rating">
                     <StarRatings
-                        rating={3.1}
+                        rating={checkRating()}
                         starRatedColor="#FCCF00"
                         numberOfStars={5}
                         starDimension="100px"

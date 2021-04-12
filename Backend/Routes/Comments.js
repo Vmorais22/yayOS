@@ -14,5 +14,5 @@ router.get('/comments/:last?', CommentController.getComments);
 router.get('/comment/:id', CommentController.getOneComment);
 router.delete('/comment/:id', CommentController.delete);
 router.get('/search/:search', CommentController.search);
-
+router.get('/rates', CommentController.getRates);
 module.exports = router;
