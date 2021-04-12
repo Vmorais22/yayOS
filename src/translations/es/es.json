@@ -208,6 +208,8 @@
   "ratings": {
     "line1": "Permíteme que te muestre los últimos comentarios registrados",
     "line2": "Haz clic en VER TODOS LOS COMENTARIOS para ver el resto",
+    "line31": "¡Los usuarios han calificado esta lección con un ",
+    "line32": "% de utilidad!",
     "btn1": "Añadir comentario",
     "btn2": "Ver todos los comentarios"
   }

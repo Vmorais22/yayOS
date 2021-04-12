@@ -209,6 +209,8 @@
   "ratings": {
     "line1": "Permet-me que et mostri els últims comentaris registrats",
     "line2": "Fes clic a VEURE TOTS ELS COMENTARIS per a veure la resta",
+    "line31": "¡Els usuaris han qualificat aquesta lliço amb un ",
+    "line32": "% de utilitat!",
     "btn1": "Afegir comentari",
     "btn2": "Veure tots els comentaris"
   }

@@ -47,6 +47,9 @@ export const RatingSlider = ({showAllCallback}) => {
                 <Typography component="h2" align="center" color="textPrimary" gutterBottom>
                     {t("ratings.line2")}
                 </Typography>
+                <Typography component="h2" align="center" color="textPrimary" gutterBottom>
+                    {t("ratings.line31") + (Number.parseFloat(checkRating().toString()).toFixed(2))*100/5 + t("ratings.line32")}
+                </Typography>
                 <div className="sliderButtons">
                     <Grid container spacing={2} justify="center">
                         <Grid item>
