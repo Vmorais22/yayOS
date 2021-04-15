@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
 import Grid from "@material-ui/core/Grid";
 import {NavLink} from "react-router-dom";
@@ -10,31 +10,34 @@ import Global from "../Global";
 
 
 export const RatingSlider = ({showAllCallback}) => {
-    let averageRate = [];
     const [t] = useTranslation("global")
-    const [allRates, setAllRates] = useState(0);
+    const [allRates, setAllRates] = useState([]);
+    const [loading, setLoading] = useState(true);
 
-    function checkRating() {
+    useEffect(() => {
+        setLoading(true);
         axios.get(Global.url + "/rates").then(res => {
             setAllRates(res.data.rates)
-        })
-        for (let i = 0; i < allRates.length; ++i) {
-            averageRate.push(allRates[i].rate)
-        }
-        if(averageRate.length > 1){
-            let sum = averageRate.reduce((a, b) => a + b, 0);
-            let avg = sum / averageRate.length;
-            return avg }
+            setLoading(false)
+        });
+    }, [])
 
-            else {return 0}
+    function getAverage() {
+        let sum = 0
+        if(allRates.length === 0) return 0
+        for (let i = 0; i < allRates.length; ++i) {
+            sum += allRates[i].rate
+        }
+        return sum / allRates.length
     }
+
     return (
 
         <div id="slider">
             <div className="sliderContent">
                 <div className="rating">
                     <StarRatings
-                        rating={checkRating()}
+                        rating={getAverage()}
                         starRatedColor="#FCCF00"
                         numberOfStars={5}
                         starDimension="100px"
@@ -48,7 +51,7 @@ export const RatingSlider = ({showAllCallback}) => {
                     {t("ratings.line2")}
                 </Typography>
                 <Typography component="h2" align="center" color="textPrimary" gutterBottom>
-                    {t("ratings.line31") + (Number.parseFloat(checkRating().toString()).toFixed(2))*100/5 + t("ratings.line32")}
+                    {t("ratings.line31") + (Number.parseFloat(getAverage().toString()).toFixed(2)) * 100 / 5 + t("ratings.line32")}
                 </Typography>
                 <div className="sliderButtons">
                     <Grid container spacing={2} justify="center">
