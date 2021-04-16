@@ -10,7 +10,8 @@ const CommentSchema = Schema({
         type: Date,
         default: Date.now
     },
-    rate: Number
+    rate: Number,
+    lesson: Number
 });
 
 module.exports = mongoose.model('Comment', CommentSchema);

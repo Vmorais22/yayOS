@@ -212,5 +212,13 @@
     "line32": "% de utilidad!",
     "btn1": "Añadir comentario",
     "btn2": "Ver todos los comentarios"
+  },
+  "create-comment-form":{
+    "required": "Este campo es obligatorio.",
+    "default": "Alguno de los carácteres que has escrito no están permitidos.",
+    "swal": {
+      "1": "¡Felicidades!",
+      "2": "Tu comentario ha sido añadido. ¡Gracias por tu ayuda!"
+    }
   }
 }

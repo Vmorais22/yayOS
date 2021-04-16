@@ -35,6 +35,7 @@ const controller = {
             comment.name = params.name;
             comment.content = params.content;
             comment.rate = params.rate;
+            comment.lesson = params.lesson;
 
             //Guardar el articulo
             comment.save((err, commentStored) => {
@@ -62,11 +63,13 @@ const controller = {
 
     getComments: (req, res) => {
 
-        var query = Comment.find({});
+        var nLesson = req.params.lesson;
+        var query = Comment.find({lesson: nLesson});
         var last = req.params.last;
 
+
         if (last || last !== undefined) {
-            query.limit(15);
+            query.limit(1);
         }
         query.sort('id').exec((err, comments) => {
             if (err) {
@@ -170,7 +173,9 @@ const controller = {
     },
     getRates: (req, res) => {
 
-        var query = Comment.find({}, 'rate');
+        var nLesson = req.params.lesson;
+        console.log(nLesson)
+        var query = Comment.find({lesson: nLesson}, 'rate');
 
         query.exec((err, rates) => {
             if (err) {

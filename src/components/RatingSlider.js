@@ -9,14 +9,14 @@ import axios from "axios";
 import Global from "../Global";
 
 
-export const RatingSlider = ({showAllCallback}) => {
+export const RatingSlider = ({n, showAllCallback}) => {
     const [t] = useTranslation("global")
     const [allRates, setAllRates] = useState([]);
     const [loading, setLoading] = useState(true);
-
     useEffect(() => {
         setLoading(true);
-        axios.get(Global.url + "/rates").then(res => {
+        console.log(Global.url + "/rates/" + n)
+        axios.get(Global.url + "/rates/" + n).then(res => {
             setAllRates(res.data.rates)
             setLoading(false)
         });
