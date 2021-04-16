@@ -219,6 +219,13 @@
     "swal": {
       "1": "¡Felicidades!",
       "2": "Tu comentario ha sido añadido. ¡Gracias por tu ayuda!"
-    }
+    },
+    "title": "¡Añade un comentario!",
+    "nombre": "Nombre:",
+    "nombre-placeholder": "Escribe tu nombre o uno inventado...",
+    "opinion": "Opinión:",
+    "opinion-placeholder": "Escribe tu opinión sobre la lección: ¿Está bien redactada? ¿Hay algo que no quede claro? ¿Crees que falta información?",
+    "rate": "Haz clic izquierdo en las estrellas y califica la lección",
+    "btn": "ENVIAR COMENTARIO"
   }
 }

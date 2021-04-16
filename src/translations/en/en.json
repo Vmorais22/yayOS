@@ -212,5 +212,20 @@
     "line32": "% of utility!",
     "btn1": "Add comment",
     "btn2": "See all comments"
+  },
+  "create-comment-form": {
+    "required": "This field is mandatory.",
+    "default": "Some of the characters you have written are not allowed.",
+    "swal": {
+      "1": "Congratulations!",
+      "2": "Your comment has been added. Thanks for your help!"
+    },
+    "title": "Add a comment!",
+    "nombre": "Name:",
+    "nombre-placeholder": "Write your name or an invented one ...",
+    "opinion": "Opinion:",
+    "opinion-placeholder": "Write your opinion about the lesson: Is it well written? Is there anything that is not clear? Do you think that information is missing?",
+    "rate": "Left click on the stars and rate the lesson",
+    "btn": "SEND COMMENT"
   }
 }

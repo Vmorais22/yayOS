@@ -20,7 +20,7 @@ export const RatingSlider = ({n, showAllCallback}) => {
             setAllRates(res.data.rates)
             setLoading(false)
         });
-    }, [])
+    }, [n])
 
     function getAverage() {
         let sum = 0
@@ -36,12 +36,14 @@ export const RatingSlider = ({n, showAllCallback}) => {
         <div id="slider">
             <div className="sliderContent">
                 <div className="rating">
-                    <StarRatings
-                        rating={getAverage()}
-                        starRatedColor="#FCCF00"
-                        numberOfStars={5}
-                        starDimension="100px"
-                    />
+                    {loading ? '...' : (
+                        <StarRatings
+                            rating={getAverage()}
+                            starRatedColor="#FCCF00"
+                            numberOfStars={5}
+                            starDimension="100px"
+                        />
+                    )}
                 </div>
 
                 <Typography component="h2" align="center" color="textPrimary" gutterBottom>

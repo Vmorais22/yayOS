@@ -44,8 +44,8 @@ class Comentarios extends Component {
 
         if (this.state.comments.length >= 1) {
 
-            var listComments = this.state.comments.map((c) => {
-                return (
+            var listComments = this.state.comments.map(c =>
+                 (
                     <div key={c._id} id="comentarios">
                         <h1>{c.name}</h1>
                         <div className="commentStar">
@@ -60,8 +60,8 @@ class Comentarios extends Component {
                         <h3>{c.content}</h3>
                         <span className="date"> <Moment locale="es" fromNow>{c.date}</Moment></span>
                     </div>
-                );
-            });
+                )
+            );
 
             return (
                 <div>

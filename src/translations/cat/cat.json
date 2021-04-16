@@ -213,5 +213,20 @@
     "line32": "% de utilitat!",
     "btn1": "Afegir comentari",
     "btn2": "Veure tots els comentaris"
+  },
+  "create-comment-form":{
+    "required": "Aquest camp és obligatori.",
+    "default": "Algun dels caràcters que has escrit no estan permesos.",
+    "swal": {
+      "1": "Felicitats!",
+      "2": "El teu comentari ha estat afegit. Gràcies per la teva ajuda!"
+    },
+    "title": "Afegeix un comentari!",
+    "nombre": "Nom:",
+    "nombre-placeholder": "Escriu el teu nom o un inventat...",
+    "opinion": "Opinió:",
+    "opinion-placeholder": "Escriu la teva opinió sobre la lliçó: Està ben redactada? Hi ha alguna cosa que no quedi clar? Creus que falta informació?",
+    "rate": "Fes clic esquerre en les estrelles i qualifica la lliçó",
+    "btn": "ENVIAR COMENTARI"
   }
 }

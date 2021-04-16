@@ -402,6 +402,7 @@ textarea {
     cursor: pointer;
 }
 #comentarios{
+    min-height: 100px;
     text-align: justify;
     border: 5px solid #f55617;
     padding: 5px 20px 10px 20px;

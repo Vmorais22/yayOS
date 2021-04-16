@@ -3,13 +3,14 @@ import {Redirect} from 'react-router-dom';
 import axios from 'axios';
 import Global from "../Global";
 import ReactStars from "react-rating-stars-component";
-import {useTranslation} from "react-i18next";
+import {withTranslation} from "react-i18next";
 import {LessonSlider} from "./LessonSlider";
 import SimpleReactValidator from "simple-react-validator";
 import sweetalert from "sweetalert";
 
 //Validación formularios y alertas
 var rateValue = 0;
+
 
 class CreateComment extends Component {
 
@@ -25,8 +26,8 @@ class CreateComment extends Component {
     componentWillMount() {
         this.validator = new SimpleReactValidator({
             messages: {
-                required: 'Este campo es obligatorio.',
-                default:'Alguno de los carácteres que has escrito no están permitidos.'
+                required: this.props.t('create-comment-form.required'),
+                default:this.props.t('create-comment-form.default')
             }
         });
     }
@@ -60,8 +61,8 @@ class CreateComment extends Component {
                     status: 'success'
                 });
                     sweetalert({
-                        title: "¡Felicidades!",
-                        text: "Tu comentario ha sido añadido. ¡Gracias por tu ayuda!",
+                        title: this.props.t('create-comment-form.swal.1'),
+                        text: this.props.t('create-comment-form.swal.2'),
                         icon: "success",
                     });
                 }
@@ -86,40 +87,42 @@ class CreateComment extends Component {
     }
 
     render() {
+        const t = this.props.t;
         if (this.state.status === 'success') {
             return <Redirect to={"/valoracion"+this.state.lesson.lesson} />
         }
         return (
             <div>
-                <LessonSlider title="Crear comentario"/>
+                <LessonSlider title={t('create-comment-form.title')}/>
 
                 <form className="mid-form" onSubmit={this.sendComment}>
                     <div className="form-group">
-                        <label htmlFor="nombre"> Nombre </label>
+                        <label htmlFor="nombre"> {t('create-comment-form.nombre')} </label>
                         <input type="text" name="nombre"
-                               placeholder="Escribe tu nombre o uno inventado..."
+                               placeholder={t('create-comment-form.nombre-placeholder')}
                                ref={this.nameRef}
                                onChange={this.changeState}/>
                         {this.validator.message('nombre', this.state.comment.name, 'required|alpha_space')}
                     </div>
                     <div className="form-group">
-                        <label htmlFor="opinion"> Opinión</label>
+                        <label htmlFor="opinion"> {t('create-comment-form.opinion')}</label>
                         <textarea name="opinion"
-                                  placeholder={"Escribe tu opinión sobre la lección: ¿Está bien redactada? ¿Hay algo que no quede claro? ¿Crees que falta información?"}
+                                  placeholder={t('create-comment-form.opinion-placeholder')}
                                   ref={this.opinionRef}
                                   onChange={this.changeState}/>
                         {this.validator.message('opinion', this.state.comment.content, 'required')}
                     </div>
                     <div className="form-group">
-                        <label htmlFor="rate"> "Haz clic izquierdo en las estrellas y califica la lección"</label> <br/><br/><br/>
+                        <label htmlFor="rate"> {t('create-comment-form.rate')}</label> <br/><br/><br/>
                         <ReactStars
                             count={5}
+                            value={1}
                             onChange={this.ratingChanged}
                             size={50}
                             activeColor="#FCCF00"
                         />,
                     </div>
-                    <input className="submitButton" type="submit" value="Enviar comentario"/>
+                    <input className="submitButton" type="submit" value={t('create-comment-form.btn')}/>
                 </form>
 
             </div>
@@ -127,4 +130,4 @@ class CreateComment extends Component {
     }
 }
 
-export default CreateComment;
+export default withTranslation('global')(CreateComment);
