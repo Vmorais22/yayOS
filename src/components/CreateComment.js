@@ -18,7 +18,8 @@ class CreateComment extends Component {
 
     state = {
         comment: {},
-        status: null
+        status: null,
+        lesson: this.props.location.aboutProps
     };
 
     componentWillMount() {
@@ -35,7 +36,8 @@ class CreateComment extends Component {
             comment: {
                 name: this.nameRef.current.value,
                 content: this.opinionRef.current.value,
-                rate: rateValue
+                rate: rateValue,
+                lesson: this.state.lesson.lesson
             }
         })
         this.validator.showMessages();
@@ -50,6 +52,7 @@ class CreateComment extends Component {
     sendComment = (e) => {
         e.preventDefault();
         this.changeState();
+        console.log(this.state.comment)
         if(this.validator.allValid()){axios.post(Global.url + '/save', this.state.comment)
             .then(res => {
                 if(res.status === 200) {this.setState({
@@ -84,7 +87,7 @@ class CreateComment extends Component {
 
     render() {
         if (this.state.status === 'success') {
-            return <Redirect to="/valoracion1"/>
+            return <Redirect to={"/valoracion"+this.state.lesson.lesson} />
         }
         return (
             <div>

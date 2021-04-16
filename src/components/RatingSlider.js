@@ -51,12 +51,21 @@ export const RatingSlider = ({n, showAllCallback}) => {
                     {t("ratings.line2")}
                 </Typography>
                 <Typography component="h2" align="center" color="textPrimary" gutterBottom>
-                    {t("ratings.line31") + (Number.parseFloat(getAverage().toString()).toFixed(2)) * 100 / 5 + t("ratings.line32")}
+                    {t("ratings.line31") + (Number.parseFloat(getAverage().toString()).toFixed(0)) * 100 / 5 + t("ratings.line32")}
                 </Typography>
                 <div className="sliderButtons">
                     <Grid container spacing={2} justify="center">
                         <Grid item>
-                            <NavLink to="/nuevoComentario" style={{textDecoration: 'none'}}>
+                            <NavLink
+                                to={{
+                                    pathname:"/nuevoComentario",
+                                    aboutProps:{
+                                        lesson: n
+                                    }
+                                }}
+                                exact
+                                style={{textDecoration: 'none'}}
+                            >
                                 <Button variant="contained"
                                         color="primary">
                                     {t("ratings.btn1")}

@@ -69,7 +69,7 @@ const controller = {
 
 
         if (last || last !== undefined) {
-            query.limit(1);
+            query.limit(15);
         }
         query.sort('id').exec((err, comments) => {
             if (err) {

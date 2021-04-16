@@ -45,20 +45,32 @@ class Router extends Component {
                                 <LessonContent {...props} lesson={3}/>
                             )}
                             />
+                            <Route exact path="/valoracion3" render={(props) => (
+                                <ListOfComments {...props} lesson={3}/> )}
+                            />
 
                             <Route exact path="/leccion4" render={(props) => (
                                 <LessonContent {...props} lesson={4}/>
                             )}
+                            />
+                            <Route exact path="/valoracion4" render={(props) => (
+                                <ListOfComments {...props} lesson={4}/> )}
                             />
 
                             <Route exact path="/leccion5" render={(props) => (
                                 <LessonContent {...props} lesson={5}/>
                             )}
                             />
+                            <Route exact path="/valoracion5" render={(props) => (
+                                <ListOfComments {...props} lesson={5}/> )}
+                            />
 
                             <Route exact path="/leccion6" render={(props) => (
                                 <SkypeLesson />
                             )}
+                            />
+                            <Route exact path="/valoracion6" render={(props) => (
+                                <ListOfComments {...props} lesson={6}/> )}
                             />
 
                             <Route exact path="/leccion6/inst" render={(props) => (
@@ -74,15 +86,24 @@ class Router extends Component {
                                 <LessonContent {...props} lesson={7}/>
                             )}
                             />
+                            <Route exact path="/valoracion7" render={(props) => (
+                                <ListOfComments {...props} lesson={7}/> )}
+                            />
 
                             <Route exact path="/leccion8" render={(props) => (
                                 <LessonContent {...props} lesson={8}/>
                             )}
                             />
+                            <Route exact path="/valoracion8" render={(props) => (
+                                <ListOfComments {...props} lesson={8}/> )}
+                            />
 
                             <Route exact path="/leccion9" render={(props) => (
                                 <LessonContent {...props} lesson={9}/>
                             )}
+                            />
+                            <Route exact path="/valoracion9" render={(props) => (
+                                <ListOfComments {...props} lesson={9}/> )}
                             />
                             <Route exact path={"/nuevoComentario"} component={CreateCommennt} />
                             <Route exact path="/form" component={Formulario}/>
