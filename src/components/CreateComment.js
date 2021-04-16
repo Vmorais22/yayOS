@@ -53,7 +53,6 @@ class CreateComment extends Component {
     sendComment = (e) => {
         e.preventDefault();
         this.changeState();
-        console.log(this.state.comment)
         if(this.validator.allValid()){axios.post(Global.url + '/save', this.state.comment)
             .then(res => {
                 if(res.status === 200) {this.setState({
