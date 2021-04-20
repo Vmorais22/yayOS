@@ -432,3 +432,33 @@ textarea {
     margin-left: 20px;
     margin-top: 25px;
 }
+
+.filtrar {
+    margin: 0px auto;
+    padding-top: 5px;
+    text-align: center;
+    width: 70%;
+    height: 70px;
+    border-radius: 10px;
+    background: rgb(179, 178, 178);
+    background: linear-gradient(90deg, rgba(179, 178, 178, 1) 0%,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 1) 80%,
+    rgba(179, 178, 178, 1) 100%);
+}
+.filtrar select {
+    width: 250px;
+    margin-top: 15px;
+    margin-right: 40px;
+    display: block;
+    float: right;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://image.flaticon.com/icons/png/128/32/32195.png) 96% / 15% no-repeat #EEE
+}
+

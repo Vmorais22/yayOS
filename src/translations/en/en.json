@@ -28,6 +28,14 @@
   "valoracion": {
     "btn": "Rating"
   },
+  "filter": {
+    "title": "Too many results? Select the difficulty you want to try:",
+    "0": "View all lessons",
+    "1": "Where do I start?",
+    "2": "Easy difficulty",
+    "3": "Medium difficulty",
+    "4": "Hard difficulty"
+  },
   "juegoteclado": {
     "title": "Try it now! Write and check",
     "sub": "Left click on the white bar and write sentences with lowercase, uppercase, accents, punctuation marks, numbers ..."

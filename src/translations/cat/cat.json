@@ -28,6 +28,14 @@
   "valoracion": {
     "btn": "Valoració"
   },
+  "filter": {
+    "title": "Molts resultats? Selecciona quina dificultat vols afrontar:",
+    "0": "Veure totes les lliçons",
+    "1": "Per on començo?",
+    "2": "Dificultat fàcil",
+    "3": "Dificultat mitjana",
+    "4": "Dificultat difícil"
+  },
   "juegoteclado": {
     "title": "Practica ara! Escriu y comprova",
     "sub": "Fes clic esquerra sobre la barra blanca i escriur frases amb minúscules, majúscules, accents, signes de puntuació, nombres..."

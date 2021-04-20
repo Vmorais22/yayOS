@@ -28,6 +28,14 @@
   "valoracion": {
     "btn": "Valoración"
   },
+  "filter": {
+    "title": "¿Muchos resultados? Selecciona qué dificultad quieres afrontar:",
+    "0": "Ver todas las lecciones",
+    "1": "¿Por dónde empiezo?",
+    "2": "Dificultad fácil",
+    "3": "Dificultad mediana",
+    "4": "Dificultad difícil"
+  },
   "juegoteclado": {
     "title": "¡Practica ahora! Escribe y comprueba",
     "sub": "Haz clic izquierdo sobre la barra blanca y escribe frases con minúsculas, mayúsculas, tildes, signos de puntuación, números..."
