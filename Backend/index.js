@@ -11,12 +11,20 @@ const port = process.env.PORT || 3900;
 
 mongoose.set('useFindAndModify', false);
 mongoose.Promise = global.Promise;
-mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true})
+/*mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true})
         .then(() => {
             console.log('La conexión a la base de datos correcta');
-            /*SERVER*/
+
             app.listen(port, () => {
                 console.log("servidor creado en puerto " + port)
             })
-        });
+        });*/
+mongoose.connect('mongodb+srv://AdminOfYayos:Metralleta22@cluster0.8s4kw.mongodb.net/yayos?retryWrites=true&w=majority', {useNewUrlParser: true})
+    .then(() => {
+        console.log('La conexión a la base de datos correcta');
+        /*SERVER*/
+        app.listen(port, () => {
+            console.log("servidor creado en puerto " + port)
+        })
+    });
 
