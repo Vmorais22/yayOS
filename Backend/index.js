@@ -24,7 +24,7 @@ mongoose.connect('mongodb+srv://AdminOfYayos:Metralleta22@cluster0.8s4kw.mongodb
         console.log('La conexión a la base de datos correcta');
         /*SERVER*/
         app.listen(port, () => {
-            console.log("servidor creado en puerto " + port)
+            console.log("servidor creado en puerto " + process.env.PORT)
         })
     });
 
