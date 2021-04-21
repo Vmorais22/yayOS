@@ -11,6 +11,12 @@ let cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 class ListOfLessons extends Component {
 
+    componentWillMount() {
+        //el select se reinicia, con esto concuerda lo mostrado pero hace que no recuerde la selección de filtrado.
+        // Eliminar metodo para que recuerde.
+        cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    }
+
     constructor(props) {
         super(props);
         this.state = {value: '0'};
@@ -50,7 +56,6 @@ class ListOfLessons extends Component {
                 </div>
             <Container className="cardGrid" maxWidth="md">
                 <Grid container spacing={4}>
-                    {console.log(cards)}
                     {cards.map((card) => (
                         <Grid item key={card} xs={12} sm={6} md={4}>
                             <Lesson n={card} lesson={lessonsInfo[card-1]} />

@@ -24,14 +24,14 @@ class Comentarios extends Component {
 
     getComments = (all) => {
         if (all) {
-            axios.get(this.url + "/comments/" + this.props.n).then(res => {
+            axios.get(this.url + "/comment/" + this.props.n).then(res => {
                 this.setState({
                     comments: res.data.comments,
                     status: 'success'
                 });
             });
         } else {
-            axios.get(this.url + "/comments/" + this.props.n + "/last").then(res => {
+            axios.get(this.url + "/comment/" + this.props.n + "/last").then(res => {
                 this.setState({
                     comments: res.data.comments,
                     status: 'success'
