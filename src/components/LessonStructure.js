@@ -3,6 +3,8 @@ import JuegoTeclado from "./JuegoTeclado";
 //import JuegoMapa from "./Maps"
 import left from "../assets/images/left.png"
 import right from "../assets/images/right.png"
+import noleft from "../assets/images/noleft.png"
+import noright from "../assets/images/noright.png"
 import {useTranslation} from "react-i18next";
 
 let lastIndex = 0
@@ -21,12 +23,14 @@ export function LessonStructure({numOfButtons, contenido, lesson, prueba, nprueb
     let elem, lastElem;
 
     function update(i) {
-        lastElem = document.getElementById("button"+lastIndex);
-        lastElem.classList.remove("ButtonFocus");
-        lastIndex = i
-        elem = document.getElementById("button"+i);
-        changeIndex(i)
-        elem.classList.add("ButtonFocus");
+        if (i < numOfButtons && i >= 0) {
+            lastElem = document.getElementById("button" + lastIndex);
+            lastElem.classList.remove("ButtonFocus");
+            lastIndex = i
+            elem = document.getElementById("button" + i);
+            changeIndex(i)
+            elem.classList.add("ButtonFocus");
+        }
     }
 
     return (
@@ -36,20 +40,28 @@ export function LessonStructure({numOfButtons, contenido, lesson, prueba, nprueb
                 {contenido.map((c, i) => (
                     <div className="sidebar-item">
                         {(prueba && i === nprueba - 1) ?
-                            <button id={"button"+i} className="tryButton" onClick={(event) => update(i)}>{t(c.textoBoton)}</button> :
-                            (i !== 0) ?
-                            <button id={"button"+i} className="lessonButton" onClick={(event) => update(i)}>{t(c.textoBoton)}</button> :
-                            <button id={"button"+i} className="lessonButton ButtonFocus" onClick={(event) => update(i)}>{t(c.textoBoton)}</button>
+                            <button id={"button" + i} className="tryButton"
+                                    onClick={(event) => update(i)}>{t(c.textoBoton)}</button> :
+                            (i !== index) ?
+                                <button id={"button" + i} className="lessonButton"
+                                        onClick={(event) => update(i)}>{t(c.textoBoton)}</button> :
+                                <button id={"button" + i} className="lessonButton ButtonFocus"
+                                        onClick={(event) => update(i)}>{t(c.textoBoton)}</button>
                         }
                     </div>
                 ))}
             </aside>
             <div className="clearfix"/>
             <div id="panel-navegacion">
-                {(index > 0) && <img src={left} alt="left" title="Anterior"
-                                     onClick={(event) => update(index - 1)}/>}
-                {(index < (numOfButtons - 1)) && <img src={right} alt="right" title="Siguiente"
-                                                      onClick={(event) => update(index + 1)}/>}
+                {(index > 0) ? <img src={left} alt="left" title="Anterior"
+                                    onClick={(event) => update(index - 1)}/> :
+                    <img src={noleft} alt="left" title="Anterior"
+                         onClick={(event) => update(index - 1)}/>
+                }
+                {(index < (numOfButtons - 1)) ? <img src={right} alt="right" title="Siguiente"
+                                                     onClick={(event) => update(index + 1)}/> :
+                    <img src={noright} alt="right" title="Siguiente"
+                         onClick={(event) => update(index + 1)}/>}
             </div>
         </div>
 
