@@ -212,6 +212,24 @@
       "btn13": "Manera primera persona!",
       "btn14": "Com activar-ho",
       "btn15": "Com usar-ho"
+    },
+    "lesson8": {
+      "title": "Comprant per Internet amb Amazon",
+      "btn1": "Presentant Amazon",
+      "btn2": "Pros i contres",
+      "btn3": "Creant una compta - Part 1",
+      "btn4": "Creant una compta - Part 2",
+      "btn5": "Creant una compta - Part 3",
+      "btn6": "Afegir la meva adreça d'enviament",
+      "btn7": "Busca què comprar",
+      "btn8": "Troba el que vols",
+      "btn9": "Mira els detalls",
+      "btn10": "Comprar o afegir a la cistella?",
+      "btn11": "Arriba el moment de pagar",
+      "btn12": "Assegura't una vegada més",
+      "btn13": "La cistella",
+      "btn14": "Consells",
+      "btn15": "Problemes i devolucions"
     }
   },
   "ratings": {

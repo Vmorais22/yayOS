@@ -211,7 +211,26 @@
       "btn13": "Street View mode!",
       "btn14": "How to activate",
       "btn15": "How to use it"
+    },
+    "lesson8": {
+      "title": "Shopping online with Amazon",
+      "btn1": "Let me introduce you Amazon",
+      "btn2": "Pros and cons",
+      "btn3": "Creating an Account - Part 1",
+      "btn4": "Creating an Account - Part 2",
+      "btn5": "Creating an Account - Part 3",
+      "btn6": "Add my shipping address",
+      "btn7": "Find what to buy",
+      "btn8": "Find what you want",
+      "btn9": "View details",
+      "btn10": "Buy or add to cart?",
+      "btn11": "It's time to pay",
+      "btn12": "Make sure once again",
+      "btn13": "The Cart",
+      "btn14": "Tips",
+      "btn15": "Problems and Returns"
     }
+
   },
   "ratings": {
     "line1": "Let me show you the latest comments posted",

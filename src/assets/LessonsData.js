@@ -136,7 +136,21 @@ import img712es from "./images/7.12es.png"
 import img713es from "./images/7.13es.png"
 import img714es from "./images/7.14es.png"
 import img715es from "./images/7.15es.png"
-
+import img81es from "./images/8.1es.png"
+import img82es from "./images/8.2es.png"
+import img83es from "./images/8.3es.png"
+import img84es from "./images/8.4es.png"
+import img85es from "./images/8.5es.png"
+import img86es from "./images/8.6es.png"
+import img87es from "./images/8.7es.png"
+import img88es from "./images/8.8es.png"
+import img89es from "./images/8.9es.png"
+import img810es from "./images/8.10es.png"
+import img811es from "./images/8.11es.png"
+import img812es from "./images/8.12es.png"
+import img813es from "./images/8.13es.png"
+import img814es from "./images/8.14es.png"
+import img815es from "./images/8.15es.png"
 
 export const lessonsData = [
     {
@@ -796,6 +810,106 @@ export const lessonsData = [
                 imges: img715es,
                 imgcat: img715es,
                 imgen: img715es,
+            },
+        ],
+
+    },
+    {
+        id: 8,
+        title: 'lessonContent.lesson8.title',
+        numeroBotones: 15,
+        prueba: false,
+        nprueba: null,
+        contenido: [
+            {
+                textoBoton: 'lessonContent.lesson8.btn1',
+                imges: img81es,
+                imgcat: img81es,
+                imgen: img81es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn2',
+                imges: img82es,
+                imgcat: img82es,
+                imgen: img82es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn3',
+                imges: img83es,
+                imgcat: img83es,
+                imgen: img83es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn4',
+                imges: img84es,
+                imgcat: img84es,
+                imgen: img84es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn5',
+                imges: img85es,
+                imgcat: img85es,
+                imgen: img85es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn6',
+                imges: img86es,
+                imgcat: img86es,
+                imgen: img86es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn7',
+                imges: img87es,
+                imgcat: img87es,
+                imgen: img87es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn8',
+                imges: img88es,
+                imgcat: img88es,
+                imgen: img88es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn9',
+                imges: img89es,
+                imgcat: img89es,
+                imgen: img89es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn10',
+                imges: img810es,
+                imgcat: img810es,
+                imgen: img810es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn11',
+                imges: img811es,
+                imgcat: img811es,
+                imgen: img811es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn12',
+                imges: img812es,
+                imgcat: img812es,
+                imgen: img812es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn13',
+                imges: img813es,
+                imgcat: img813es,
+                imgen: img813es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn14',
+                imges: img814es,
+                imgcat: img814es,
+                imgen: img814es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson8.btn15',
+                imges: img815es,
+                imgcat: img815es,
+                imgen: img815es,
             },
         ],
 

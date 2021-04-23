@@ -211,6 +211,24 @@
       "btn13": "¡Modo primera persona!",
       "btn14": "Cómo activarlo",
       "btn15": "Cómo usarlo"
+    },
+    "lesson8": {
+      "title": "Comprando por Internet con Amazon",
+      "btn1": "Presentando Amazon",
+      "btn2": "Pros y contras",
+      "btn3": "Creando una cuenta - Parte 1",
+      "btn4": "Creando una cuenta - Parte 2",
+      "btn5": "Creando una cuenta - Parte 3",
+      "btn6": "Añadir mi dirección de envío",
+      "btn7": "Busca qué comprar",
+      "btn8": "Encuentra lo que quieres",
+      "btn9": "Mira los detalles",
+      "btn10": "¿Comprar o añadir a la cesta?",
+      "btn11": "Llego el momento de pagar",
+      "btn12": "Asegúrate una vez más",
+      "btn13": "La cesta",
+      "btn14": "Consejos",
+      "btn15": "Problemas y devoluciones"
     }
   },
   "ratings": {
