@@ -15,7 +15,6 @@ export const RatingSlider = ({n, showAllCallback}) => {
     const [loading, setLoading] = useState(true);
     useEffect(() => {
         setLoading(true);
-        console.log(Global.url + "/rates/" + n)
         axios.get(Global.url + "/rates/" + n).then(res => {
             setAllRates(res.data.rates)
             setLoading(false)
