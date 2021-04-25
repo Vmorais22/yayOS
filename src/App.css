@@ -466,3 +466,48 @@ textarea {
     background: url(https://image.flaticon.com/icons/png/128/32/32195.png) 96% / 15% no-repeat #EEE
 }
 
+.instruction-card {
+    width: 70%;
+    overflow: auto;
+    padding: 20px 20px 20px 20px;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.leftimg {
+    display: block;
+    width: 30%;
+    height: 80%;
+    float: left;
+    margin-right: 25px;
+}
+
+.instruction-card h2 {
+    font-family: "Roboto Light", serif;
+    text-align: justify;
+}
+
+.rightimg {
+    display: block;
+    width: 30%;
+    height: 80%;
+    float: right;
+    margin-left: 25px;
+}
+.excepimgl {
+    display: block;
+    width: 60%;
+    height: 80%;
+    float: left;
+    margin-right: 25px;
+
+}
+.excepimgr {
+    display: block;
+    width: 60%;
+    height: 80%;
+    float: right;
+    margin-left: 25px;
+    margin-top: 25px;
+}

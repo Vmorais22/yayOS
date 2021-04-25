@@ -26,7 +26,7 @@ export function LessonStructure({numOfButtons, contenido, lesson, prueba, nprueb
     const imgCAT = <img className="normal-diapo" src={contenido[index].imgcat} alt="img"/>
     const imgENG = <img className="normal-diapo" src={contenido[index].imgen} alt="img"/>
     const imgESPM = <Magnifier className="mag-diapo" src={contenido[index].imges} width="65%" zoomFactor={1.25}
-                               zoomImgSrc={contenido[index].imges} mgWidth={200} mgHeight={200} mgShape="square"/>
+                               zoomImgSrc={contenido[index].imges} mgWidth={250} mgHeight={250} mgBorderWidth={7} mgShape="square"/>
     const imgCATM = <Magnifier className="mag-diapo" src={contenido[index].imgcat} width="65%" zoomFactor={1.25}
                                zoomImgSrc={contenido[index].imges} mgWidth={200} mgHeight={200} mgShape="square"/>
     const imgENGM = <Magnifier className="mag-diapo" src={contenido[index].imgen} width="65%" zoomFactor={1.25}
