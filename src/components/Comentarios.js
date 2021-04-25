@@ -78,7 +78,7 @@ class Comentarios extends Component {
         } else {
             return (
                 <div id="comentarios">
-                    <h1>Cargando...</h1>
+                    <h2>Accediendo a la base de datos. Puede tardar unos segundos la primera vez...</h2>
                 </div>
             );
         }
