@@ -115,7 +115,7 @@ class CreateComment extends Component {
                         <label htmlFor="rate"> {t('create-comment-form.rate')}</label> <br/><br/><br/>
                         <ReactStars
                             count={5}
-                            value={1}
+                            value={0}
                             onChange={this.ratingChanged}
                             size={50}
                             activeColor="#FCCF00"
