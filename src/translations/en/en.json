@@ -22,7 +22,18 @@
     "rb3": "Other",
     "submit": "Submit opinion"
   },
-  "lesson": {
+  "ins": {
+    "title": "What is yayOS and how can I use it?",
+    "1": "yayOS is a tool that will teach you how to do very basic and very simple things with a computer. This web platform has been created specifically for elderly people who have no idea how a computer works and has been adapted to their needs through rigorous academic study. Knowledge is at your fingertips, start today! ",
+    "2": "In the yayOS Main Menu you will find a set of lessons arranged in such a way that learning is progressive. If this is your first time using yayOS I strongly recommend that you do them in order. From left to right and from top to bottom, if you want something more specific, you can consult the descriptions of each lesson as well as its difficulty, just take the mouse and left-click on the word \"Learn\" of the lesson that interests you most! ",
+    "3": "You will find each lesson divided into different sections. You can go to the next section by left-clicking with the mouse on the right arrow and go to the previous one with the left arrow. You can also click on a section from the list and go directly to a specific section! The section you are currently viewing will be highlighted and advanced with respect to the rest. ",
+    "4": "Isn't the font big enough? Don't worry, it's all thought out! Left-click on the magnifying glass icon and hover over the text. Oh my god, virtual magnifying glass!",
+    "5": "yayOS was created to help as many people as possible. Don't you understand the language? Don't worry, you can translate it directly from the platform header. Just left click with the mouse in the language you want and the application is automatically translated. For now only available in Spanish, Catalan and English, but in the future the plan is to be translated in more languages. ",
+    "6": "Is there something that is not understood? Do you think that a lesson or section needs to be studied in more depth? Do not hesitate to send all your suggestions so that you can improve. You can also comment each lesson individually and rate it, or see what other users think. Rectifying is wise! ",
+    "7": "This web platform is a final project for the Faculty of Informatics of Barcelona and the Universitat Politècnica de Catalunya. As its author, I hope that this will help you to take the first steps in the digital world.",
+    "8": "I know it can seem complicated and the unknown can be scary or at least insecure. But there's no hurry. Take it easy, go over it as often as necessary and I promise you that you will discover a whole new way of living. "
+  },
+    "lesson": {
     "btn": "Learn"
   },
   "valoracion": {
