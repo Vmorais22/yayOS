@@ -229,6 +229,24 @@
       "btn13": "The Cart",
       "btn14": "Tips",
       "btn15": "Problems and Returns"
+    },
+    "lesson9": {
+      "title": "Facebook: Discovering social media",
+      "btn1": "The first social network",
+      "btn2": "Create an account",
+      "btn3": "Where do I start?",
+      "btn4": "Add a profile picture",
+      "btn5": "Adding contacts",
+      "btn6": "Configuring our privacy",
+      "btn7": "Who can see our information?",
+      "btn8": "Who can contact us?",
+      "btn9": "The Home Page",
+      "btn10": "What is a post?",
+      "btn11": "The sense of publishing",
+      "btn12": "My Profile - Part 1",
+      "btn13": "My Profile - Part 2",
+      "btn14": "My first post",
+      "btn15": "A New World"
     }
 
   },

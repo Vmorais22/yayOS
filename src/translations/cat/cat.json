@@ -230,6 +230,24 @@
       "btn13": "La cistella",
       "btn14": "Consells",
       "btn15": "Problemes i devolucions"
+    },
+    "lesson9": {
+      "title": "Facebook: Descobrint les xarxes socials",
+      "btn1": "La primera xarxa social",
+      "btn2": "Crear un compte",
+      "btn3": "Per on començo?",
+      "btn4": "Afegir una foto de perfil",
+      "btn5": "Agregant contactes",
+      "btn6": "Configurant la nostra privacitat",
+      "btn7": "Qui pot veure la nostra informació?",
+      "btn8": "Qui pot contactar-nos?",
+      "btn9": "La pàgina d'inici",
+      "btn10": "Què és una publicació?",
+      "btn11": "El sentit de publicar",
+      "btn12": "El meu perfil - Part 1",
+      "btn13": "El meu perfil - Part 2",
+      "btn14": "La meva primera publicació",
+      "btn15": "Un nou món"
     }
   },
   "ratings": {

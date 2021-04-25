@@ -229,6 +229,24 @@
       "btn13": "La cesta",
       "btn14": "Consejos",
       "btn15": "Problemas y devoluciones"
+    },
+    "lesson9": {
+      "title": "Facebook: Descubriendo las redes sociales",
+      "btn1": "La primera red social",
+      "btn2": "Crear una cuenta",
+      "btn3": "¿Por dónde empiezo?",
+      "btn4": "Añadir una foto de perfil",
+      "btn5": "Agregando contactos",
+      "btn6": "Configurando nuestra privacidad",
+      "btn7": "¿Quién puede ver nuestra información?",
+      "btn8": "¿Quién puede contactarnos?",
+      "btn9": "La página de inicio",
+      "btn10": "¿Qué es una publicación?",
+      "btn11": "El sentido de publicar",
+      "btn12": "Mi perfil - Parte 1",
+      "btn13": "Mi perfil - Parte 2",
+      "btn14": "Mi primera publicación",
+      "btn15": "Un nuevo mundo"
     }
   },
   "ratings": {
