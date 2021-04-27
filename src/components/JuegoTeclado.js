@@ -22,7 +22,7 @@ class JuegoTeclado extends Component {
             <div>
                 <h1 className="juego-teclado-title"> <span aria-label="emoji" role="img">✏️</span> {t('juegoteclado.title')} <span aria-label="emoji" role="img">✏️</span></h1>
                 <h3 className="juego-teclado-subtitle"> {t('juegoteclado.sub')}</h3>
-                <input onChange={this.handleChange} type="text" className="juego-teclado-input" maxLength={300} />
+                <input onChange={this.handleChange} type="text" className="juego-teclado-input" maxLength={3000} />
                 <p className="test-label">{this.state.newTask}</p>
             </div>
         );

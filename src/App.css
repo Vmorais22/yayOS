@@ -92,9 +92,13 @@ body {
 }
 
 .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
     border-top: 2px solid #131313;
     background-color: azure;
-    padding: 48px;
+    padding-top: 20px;
+
 }
 
 .card {
@@ -118,21 +122,20 @@ body {
 }
 
 .lessonStructure {
-    width: 1200px;
-    height: 600px;
+    border: 1px solid red;
+    width: 90%;
+    min-height: 600px;
     margin: 0px auto;
     padding-top: 15px;
 }
 
 .mag-diapo {
     width: 100%;
-    height: 425px;
     border: 2px solid orangered;
 }
 
 .normal-diapo {
     width: 65%;
-    height: 425px;
     border: 2px solid orangered;
 }
 
@@ -218,7 +221,8 @@ body {
 #juego-teclado {
     float: left;
     width: 65%;
-    height: 425px;
+    padding-left: 30px;
+    padding-right: 30px;
     border: 2px solid orangered;
     border-radius: 10px;
 }
@@ -240,9 +244,6 @@ body {
 }
 
 .juego-teclado-input {
-    display: block;
-    align-content: center;
-    width: 90%;
     background-color: azure;
     border-radius: 10px;
     height: 40px;
@@ -255,27 +256,27 @@ body {
 .test-label {
     text-align: justify;
     font-size: 25px;
-    margin-left: 30px;
-    max-width: 700px;
-    max-height: 475px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width:100%;
     color: #f55617;
     letter-spacing: 0;
     text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
 }
 
 #panel-navegacion {
-    margin-top: -45px;
-    width: 65%;
-    height: 55px;
+    border-radius: 20px;
+    padding: 3px 25px 3px 25px;
+    background-color: #FBFAF5;
+    width: 300px;
+    position: relative;
+    left: 25%;
 }
 
 #panel-navegacion img {
     border: none;
     height: 100%;
     width: 80px;
-    margin-right: 30px;
-    position: relative;
-    left: 290px;
 }
 
 .clearfix {
@@ -510,4 +511,8 @@ textarea {
     float: right;
     margin-left: 25px;
     margin-top: 25px;
+}
+
+.all {
+    height: 120vh;
 }
