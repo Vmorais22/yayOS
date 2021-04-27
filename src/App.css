@@ -514,5 +514,6 @@ textarea {
 }
 
 .all {
-    height: 120vh;
+    min-height: 800px;
+    height: 100vh;
 }
