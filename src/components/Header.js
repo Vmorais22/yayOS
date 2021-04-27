@@ -8,6 +8,7 @@ import {useTranslation} from "react-i18next";
 import es from "../assets/images/es.png"
 import en from "../assets/images/en.png"
 import cat from "../assets/images/cat.png"
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
 
@@ -17,7 +18,9 @@ const Header = () => {
         <div id="header">
             <AppBar position="relative">
                 <Toolbar>
+                    <NavLink to="/" style={{textDecoration: 'none'}}>
                     <img id="logo" src={logo} className="logo" alt="yayOS logo"/>
+                    </NavLink>
                     <Typography variant="h6" color="inherit" noWrap>
                         {t("header.title")}
                     </Typography>
