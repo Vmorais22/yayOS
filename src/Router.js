@@ -11,6 +11,7 @@ import Formulario from "./components/Formulario";
 import ListOfComments from "./components/ListOfComments";
 import CreateCommennt from "./components/CreateComment";
 import Instrucciones from "./components/Instrucciones";
+import JuegoFichero from "./components/JuegoFichero";
 
 
 class Router extends Component {
@@ -109,6 +110,7 @@ class Router extends Component {
                             <Route exact path={"/nuevoComentario"} component={CreateCommennt} />
                             <Route exact path="/form" component={Formulario}/>
                             <Route exact path="/instr" component={Instrucciones} />
+                            <Route exact path="/test" component ={JuegoFichero} />
                             )}
                             />
 

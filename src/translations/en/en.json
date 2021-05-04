@@ -51,6 +51,13 @@
     "title": "Try it now! Write and check",
     "sub": "Left click on the white bar and write sentences with lowercase, uppercase, accents, punctuation marks, numbers ..."
   },
+  "juegoFichero": {
+    "title": "Try uploading a photo from your computer!",
+    "sub": "Left click on the button that says \" Select File \" to upload your first photo.",
+    "error": "Looks like we have a problem. The one you tried to upload is not an image. Look at the extension and if you don't remember which extensions the images have, review the lesson. Click again and try a again.",
+    "wait": "You haven't uploaded any photos yet ...",
+    "done": "Very good! Here is your photo!"
+  },
   "MPlessons": {
     "1": {
       "banner": "Are you new? Start here!",
@@ -172,7 +179,8 @@
       "btn10": "Copy, cut and paste",
       "btn11": "Where is my data storaged?",
       "btn12": "It finally makes sense!",
-      "btn13": "Try it now!"
+      "btn13": "Try it now!",
+      "btn14": "Practice with the file explorer!"
     },
     "lesson61": {
       "title": "Doing videocalls with Skype",

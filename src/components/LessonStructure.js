@@ -1,5 +1,5 @@
 import React, {useCallback, useState} from "react";
-import JuegoTeclado from "./JuegoTeclado";
+import Global from "../Global";
 import left from "../assets/images/left.png"
 import right from "../assets/images/right.png"
 import noleft from "../assets/images/noleft.png"
@@ -21,7 +21,8 @@ export function LessonStructure({numOfButtons, contenido, lesson, prueba, nprueb
     let elem, lastElem;
 
     /*IMAGES*/
-    const imgTEC = <div id="juego-teclado"><JuegoTeclado/></div>
+    console.log(lesson)
+    const imgTEC = <div id="juego-teclado"> {Global[lesson]}</div>
     const imgESP = <img className="normal-diapo" src={contenido[index].imges} alt="img"/>
     const imgCAT = <img className="normal-diapo" src={contenido[index].imgcat} alt="img"/>
     const imgENG = <img className="normal-diapo" src={contenido[index].imgen} alt="img"/>
@@ -48,8 +49,8 @@ export function LessonStructure({numOfButtons, contenido, lesson, prueba, nprueb
     return (
         <div className="all">
             <div className="lessonStructure">
-                {!zoom ? ((index === 11 && lesson === 1) ? (imgTEC) : ((actualLanguage === "es") ? (imgESP) : (actualLanguage === "en") ? (imgENG) : (imgCAT))) :
-                    ((index === 11 && lesson === 1) ? (imgTEC) : ((actualLanguage === "es") ? (imgESPM) : (actualLanguage === "en") ? (imgENGM) : (imgCATM)))}
+                {!zoom ? ((prueba && index === nprueba - 1) ? (imgTEC) : ((actualLanguage === "es") ? (imgESP) : (actualLanguage === "en") ? (imgENG) : (imgCAT))) :
+                    ((prueba && index === nprueba - 1) ? (imgTEC) : ((actualLanguage === "es") ? (imgESPM) : (actualLanguage === "en") ? (imgENGM) : (imgCATM)))}
                 <aside id="sidebar">
                     {contenido.map((c, i) => (
                         <div className="sidebar-item">

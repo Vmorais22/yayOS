@@ -64,7 +64,7 @@ class Comentarios extends Component {
             );
 
             return (
-                <div>
+                <div className="all">
                     {listComments}
                 </div>
             );

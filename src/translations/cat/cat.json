@@ -51,6 +51,13 @@
     "title": "Practica ara! Escriu y comprova",
     "sub": "Fes clic esquerra sobre la barra blanca i escriur frases amb minúscules, majúscules, accents, signes de puntuació, nombres..."
   },
+  "juegoFichero": {
+    "title": "Prova a pujar una foto del teu ordinador!",
+    "sub": "Fes clic esquerre en el botó que diu \" Seleccionar arxiu \" per a pujar la teva primera foto.",
+    "error": "Sembla que tenim un problema. Això que has intentat pujar no és una imatge. Fixa't en l'extensió i, si no recordes que extensions tenen les imatges, repassa la lliçó. Torna a fer clic i prova una altra vegada.",
+    "wait": "Encara no has pujat cap foto...",
+    "done": "Molt bé! Aquí està la teva foto!"
+  },
 
   "MPlessons": {
     "1": {
@@ -173,8 +180,8 @@
       "btn10": "Copiar, retallar i pegar",
       "btn11": "On es guarden les meves dades?",
       "btn12": "Per fi té sentit!",
-      "btn13": "Prova la teva ara!"
-    },
+      "btn13": "Prova-ho!",
+      "btn14": "Practica amb l'explorador!"    },
     "lesson61": {
       "title": "Fent videotrucades amb Skype",
       "intro1": "INSTAL·LACIÓ I CREACIÓ D'UN COMPTE",

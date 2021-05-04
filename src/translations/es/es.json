@@ -44,12 +44,19 @@
     "0": "Ver todas las lecciones",
     "1": "¿Por dónde empiezo?",
     "2": "Dificultad fácil",
-    "3": "Dificultad mediana",
+    "3": "Dificultad media",
     "4": "Dificultad difícil"
   },
   "juegoteclado": {
     "title": "¡Practica ahora! Escribe y comprueba",
     "sub": "Haz clic izquierdo sobre la barra blanca y escribe frases con minúsculas, mayúsculas, tildes, signos de puntuación, números..."
+  },
+  "juegoFichero": {
+    "title": "¡Prueba a subir una foto de tu ordenador!",
+    "sub": "Haz clic izquierdo en el botón que dice \" Seleccionar archivo \" para subir tu primera foto.",
+    "error": "Parece que tenemos un problema. Esto que has intentado subir no es una imagen. Fíjate en la extensión y, si no recuerdas que extensiones tienen las imágenes, repasa la lección. Vuelve a hacer clic y prueba otra vez.",
+    "wait": "Aún no has subido ninguna foto...",
+    "done": "¡Muy bien! ¡Aquí está tu foto!"
   },
   "MPlessons": {
     "1": {
@@ -172,7 +179,8 @@
       "btn10": "Copiar, cortar y pegar",
       "btn11": "¿Dónde se guardan mis datos?",
       "btn12": "¡Por fin tiene sentido!",
-      "btn13": "¡Prueba tu ahora!"
+      "btn13": "¡Inténtalo!",
+      "btn14": "¡Práctica con el explorador!"
     },
     "lesson61": {
       "title": "Haciendo videollamadas con Skype",

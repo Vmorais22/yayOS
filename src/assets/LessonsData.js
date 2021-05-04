@@ -244,9 +244,9 @@ export const lessonsData = [
             },
             {
                 textoBoton: 'lessonContent.lesson1.btn12',
-                imges: img111es,
-                imgcat: img111cat,
-                imgen: img111en,
+                imges: null,
+                imgcat: null,
+                imgen: null,
             },
         ],
 
@@ -493,9 +493,9 @@ export const lessonsData = [
     {
         id: 5,
         title: 'lessonContent.lesson5.title',
-        numeroBotones: 13,
+        numeroBotones: 14,
         prueba: true,
-        nprueba: 13,
+        nprueba: 14,
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson5.btn1',
@@ -574,6 +574,12 @@ export const lessonsData = [
                 imges: img513es,
                 imgcat: img513es,
                 imgen: img513es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn14',
+                imges: null,
+                imgcat: null,
+                imgen: null,
             },
         ],
 
