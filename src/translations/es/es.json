@@ -8,6 +8,7 @@
   "slider": {
     "title": "¡Nunca es demasiado tarde!",
     "sub": "yayOS es una plataforma web interactiva que permite al usuario aprender a hacer cosas sencillas con un ordenador. ¡Aqui empieza el camino a la autosuficiencia tecnológica!",
+    "sub2": "¿Es tu primera vez? Coge el ratón y arrástralo para situar el cursor sobre el cuadrado naranja que dice \"¡Quiero saber más!\". Luego haz clic con el botón izquierdo e irás a la página de instrucciones",
     "btn1": "¡Quiero saber más!",
     "btn2": "¡Me gustaría dar mi opinón!"
   },
@@ -24,14 +25,14 @@
   },
   "ins": {
     "title": "¿Qué es yayOS y cómo puedo usarlo?",
-    "1": "yayOS es una herramienta que te va a enseñar a hacer cosas muy básicas y muy sencillas con un ordenador. Esta plataforma web ha sido específicamente creada para personas mayores que no tienen ni idea de cómo funciona un ordenador y ha sido adaptada a sus necesidades mediante un riguroso estudio académico. ¡El saber está a tu alcance, empieza hoy mismo!",
+    "1": "yayOS es una herramienta que te va a enseñar a hacer cosas muy básicas y muy sencillas con un ordenador. Esta plataforma web ha sido específicamente creada para personas mayores que no tienen ni idea de cómo funciona un ordenador y ha sido adaptada a sus necesidades mediante un riguroso estudio académico. ¡El saber está a tu alcance, empieza hoy mismo! Coge el ratón y haz rodar hacia abajo su rueda central para seguir leyendo. También puedes situar el ratón sobre la barra lateral naranja que hay a tu derecha, mantener apretado el botón izquierdo  y arrastrarla. ¡Fíjate como se mueve en ambos casos!",
     "2": "En el Menú Principal de yayOS encontrarás un surtido de lecciones ordenadas de manera que el aprendizaje sea progresivo. Si esta es la primera vez que utilizas yayOS te recomiendo encarecidamente que las hagas en orden. De izquierda a derecha y de arriba a abajo. Si por el contrario buscas algo más concreto puedes ir consultando las descripciones de cada lección así como su dificultad. ¡Solo has de coger el ratón y hacer clic izquierdo sobre la palabra \"Aprender\" de la lección que eligas!",
     "3": "Encontrarás cada lección dividida en distintos apartados. Puedes ir al siguiente apartado haciendo clic izquierdo con el ratón en la flecha de la derecha e ir al anterior con la flecha de la izquierda. ¡También puedes clicar en un apartado de la lista e ir directamente a él! El apartado que estés viendo en ese momento estará resaltado y avanzado respecto al resto.",
     "4": "¿La letra no es lo suficientemente grande? No te preocupes, ¡está todo pensado! Haz clic izquierdo con el ratón sobre el icono en forma de lupa y pasa el cursor por el texto. ¡Tachán, lupa virtual!",
     "5": "yayOS ha sido creada para ayudar a cuantas más personas mejor. ¿No entiendes el idioma? No te preocupes, puedes traducirlo directamente desde la cabecera de la plataforma. Solo tienes que hacer clic izquierdo con el ratón en el idioma que quieras y la apliación se traduce automáticamente. Por ahora solo está disponible en castellano, catalán e inglés, pero en el futuro el plan es ser más plurilingüista.",
     "6": "¿Hay algo que no se entienda? ¿Crees que falta profundizar más alguna lección o apartado? No dudes en enviar todas tus sugerencias para poder mejorar. También puedes valorar individualmente cada lección y puntuarla, o ver que opinan el resto de usuarios. ¡Rectificar es de sabios!",
     "7": "Esta plataforma web es un proyecto de final de carrera para la Facultad de Informática de Barcelona y la Universidad Politécnica de Catalunya. Como su autor espero que esto te sirva para dar los primeros pasos en el mundo digital.",
-    "8": "Sé que puede parecer complicado y que lo desconocido puede dar miedo o, al menos, inseguridad. Pero no hay ninguna prisa. Tómatelo con calma, repasa todas las veces que sean necesarias y te prometo que descubrirás un mundo completamente nuevo."
+    "8": "Sé que puede parecer complicado y que lo desconocido puede dar miedo o, al menos, inseguridad. Pero no hay ninguna prisa. Tómatelo con calma, repasa todas las veces que sean necesarias y te prometo que descubrirás un mundo completamente nuevo. Da el primer paso: vuelve arriba de todo de esta página con la rueda del ratón o arrastrando de nuevo la barra lateral de la derecha y haz clic izquierdo con el ratón sobre el logo en movimiento de la parte superior derecha. Una vez hayas regresado al menú principal, desciende como te he enseñado para ver la lista de lecciones que tengo para ti."
   },
   "lesson": {
     "btn": "Aprender"

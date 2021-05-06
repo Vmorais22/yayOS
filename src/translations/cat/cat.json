@@ -8,6 +8,7 @@
   "slider": {
     "title": "Mai és massa tard!",
     "sub": "yayOS és una plataforma web interactiva que permet a l'usuari aprendre a fer coses senzilles amb un ordinador. Aquí comença el camí a l'autosuficiència tecnològica!",
+    "sub2": "És la teva primera vegada? Agafa el ratolí i arrossega'l per a situar el cursor sobre el quadrat taronja que diu \"Vull saber més!\". Després fes clic amb el botó esquerre i aniràs a la pàgina d'instruccions",
     "btn1": "Vull saber més!",
     "btn2": "M'agradaria donar la meva opinió!"
   },
@@ -24,14 +25,14 @@
   },
   "ins": {
     "title": "Què és yayOS i com puc usar-ho?",
-    "1": "yayOS és una eina que t'ensenyarà a fer coses molt bàsiques i molt senzilles amb un ordinador. Aquesta plataforma web ha estat específicament creada per a persones majors que no tenen ni idea de com funciona un ordinador i ha estat adaptada a les seves necessitats mitjançant un rigorós estudi acadèmic. El saber està al teu abast, comença avui mateix!",
+    "1": "yayOS és una eina que t'ensenyarà a fer coses molt bàsiques i molt senzilles amb un ordinador. Aquesta plataforma web ha estat específicament creada per a persones majors que no tenen ni idea de com funciona un ordinador i ha estat adaptada a les seves necessitats mitjançant un rigorós estudi acadèmic. El saber està al teu abast, comença avui mateix! Agafa el ratolí i fes rodar cap avall la seva roda central per a continuar llegint. També pots situar el ratolí sobre la barra lateral taronja que hi ha a la teva dreta, mantenir apretat el botó esquerre i arrossegar-la. Fixa't com es mou en tots dos casos!",
     "2": "En el Menú Principal de yayOS trobaràs un conjunt de lliçons ordenades de manera que l'aprenentatge sigui progressiu. Si aquesta és la primera vegada que utilitzes yayOS et recomano encaridament que les facis en ordre. D'esquerra a dreta i de dalt a baix. Si per contra vols algo una mica més concret pots anar consultant les descripcions de cada lliçó així com la seva dificultat. Només has d'agafar el ratolí i fer clic esquerre sobre la paraula \"Aprendre\" de la lliçó que més t'interessi!",
     "3": "Trobaràs cada lliçó dividida en diferents apartats. Pots anar al següent apartat fent clic esquerre amb el ratolí en la fletxa de la dreta i anar a l'anterior amb la fletxa de l'esquerra. També pots clicar en un apartat de la llista i anar directament a un apartat concret! L'apartat que estiguis veient en aquest moment estarà ressaltat i avançat respecte a la resta.",
     "4": "La lletra no és prou gran? No et preocupis, està tot pensat! Fes clic esquerre amb el ratolí sobre la icona en forma de lupa i passa el cursor pel text. Tachán, lupa virtual!",
     "5": "yayOS ha estat creada per a ajudar a quantes més persones millor. No entens l'idioma? No et preocupis, pots traduir-ho directament des de la capçalera de la plataforma. Només has de fer clic esquerre amb el ratolí en l'idioma que vulguis i la apliación es tradueix automàticament. Ara com ara només està disponible en castellà, català i anglès, però en el futur el pla és ser més plurilingüista.",
     "6": "Hi ha alguna cosa que no s'entengui? Creus que falta aprofundir més alguna lliçó o apartat? No dubtis a enviar tots els teus suggeriments per a poder millorar. També pots valorar individualment cada lliçó i puntuar-la, o veure que opinen la resta d'usuaris. Rectificar és de savis!",
     "7": "Aquesta plataforma web és un projecte de final de carrera per a la Facultat d'Informàtica de Barcelona i la Universitat Politècnica de Catalunya. Com el seu autor espero que això et serveixi per a fer els primers passos en el món digital.",
-    "8": "Sé que pot semblar complicat i que el desconegut pot fer por o, almenys, inseguretat. Però no hi ha gens de pressa. Pren-t'ho amb calma, repassa totes les vegades que siguin necessàries i et prometo que descobriràs un món completament nou."
+    "8": "Sé que pot semblar complicat i que el desconegut pot fer por o, almenys, inseguretat. Però no hi ha gens de pressa. Pren-t'ho amb calma, repassa totes les vegades que siguin necessàries i et prometo que descobriràs un món completament nou. Fes el primer pas: torna a dalt de tot d'aquesta pàgina amb la roda del ratolí o arrossegant de nou la barra lateral de la dreta i fes clic esquerre amb el ratolí sobre el logo en moviment de la part superior dreta. Una vegada hagis tornat al menú principal, descendeix com t'he ensenyat per a veure la llista de lliçons que tinc per a tu."
   },
   "lesson": {
     "btn": "Aprendre"

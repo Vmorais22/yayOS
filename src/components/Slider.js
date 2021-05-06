@@ -17,6 +17,9 @@ const Slider = () => {
                 <Typography variant="h5" align="center" color="textSecondary" paragraph>
                     {t("slider.sub")}
                 </Typography>
+                <Typography variant="h5" align="center" color="textSecondary" paragraph>
+                    {t("slider.sub2")}
+                </Typography>
                 <div className="sliderButtons">
                     <Grid container spacing={2} justify="center">
                         <Grid item>

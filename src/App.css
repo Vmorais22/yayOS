@@ -487,6 +487,7 @@ textarea {
     height: 80%;
     float: left;
     margin-right: 25px;
+    margin-top: 25px;
 }
 
 .instruction-card h2 {
@@ -500,6 +501,7 @@ textarea {
     height: 80%;
     float: right;
     margin-left: 25px;
+
 }
 .excepimgl {
     display: block;
@@ -532,4 +534,17 @@ textarea {
     text-shadow: 1px 1px 1px 1px black;
     font-weight: 500;
     text-decoration: underline red;
+}
+
+body::-webkit-scrollbar {
+    width: 2em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f55617;
+    outline: 1px solid slategrey;
 }
