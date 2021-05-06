@@ -86,6 +86,7 @@ import img49es from "./images/4.9es.png"
 import img410es from "./images/4.10es.png"
 import img411es from "./images/4.11es.png"
 import img412es from "./images/4.12es.png"
+import img413es from "./images/4.13es.png"
 import img51es from "./images/5.1es.png"
 import img52es from "./images/5.2es.png"
 import img53es from "./images/5.3es.png"
@@ -99,6 +100,7 @@ import img510es from "./images/5.10es.png"
 import img511es from "./images/5.11es.png"
 import img512es from "./images/5.12es.png"
 import img513es from "./images/5.13es.png"
+import img514es from "./images/5.14es.png"
 import img611es from "./images/61.1es.png"
 import img612es from "./images/61.2es.png"
 import img613es from "./images/61.3es.png"
@@ -411,7 +413,7 @@ export const lessonsData = [
     {
         id: 4,
         title: 'lessonContent.lesson4.title',
-        numeroBotones: 12,
+        numeroBotones: 13,
         prueba: false,
         nprueba: null,
         contenido: [
@@ -482,6 +484,12 @@ export const lessonsData = [
                 imgen: img411es,
             },
             {
+                textoBoton: 'lessonContent.lesson4.btn13',
+                imges: img413es,
+                imgcat: img413es,
+                imgen: img413es,
+            },
+            {
                 textoBoton: 'lessonContent.lesson4.btn12',
                 imges: img412es,
                 imgcat: img412es,
@@ -493,9 +501,9 @@ export const lessonsData = [
     {
         id: 5,
         title: 'lessonContent.lesson5.title',
-        numeroBotones: 14,
+        numeroBotones: 16,
         prueba: true,
-        nprueba: 14,
+        nprueba: 15,
         contenido: [
             {
                 textoBoton: 'lessonContent.lesson5.btn1',
@@ -576,7 +584,13 @@ export const lessonsData = [
                 imgen: img513es,
             },
             {
-                textoBoton: 'lessonContent.lesson5.btn14',
+                textoBoton: 'lessonContent.lesson5.btn15',
+                imges: img514es,
+                imgcat: img514es,
+                imgen: img514es,
+            },
+            {
+                textoBoton: 'lessonContent.lesson5.btn16',
                 imges: null,
                 imgcat: null,
                 imgen: null,

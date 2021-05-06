@@ -25,6 +25,7 @@ class CreateComment extends Component {
 
     componentWillMount() {
         this.validator = new SimpleReactValidator({
+            className: "form-warning",
             messages: {
                 required: this.props.t('create-comment-form.required'),
                 default:this.props.t('create-comment-form.default')
@@ -101,7 +102,7 @@ class CreateComment extends Component {
                                placeholder={t('create-comment-form.nombre-placeholder')}
                                ref={this.nameRef}
                                onChange={this.changeState}/>
-                        {this.validator.message('nombre', this.state.comment.name, 'required|alpha_space')}
+                        {this.validator.message('nombre', this.state.comment.name, 'required')}
                     </div>
                     <div className="form-group">
                         <label htmlFor="opinion"> {t('create-comment-form.opinion')}</label>

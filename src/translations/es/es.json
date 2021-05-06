@@ -163,7 +163,8 @@
       "btn9": "Los enlaces - Parte 2",
       "btn10": "Buscando imágenes",
       "btn11": "Cómo descargar imágenes",
-      "btn12": "Algunos consejos..."
+      "btn12": "Algunos consejos...",
+      "btn13": "Las cookies"
     },
     "lesson5": {
       "title": "Organizar y controlar los archivos y carpetas del ordenador",
@@ -174,13 +175,15 @@
       "btn5": "El Panel de Navegación",
       "btn6": "Lugares de almacenamiento básicos",
       "btn7": "La lista de contenido",
-      "btn8": "¿Clic o doble clic?",
-      "btn9": "Selección de ficheros",
-      "btn10": "Copiar, cortar y pegar",
-      "btn11": "¿Dónde se guardan mis datos?",
-      "btn12": "¡Por fin tiene sentido!",
-      "btn13": "¡Inténtalo!",
-      "btn14": "¡Práctica con el explorador!"
+      "btn8": "Los tipos de fichero",
+      "btn9": "Diferencias entre extensiones",
+      "btn10": "¿Clic o doble clic?",
+      "btn11": "Selección de ficheros",
+      "btn12": "Copiar, cortar y pegar",
+      "btn13": "¿Dónde se guardan mis datos?",
+      "btn14": "¡Por fin tiene sentido!",
+      "btn15": "¡Inténtalo!",
+      "btn16": "¡Práctica con el explorador!"
     },
     "lesson61": {
       "title": "Haciendo videollamadas con Skype",

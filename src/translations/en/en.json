@@ -1,5 +1,5 @@
 {
-  "header" : {
+  "header": {
     "title": "Learn how to use a computer today!"
   },
   "footer": {
@@ -33,7 +33,7 @@
     "7": "This web platform is a final project for the Faculty of Informatics of Barcelona and the Universitat Politècnica de Catalunya. As its author, I hope that this will help you to take the first steps in the digital world.",
     "8": "I know it can seem complicated and the unknown can be scary or at least insecure. But there's no hurry. Take it easy, go over it as often as necessary and I promise you that you will discover a whole new way of living. "
   },
-    "lesson": {
+  "lesson": {
     "btn": "Learn"
   },
   "valoracion": {
@@ -163,24 +163,27 @@
       "btn9": "URLs - Part 2",
       "btn10": "Searching for images",
       "btn11": "How to download images",
-      "btn12": "Some advices..."
+      "btn12": "Some advices...",
+      "btn13": "The cookies"
     },
     "lesson5": {
       "title": "Organize and control files and folders on your computer",
-      "btn1": "The File Explorer",
-      "btn2": "How is?",
-      "btn3": "Accessing indirectly",
-      "btn4": "The file paths",
+      "btn1": "File Explorer",
+      "btn2": "How is it?",
+      "btn3": "Indirectly accessing",
+      "btn4": "File paths",
       "btn5": "The Navigation Panel",
       "btn6": "Basic storage locations",
       "btn7": "The content list",
-      "btn8": "Click or double click?",
-      "btn9": "File selection",
-      "btn10": "Copy, cut and paste",
-      "btn11": "Where is my data storaged?",
-      "btn12": "It finally makes sense!",
-      "btn13": "Try it now!",
-      "btn14": "Practice with the file explorer!"
+      "btn8": "File types",
+      "btn9": "Differences between extensions",
+      "btn10": "Click or double click?",
+      "btn11": "File Selection",
+      "btn12": "Copy, cut and paste",
+      "btn13": "Where is my data stored?",
+      "btn14": "It finally makes sense!",
+      "btn15": "Try it!",
+      "btn16": "Practice with the browser!"
     },
     "lesson61": {
       "title": "Doing videocalls with Skype",
@@ -267,7 +270,6 @@
       "btn14": "My first post",
       "btn15": "A New World"
     }
-
   },
   "ratings": {
     "line1": "Let me show you the latest comments posted",

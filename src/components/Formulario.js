@@ -17,11 +17,13 @@ class Formulario extends Component {
 
     state = {
         suggest: {},
-        status: null
+        status: null,
+        operative: false,
     };
 
     componentWillMount() {
         this.validator = new SimpleReactValidator({
+            className: "form-warning",
             messages: {
                 required: 'Este campo es obligatorio.'
             }
@@ -74,8 +76,17 @@ class Formulario extends Component {
             this.forceUpdate();
 
         }
-
     }
+    checkBD = () => {
+        axios.get(Global.url + '/form/save').then(res => {
+            if(res.status === 200) {
+                this.setState({
+                    operative: true
+                });
+            }
+        })
+    }
+
     render() {
         const t = this.props.t;
         if (this.state.status === 'success') {
@@ -89,7 +100,7 @@ class Formulario extends Component {
                         <label htmlFor="nombre"> {t('form.name-label')} </label>
                         <input type="text" name="nombre" placeholder={t('form.name-placeholder')} ref={this.name}
                                onChange={this.changeState}/>
-                        {this.validator.message('nombre', this.state.suggest.name, 'required|alpha_space')}
+                        {this.validator.message('nombre', this.state.suggest.name, 'required')}
 
                     </div>
                     <div className="form-group">
@@ -104,15 +115,8 @@ class Formulario extends Component {
                         {this.validator.message('opinion', this.state.suggest.content, 'required')}
 
                     </div>
-
-                    {/*<p>
-                <select>
-                    <option value="a">A</option>
-                    <option value="b">B</option>
-                    <option value="c">B</option>
-                </select>
-            </p>*/}
                     <input className="submitButton" type="submit" value={t('form.submit')}/>
+                    {(!this.state.operative) && <h3>Atención, BD no lista</h3>}
                 </form>
             </React.Fragment>);
     }
