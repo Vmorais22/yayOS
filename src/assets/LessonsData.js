@@ -501,7 +501,7 @@ export const lessonsData = [
     {
         id: 5,
         title: 'lessonContent.lesson5.title',
-        numeroBotones: 16,
+        numeroBotones: 15,
         prueba: true,
         nprueba: 15,
         contenido: [
@@ -584,13 +584,13 @@ export const lessonsData = [
                 imgen: img513es,
             },
             {
-                textoBoton: 'lessonContent.lesson5.btn15',
+                textoBoton: 'lessonContent.lesson5.btn14',
                 imges: img514es,
                 imgcat: img514es,
                 imgen: img514es,
             },
             {
-                textoBoton: 'lessonContent.lesson5.btn16',
+                textoBoton: 'lessonContent.lesson5.btn15',
                 imges: null,
                 imgcat: null,
                 imgen: null,

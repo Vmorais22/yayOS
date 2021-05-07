@@ -10,10 +10,10 @@ export function LessonContent({lesson}) {
         <React.Fragment>
             <LessonSlider title={lessonsData.find(x => x.id === lesson).title}/>
             <LessonStructure numOfButtons={lessonsData.find(x => x.id === lesson).numeroBotones}
-                             contenido={lessonsData.find(x => x.id === lesson).contenido}
+                             content={lessonsData.find(x => x.id === lesson).contenido}
                              lesson={lesson}
-                             prueba = {lessonsData.find(x => x.id === lesson).prueba}
-                             nprueba = {lessonsData.find(x => x.id === lesson).nprueba} />
+                             isInteractive= {lessonsData.find(x => x.id === lesson).prueba}
+                             nInteractive= {lessonsData.find(x => x.id === lesson).nprueba} />
         </React.Fragment>
     );
 }
