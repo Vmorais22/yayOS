@@ -26,13 +26,13 @@ export function LessonStructure({numOfButtons, content, lesson, isInteractive, n
     const imgESP = <img className="normal-diapo" src={content[index].imges} alt="img"/>
     const imgCAT = <img className="normal-diapo" src={content[index].imgcat} alt="img"/>
     const imgENG = <img className="normal-diapo" src={content[index].imgen} alt="img"/>
-    const imgESPM = <Magnifier className="mag-diapo" src={content[index].imges} width="65%" zoomFactor={1.25}
-                               zoomImgSrc={content[index].imges} mgWidth={250} mgHeight={250} mgBorderWidth={7}
+    const imgESPM = <Magnifier className="mag-diapo" src={content[index].imges} width="65%" zoomFactor={0.75}
+                               zoomImgSrc={content[index].imges} mgWidth={300} mgHeight={300} mgBorderWidth={7}
                                mgShape="square"/>
-    const imgCATM = <Magnifier className="mag-diapo" src={content[index].imgcat} width="65%" zoomFactor={1.25}
-                               zoomImgSrc={content[index].imges} mgWidth={250} mgHeight={250} mgShape="square"/>
-    const imgENGM = <Magnifier className="mag-diapo" src={content[index].imgen} width="65%" zoomFactor={1.25}
-                               zoomImgSrc={content[index].imges} mgWidth={250} mgHeight={250} mgShape="square"/>
+    const imgCATM = <Magnifier className="mag-diapo" src={content[index].imgcat} width="65%" zoomFactor={0.5}
+                               zoomImgSrc={content[index].imges} mgWidth={300} mgHeight={300} mgShape="square"/>
+    const imgENGM = <Magnifier className="mag-diapo" src={content[index].imgen} width="65%" zoomFactor={0.5}
+                               zoomImgSrc={content[index].imges} mgWidth={300} mgHeight={300} mgShape="square"/>
 
     /*FUNCTIONS*/
     function update(i) {
