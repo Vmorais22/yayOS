@@ -45,7 +45,7 @@ class Comentarios extends Component {
         if (this.state.comments.length >= 1) {
 
             var listComments = this.state.comments.map(c =>
-                 (
+                (
                     <div key={c._id} id="comentarios">
                         <h1>{c.name}</h1>
                         <div className="commentStar">
@@ -71,14 +71,18 @@ class Comentarios extends Component {
 
         } else if (this.state.comments.length === 0 && this.state.status === 'success') {
             return (
-                <div id="comentarios">
-                    <h1>No hay comentarios para mostrar</h1>
+                <div className="all">
+                    <div id="comentarios">
+                        <h1>No hay comentarios para mostrar</h1>
+                    </div>
                 </div>
             );
         } else {
             return (
-                <div id="comentarios">
-                    <h2>Accediendo a la base de datos. Puede tardar unos segundos la primera vez...</h2>
+                <div className="all">
+                    <div id="comentarios">
+                        <h2>Accediendo a la base de datos. Puede tardar unos segundos la primera vez...</h2>
+                    </div>
                 </div>
             );
         }

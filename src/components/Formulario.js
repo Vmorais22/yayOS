@@ -8,8 +8,6 @@ import Global from "../Global";
 import {Redirect} from "react-router-dom";
 
 
-
-
 class Formulario extends Component {
     name = React.createRef();
     opinion = React.createRef();
@@ -79,7 +77,7 @@ class Formulario extends Component {
     }
     checkBD = () => {
         axios.get(Global.url + '/form/save').then(res => {
-            if(res.status === 200) {
+            if (res.status === 200) {
                 this.setState({
                     operative: true
                 });
@@ -93,32 +91,35 @@ class Formulario extends Component {
             return <Redirect to="/"/>
         }
         return (
-            <React.Fragment>
-                <LessonSlider title={t('form.title')}/>
-                <form className="mid-form" onSubmit={this.sumbitForm}>
-                    <div className="form-group">
-                        <label htmlFor="nombre"> {t('form.name-label')} </label>
-                        <input type="text" name="nombre" placeholder={t('form.name-placeholder')} ref={this.name}
-                               onChange={this.changeState}/>
-                        {this.validator.message('nombre', this.state.suggest.name, 'required')}
+            <div className="all">
+                <React.Fragment>
+                    <LessonSlider title={t('form.title')}/>
+                    <form className="mid-form" onSubmit={this.sumbitForm}>
+                        <div className="form-group">
+                            <label htmlFor="nombre"> {t('form.name-label')} </label>
+                            <input type="text" name="nombre" placeholder={t('form.name-placeholder')} ref={this.name}
+                                   onChange={this.changeState}/>
+                            {this.validator.message('nombre', this.state.suggest.name, 'required')}
 
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="email"> {t('Email (Opcional)')} </label>
-                        <input type="text" name="email" placeholder={t('Email...')} ref={this.email}
-                               onChange={this.changeState}/>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="opinion"> {t('form.opinion-label')}</label>
-                        <textarea name="opinion" placeholder={t('form.opinion-placeholder')} ref={this.opinion}
-                                  onChange={this.changeState}/>
-                        {this.validator.message('opinion', this.state.suggest.content, 'required')}
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="email"> {t('Email (Opcional)')} </label>
+                            <input type="text" name="email" placeholder={t('Email...')} ref={this.email}
+                                   onChange={this.changeState}/>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="opinion"> {t('form.opinion-label')}</label>
+                            <textarea name="opinion" placeholder={t('form.opinion-placeholder')} ref={this.opinion}
+                                      onChange={this.changeState}/>
+                            {this.validator.message('opinion', this.state.suggest.content, 'required')}
 
-                    </div>
-                    <input className="submitButton" type="submit" value={t('form.submit')} title={t("photo-hover-title.sendS")}/>
-                    {(!this.state.operative) && <h3>Atención, BD no lista</h3>}
-                </form>
-            </React.Fragment>);
+                        </div>
+                        <input className="submitButton" type="submit" value={t('form.submit')}
+                               title={t("photo-hover-title.sendS")}/>
+                        {(!this.state.operative) && <h3>Atención, BD no lista</h3>}
+                    </form>
+                </React.Fragment>
+            </div>);
     }
 
 }

@@ -28,7 +28,7 @@ class CreateComment extends Component {
             className: "form-warning",
             messages: {
                 required: this.props.t('create-comment-form.required'),
-                default:this.props.t('create-comment-form.default')
+                default: this.props.t('create-comment-form.default')
             }
         });
     }
@@ -54,28 +54,29 @@ class CreateComment extends Component {
     sendComment = (e) => {
         e.preventDefault();
         this.changeState();
-        if(this.validator.allValid()){axios.post(Global.url + '/save', this.state.comment)
-            .then(res => {
-                if(res.status === 200) {this.setState({
-                    comment: res.data.comment,
-                    status: 'success'
+        if (this.validator.allValid()) {
+            axios.post(Global.url + '/save', this.state.comment)
+                .then(res => {
+                    if (res.status === 200) {
+                        this.setState({
+                            comment: res.data.comment,
+                            status: 'success'
+                        });
+                        sweetalert({
+                            title: this.props.t('create-comment-form.swal.1'),
+                            text: this.props.t('create-comment-form.swal.2'),
+                            icon: "success",
+                        });
+                    } else {
+                        this.setState({
+                            comment: res.data.comment,
+                            status: 'failed'
+                        });
+
+                    }
+
                 });
-                    sweetalert({
-                        title: this.props.t('create-comment-form.swal.1'),
-                        text: this.props.t('create-comment-form.swal.2'),
-                        icon: "success",
-                    });
-                }
-                else {
-                    this.setState({
-                        comment: res.data.comment,
-                        status: 'failed'
-                    });
-
-                }
-
-            });}
-        else{
+        } else {
             this.setState({
                 status: 'failed'
             });
@@ -89,10 +90,10 @@ class CreateComment extends Component {
     render() {
         const t = this.props.t;
         if (this.state.status === 'success') {
-            return <Redirect to={"/valoracion"+this.state.lesson.lesson} />
+            return <Redirect to={"/valoracion" + this.state.lesson.lesson}/>
         }
         return (
-            <div>
+            <div className="all">
                 <LessonSlider title={t('create-comment-form.title')}/>
 
                 <form className="mid-form" onSubmit={this.sendComment}>
@@ -121,7 +122,8 @@ class CreateComment extends Component {
                             size={50}
                             activeColor="#FCCF00"/>,
                     </div>
-                    <input className="submitButton" type="submit" value={t('create-comment-form.btn')} title={t("photo-hover-title.sendC")}/>
+                    <input className="submitButton" type="submit" value={t('create-comment-form.btn')}
+                           title={t("photo-hover-title.sendC")}/>
                 </form>
 
             </div>
@@ -130,3 +132,6 @@ class CreateComment extends Component {
 }
 
 export default withTranslation('global')(CreateComment);
+
+/* <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" />
+  )*/
