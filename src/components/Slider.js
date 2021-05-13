@@ -25,7 +25,7 @@ const Slider = () => {
                         <Grid item>
                             <NavLink to="/instr" style={{textDecoration: 'none'}}>
                             <Button variant="contained"
-                                    color="primary">
+                                    color="primary" title={t("photo-hover-title.ins")}>
                                 {t("slider.btn1")}
                             </Button>
                             </NavLink>
@@ -33,7 +33,8 @@ const Slider = () => {
                         <Grid item>
                             <NavLink to="/form" style={{textDecoration: 'none'}}>
                                 <Button variant="outlined"
-                                        color="primary">
+                                        color="primary"
+                                        title={t("photo-hover-title.form")}>
                                     {t("slider.btn2")}
                                 </Button>
                             </NavLink>

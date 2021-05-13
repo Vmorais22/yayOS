@@ -83,20 +83,20 @@ export function LessonStructure({numOfButtons, content, lesson, isInteractive, n
                 <br/><br/>
                 <div id="panel-navegacion">
                     {(index > 0) ?
-                        <img src={left} alt="left" title="Anterior"
+                        <img src={left} alt="left" title={t("photo-hover-title.back")}
                              onClick={(event) => update(index - 1)}/> :
-                        <img src={noleft} alt="left" title="Anterior"
+                        <img src={noleft} alt="left" title={t("photo-hover-title.noback")}
                              onClick={(event) => update(index - 1)}/>
                     }
                     {(zoom) ?
-                        <img src={zoomIMG} alt="auto-zoom" title="auto-zoom"
+                        <img src={zoomIMG} alt="auto-zoom" title={t("photo-hover-title.zoom")}
                              onClick={(event) => setZoom(!zoom)}/> :
-                        <img src={nozoomIMG} alt="auto-zoom" title="auto-zoom"
+                        <img src={nozoomIMG} alt="auto-zoom" title={t("photo-hover-title.nozoom")}
                              onClick={(event) => setZoom(!zoom)}/>}
                     {(index < (numOfButtons - 1)) ?
-                        <img src={right} alt="right" title="Siguiente"
+                        <img src={right} alt="right" title={t("photo-hover-title.next")}
                              onClick={(event) => update(index + 1)}/> :
-                        <img src={noright} alt="right" title="Siguiente"
+                        <img src={noright} alt="right" title={t("photo-hover-title.nonext")}
                              onClick={(event) => update(index + 1)}/>}
                 </div>
                 <br/><br/>

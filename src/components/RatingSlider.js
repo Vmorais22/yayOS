@@ -68,7 +68,8 @@ export const RatingSlider = ({n, showAllCallback}) => {
                                 style={{textDecoration: 'none'}}
                             >
                                 <Button variant="contained"
-                                        color="primary">
+                                        color="primary"
+                                        title={t("photo-hover-title.new")}>
                                     {t("ratings.btn1")}
                                 </Button>
                             </NavLink>
@@ -76,7 +77,8 @@ export const RatingSlider = ({n, showAllCallback}) => {
                         <Grid item>
                             <Button variant="outlined"
                                     color="primary"
-                                    onClick={() => showAllCallback(true)}>
+                                    onClick={() => showAllCallback(true)}
+                                    title={t("photo-hover-title.all")}>
                                 {t("ratings.btn2")}
                             </Button>
                         </Grid>

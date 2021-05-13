@@ -293,5 +293,26 @@
     "opinion-placeholder": "Escribe tu opinión sobre la lección: ¿Está bien redactada? ¿Hay algo que no quede claro? ¿Crees que falta información?",
     "rate": "Haz clic izquierdo en las estrellas y califica la lección",
     "btn": "ENVIAR COMENTARIO"
+  },
+  "photo-hover-title": {
+    "ins": "Haz clic para aprender a usar yayOS",
+    "next": "Avanza a la siguiente diapositiva",
+    "back": "Retrocede a la anterior diapositiva",
+    "nozoom": "Haz clic para activar la lupa y ver mejor",
+    "zoom": "Haz clic para desactivar la lupa",
+    "nonext":"No hay más diapositivas",
+    "noback": "No hay diapositivas previas",
+    "menu": "Haz clic en el logo de yayOS para ir al Menú Principal",
+    "es": "Haz clic para traducir yayOS al castellano",
+    "en": "Haz clic para traducir yayOS al inglés",
+    "cat": "Haz clic para traducir yayOS al catalán",
+    "form": "Haz clic y envía tus sugerencias para hacer que yayOS mejoré",
+    "learn": "¡Haz clic para empezar a aprender!",
+    "rate": "Haz clic para valorar esta lección",
+    "filter": "Haz clic para desplegar el menú y selecciona una dificultad para filtrar los resultados",
+    "new": "Haz clic para añadir tu propio comentario",
+    "all": "Haz clic para ver todos los comentarios",
+    "sendC": "Haz clic para enviar tu comentario",
+    "sendS": "Haz clic para enviar tu sugerencia"
   }
 }

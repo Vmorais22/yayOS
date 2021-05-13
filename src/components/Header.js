@@ -19,15 +19,15 @@ const Header = () => {
             <AppBar position="relative">
                 <Toolbar>
                     <NavLink to="/" style={{textDecoration: 'none'}}>
-                    <img id="logo" src={logo} className="logo" alt="yayOS logo"/>
+                    <img id="logo" src={logo} className="logo" alt="yayOS logo" title={t("photo-hover-title.menu")}/>
                     </NavLink>
                     <Typography variant="h6" color="inherit" noWrap>
                         {t("header.title")}
                     </Typography>
                     <div id="flags" >
-                    <img onClick={() => i18n.changeLanguage("es")}  src={es} alt="es"/>
-                    <img onClick={() => i18n.changeLanguage("en")}  src={en} alt="en"/>
-                    <img  onClick={() => i18n.changeLanguage("cat")} src={cat} alt="cat"/>
+                    <img onClick={() => i18n.changeLanguage("es")}  src={es} alt="es" title={t("photo-hover-title.es")}/>
+                    <img onClick={() => i18n.changeLanguage("en")}  src={en} alt="en" title={t("photo-hover-title.en")}/>
+                    <img  onClick={() => i18n.changeLanguage("cat")} src={cat} alt="cat" title={t("photo-hover-title.cat")}/>
                     </div>
                 </Toolbar>
             </AppBar>

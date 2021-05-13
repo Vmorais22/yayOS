@@ -44,7 +44,7 @@ class ListOfLessons extends Component {
             <Slider />
             <br/>
                 <div className="filtrar">
-                    <select onChange={this.handleChange}>
+                    <select onChange={this.handleChange} title={t("photo-hover-title.filter")}>
                         <option value="0">{t("filter.0")}</option>
                         <option value="1">{t("filter.1")}</option>
                         <option value="2">{t("filter.2")}</option>

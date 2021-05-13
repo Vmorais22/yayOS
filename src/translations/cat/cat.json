@@ -294,5 +294,26 @@
     "opinion-placeholder": "Escriu la teva opinió sobre la lliçó: Està ben redactada? Hi ha alguna cosa que no quedi clar? Creus que falta informació?",
     "rate": "Fes clic esquerre en les estrelles i qualifica la lliçó",
     "btn": "ENVIAR COMENTARI"
+  },
+  "photo-hover-title": {
+    "ins": "Fes clic per a aprendre a usar yayOS",
+    "next": "Avança a la següent diapositiva",
+    "back": "Retrocedeix a l'anterior diapositiva",
+    "nozoom": "Fes clic per a activar la lupa i veure millor",
+    "zoom": "Fes clic per a desactivar la lupa",
+    "nonext":"No hi ha més diapositives",
+    "noback": "No hi ha diapositives prèvies",
+    "menu": "Fes clic en el logo de yayOS per a anar al Menú Principal",
+    "es": "Fes clic per a traduir yayOS al castellà",
+    "en": "Fes clic per a traduir yayOS a l'anglès",
+    "cat": "Fes clic per a traduir yayOS al català",
+    "form": "Fes clic i envia els teus suggeriments per a fer que yayOS pugui millorar",
+    "learn": "Feix clic per a començar a aprendre!",
+    "rate": "Fes clic per a valorar aquesta lliçó",
+    "filter": "Fes clic per a desplegar el menú i selecciona una dificultat per a filtrar els resultats",
+    "new": "Fes clic per a afegir el teu propi comentari",
+    "all": "Fes clic per a veure tots els comentaris",
+    "sendC": "Fes clic per a enviar el teu comentari",
+    "sendS": "Fes clic per a enviar el teu suggeriment"
   }
 }

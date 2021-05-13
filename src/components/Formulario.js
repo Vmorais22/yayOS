@@ -25,7 +25,7 @@ class Formulario extends Component {
         this.validator = new SimpleReactValidator({
             className: "form-warning",
             messages: {
-                required: 'Este campo es obligatorio.'
+                required: this.props.t('create-comment-form.required')
             }
         });
     }
@@ -115,7 +115,7 @@ class Formulario extends Component {
                         {this.validator.message('opinion', this.state.suggest.content, 'required')}
 
                     </div>
-                    <input className="submitButton" type="submit" value={t('form.submit')}/>
+                    <input className="submitButton" type="submit" value={t('form.submit')} title={t("photo-hover-title.sendS")}/>
                     {(!this.state.operative) && <h3>Atención, BD no lista</h3>}
                 </form>
             </React.Fragment>);

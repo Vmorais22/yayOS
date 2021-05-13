@@ -39,12 +39,12 @@ export function Lesson({n, lesson}) {
             </CardContent>
             <CardActions>
                 <NavLink to={'/leccion' + n} style={{textDecoration: 'none'}}>
-                    <Button size="large" color="secondary">
+                    <Button size="large" color="secondary" title={t("photo-hover-title.learn")}>
                         {t('lesson.btn')}
                     </Button>
                 </NavLink>
                 <NavLink to={'/valoracion' + n} style={{textDecoration: 'none'}}>
-                    <Button size="large" color="primary">
+                    <Button size="large" color="primary" title={t("photo-hover-title.rate")}>
                         {t('valoracion.btn')}
                     </Button>
                 </NavLink>

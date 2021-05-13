@@ -119,10 +119,9 @@ class CreateComment extends Component {
                             value={0}
                             onChange={this.ratingChanged}
                             size={50}
-                            activeColor="#FCCF00"
-                        />,
+                            activeColor="#FCCF00"/>,
                     </div>
-                    <input className="submitButton" type="submit" value={t('create-comment-form.btn')}/>
+                    <input className="submitButton" type="submit" value={t('create-comment-form.btn')} title={t("photo-hover-title.sendC")}/>
                 </form>
 
             </div>

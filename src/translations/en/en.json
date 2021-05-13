@@ -293,5 +293,26 @@
     "opinion-placeholder": "Write your opinion about the lesson: Is it well written? Is there anything that is not clear? Do you think that information is missing?",
     "rate": "Left click on the stars and rate the lesson",
     "btn": "SEND COMMENT"
+  },
+  "photo-hover-title": {
+    "ins": "Click to learn how to use yayOS",
+    "next": "Advance to next slide",
+    "back": "Go back to the previous slide",
+    "nozoom": "Click to activate magnifier and see better",
+    "zoom": "Click to turn off the magnifying glass",
+    "nonext": "No more slides",
+    "noback": "No previous slides",
+    "menu": "Click on the yayOS logo to go to the Main Menu",
+    "es": "Click to translate yayOS to Spanish",
+    "en": "Click to translate yayOS to English",
+    "cat": "Click to translate yayOS to Catalan",
+    "form": "Click and submit your suggestions to improve yayOS",
+    "learn": "Click to start learning!",
+    "rate": "Click to rate this lesson",
+    "filter": "Click to expand the menu and select a difficulty to filter the results",
+    "new": "Click to add your own comment",
+    "all": "Click to see all comments",
+    "sendC": "Click to submit your comment",
+    "sendS": "Click to submit your suggestion"
   }
 }
