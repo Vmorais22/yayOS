@@ -6,6 +6,7 @@ import sweetalert from "sweetalert";
 import axios from "axios";
 import Global from "../Global";
 import {Redirect} from "react-router-dom";
+import loadingphoto from "../assets/images/loading.gif"
 
 
 class Formulario extends Component {
@@ -76,7 +77,7 @@ class Formulario extends Component {
         }
     }
     checkBD = () => {
-        axios.get(Global.url + '/form/save').then(res => {
+        axios.get(Global.url + '/form/test').then(res => {
             if (res.status === 200) {
                 this.setState({
                     operative: true
@@ -86,6 +87,7 @@ class Formulario extends Component {
     }
 
     render() {
+        if (!this.state.operative) this.checkBD()
         const t = this.props.t;
         if (this.state.status === 'success') {
             return <Redirect to="/"/>
@@ -114,9 +116,13 @@ class Formulario extends Component {
                             {this.validator.message('opinion', this.state.suggest.content, 'required')}
 
                         </div>
-                        <input className="submitButton" type="submit" value={t('form.submit')}
-                               title={t("photo-hover-title.sendS")}/>
-                        {(!this.state.operative) && <h3>Atención, BD no lista</h3>}
+                        {this.state.operative ? <input className="submitButton" type="submit" value={t('form.submit')}
+                                                       title={t("photo-hover-title.sendS")}/> :
+                            <div className="loading">
+                                <img src={loadingphoto} alt="cargando"/>
+                                <h1>{t("bd-loading")}</h1>
+                            </div>}
+
                     </form>
                 </React.Fragment>
             </div>);

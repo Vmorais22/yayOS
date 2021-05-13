@@ -548,3 +548,27 @@ body::-webkit-scrollbar-thumb {
     background-color: #f55617;
     outline: 1px solid slategrey;
 }
+.loading {
+    padding-left: 15px;
+    border-radius: 10px;
+    background: rgb(179, 178, 178);
+    background: linear-gradient(90deg, rgba(179, 178, 178, 1) 0%,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 1) 80%,
+    rgba(179, 178, 178, 1) 100%);
+}
+.loading img {
+    display: block;
+    float: left;
+    height: 60px;
+    size: 60px;
+    margin-right: 10px;
+    padding-bottom: 2px;
+}
+.loading h1 {
+    padding-top: 10px;
+
+    font-size: 30px;
+    color: #f55617;
+    letter-spacing: 0;
+}

@@ -314,5 +314,6 @@
     "all": "Click to see all comments",
     "sendC": "Click to submit your comment",
     "sendS": "Click to submit your suggestion"
-  }
+  },
+  "bd-loading": "Data base loading, please hold on..."
 }

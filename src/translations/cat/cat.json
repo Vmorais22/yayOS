@@ -315,5 +315,6 @@
     "all": "Fes clic per a veure tots els comentaris",
     "sendC": "Fes clic per a enviar el teu comentari",
     "sendS": "Fes clic per a enviar el teu suggeriment"
-  }
+  },
+  "bd-loading": "Cargant la base de dades, espera si us plau..."
 }

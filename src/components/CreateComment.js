@@ -7,6 +7,7 @@ import {withTranslation} from "react-i18next";
 import {LessonSlider} from "./LessonSlider";
 import SimpleReactValidator from "simple-react-validator";
 import sweetalert from "sweetalert";
+import loadingphoto from "../assets/images/loading.gif";
 
 //Validación formularios y alertas
 var rateValue = 0;
@@ -20,7 +21,8 @@ class CreateComment extends Component {
     state = {
         comment: {},
         status: null,
-        lesson: this.props.location.aboutProps
+        lesson: this.props.location.aboutProps,
+        operative: false
     };
 
     componentWillMount() {
@@ -86,8 +88,19 @@ class CreateComment extends Component {
         }
 
     }
+    checkBD = () => {
+        axios.get(Global.url + '/test-de-controlador').then(res => {
+            if (res.status === 200) {
+                console.log("api")
+                this.setState({
+                    operative: true
+                });
+            }
+        })
+    }
 
     render() {
+        if (!this.state.operative) this.checkBD()
         const t = this.props.t;
         if (this.state.status === 'success') {
             return <Redirect to={"/valoracion" + this.state.lesson.lesson}/>
@@ -122,8 +135,13 @@ class CreateComment extends Component {
                             size={50}
                             activeColor="#FCCF00"/>,
                     </div>
-                    <input className="submitButton" type="submit" value={t('create-comment-form.btn')}
-                           title={t("photo-hover-title.sendC")}/>
+                    {this.state.operative ?
+                        <input className="submitButton" type="submit" value={t('create-comment-form.btn')}
+                               title={t("photo-hover-title.sendC")}/> : <div className="loading">
+                            <img src={loadingphoto} alt="cargando"/>
+                            <h1>{t("bd-loading")}</h1>
+                        </div>}
+
                 </form>
 
             </div>
@@ -133,5 +151,3 @@ class CreateComment extends Component {
 
 export default withTranslation('global')(CreateComment);
 
-/* <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" />
-  )*/
