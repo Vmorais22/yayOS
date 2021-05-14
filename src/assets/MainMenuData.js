@@ -5,7 +5,7 @@ import photo4 from './images/photo4.jpg';
 import photo5 from './images/photo5.jpg';
 import photo6 from './images/photo6.jpg';
 import photo7 from './images/photo7.jpg';
-import photo8 from './images/photo8.png';
+import photo8 from './images/photo8.JPG';
 import photo9 from './images/photo9.jpg';
 
 export const lessonsInfo  = [
